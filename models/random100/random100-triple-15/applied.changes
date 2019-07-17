@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:CompositionListDeletion" index="107">
-    <affectedElement href="../../random100.docbook#5fc363de-1b34-443c-b70b-bf105f750060"/>
+    <affectedElement href="../../random100.docbook#se2"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random100.docbook#5fc363de-1b34-443c-b70b-bf105f750060"/>
   </changes>
   <changes xsi:type="changes:AttributePropertyChange" newValue="Wanita Predovic. Vel repudiandae dolores voluptatum aut voluptate nesciunt. Qui alias ducimus sit id." oldValue="Wanita Predovic">
     <affectedElement href="../../random100.docbook#5bc24c92-97ee-4a05-a541-3dfd3781b791"/>

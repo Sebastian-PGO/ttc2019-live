@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:CompositionListDeletion" index="1">
-    <affectedElement href="../../random10.docbook#se2"/>
+    <affectedElement href="../../random10.docbook#//@books.0/@articles.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <deletedElement href="../../random10.docbook#se2"/>
   </changes>
   <changes xsi:type="changes:CompositionListInsertion" index="10">
     <affectedElement href="../../random10.docbook#se3"/>

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:CompositionListDeletion" index="1269">
-    <affectedElement href="../../random1000.docbook#91c034d8-d7a9-4972-99aa-95917f3ffee1"/>
+    <affectedElement href="../../random1000.docbook#se2"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random1000.docbook#91c034d8-d7a9-4972-99aa-95917f3ffee1"/>
   </changes>
   <changes xsi:type="changes:CompositionListDeletion" index="33">
-    <affectedElement href="../../random1000.docbook#7260c349-4049-4c10-94f1-3ee7460e580d"/>
+    <affectedElement href="../../random1000.docbook#se3"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random1000.docbook#7260c349-4049-4c10-94f1-3ee7460e580d"/>
   </changes>
 </changes:ModelChangeSet>

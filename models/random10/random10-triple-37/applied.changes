@@ -10,7 +10,8 @@
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
   </changes>
   <changes xsi:type="changes:CompositionListDeletion" index="1">
-    <affectedElement href="../../random10.docbook#958be8c5-a7b8-4a67-b8d1-25062fef92d1"/>
+    <affectedElement href="../../random10.docbook#se1"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random10.docbook#958be8c5-a7b8-4a67-b8d1-25062fef92d1"/>
   </changes>
 </changes:ModelChangeSet>

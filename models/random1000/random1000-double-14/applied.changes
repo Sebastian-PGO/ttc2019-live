@@ -6,7 +6,8 @@
     <movedElement href="../../random1000.docbook#71577ae7-c5b6-4901-a047-595d529a0bb7"/>
   </changes>
   <changes xsi:type="changes:CompositionListDeletion" index="767">
-    <affectedElement href="../../random1000.docbook#35671a2b-3fc4-4ea7-a62f-5ed5bc00f8d6"/>
+    <affectedElement href="../../random1000.docbook#se2"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random1000.docbook#35671a2b-3fc4-4ea7-a62f-5ed5bc00f8d6"/>
   </changes>
 </changes:ModelChangeSet>

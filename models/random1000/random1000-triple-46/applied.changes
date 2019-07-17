@@ -5,11 +5,13 @@
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
   <changes xsi:type="changes:CompositionListDeletion">
-    <affectedElement href="../../random1000.docbook#se1"/>
+    <affectedElement href="../../random1000.docbook#//@books.0/@articles.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <deletedElement href="../../random1000.docbook#se1"/>
   </changes>
   <changes xsi:type="changes:CompositionListDeletion" index="2">
-    <affectedElement href="../../random1000.docbook#se4"/>
+    <affectedElement href="../../random1000.docbook#//@books.0/@articles.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <deletedElement href="../../random1000.docbook#se4"/>
   </changes>
 </changes:ModelChangeSet>

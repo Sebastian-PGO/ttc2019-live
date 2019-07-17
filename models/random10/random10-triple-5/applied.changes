@@ -11,7 +11,8 @@
     <addedElement xsi:type="docb:Para" content="Molestiae totam illo accusantium nisi esse consequuntur est. Cum aut ut. Illum consequatur nam illum quia."/>
   </changes>
   <changes xsi:type="changes:CompositionListDeletion" index="2">
-    <affectedElement href="../../random10.docbook#se3"/>
+    <affectedElement href="../../random10.docbook#//@books.0/@articles.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <deletedElement href="../../random10.docbook#se3"/>
   </changes>
 </changes:ModelChangeSet>

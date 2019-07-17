@@ -11,7 +11,8 @@
     <movedElement href="../../random100.docbook#6341a768-f2f3-4cdd-ba96-f9b5f3df5e4a"/>
   </changes>
   <changes xsi:type="changes:CompositionListDeletion" index="12">
-    <affectedElement href="../../random100.docbook#4445b2e2-9f69-4512-b970-14e369a2081d"/>
+    <affectedElement href="../../random100.docbook#se1"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random100.docbook#4445b2e2-9f69-4512-b970-14e369a2081d"/>
   </changes>
 </changes:ModelChangeSet>

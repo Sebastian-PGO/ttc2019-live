@@ -5,7 +5,8 @@
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
   <changes xsi:type="changes:CompositionListDeletion" index="3">
-    <affectedElement href="../../random10.docbook#se4"/>
+    <affectedElement href="../../random10.docbook#//@books.0/@articles.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <deletedElement href="../../random10.docbook#se4"/>
   </changes>
 </changes:ModelChangeSet>

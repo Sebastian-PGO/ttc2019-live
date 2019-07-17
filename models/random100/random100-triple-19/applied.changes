@@ -10,7 +10,8 @@
     <movedElement href="../../random100.docbook#se4"/>
   </changes>
   <changes xsi:type="changes:CompositionListDeletion">
-    <affectedElement href="../../random100.docbook#se1"/>
+    <affectedElement href="../../random100.docbook#//@books.0/@articles.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <deletedElement href="../../random100.docbook#se1"/>
   </changes>
 </changes:ModelChangeSet>

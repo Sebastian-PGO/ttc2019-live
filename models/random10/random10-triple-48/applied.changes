@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:CompositionListDeletion" index="6">
-    <affectedElement href="../../random10.docbook#d14b8457-f526-4511-bb2f-4c806cd96713"/>
+    <affectedElement href="../../random10.docbook#se1"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random10.docbook#d14b8457-f526-4511-bb2f-4c806cd96713"/>
   </changes>
   <changes xsi:type="changes:AttributePropertyChange" newValue="Alejandro Roob. Exercitationem rerum velit reprehenderit doloremque ad eligendi. Quod dolor quis." oldValue="Alejandro Roob">
     <affectedElement href="../../random10.docbook#83ccc48f-109a-488f-941c-2309d9abfa39"/>

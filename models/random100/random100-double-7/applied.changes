@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:CompositionListDeletion" index="1">
-    <affectedElement href="../../random100.docbook#se2"/>
+    <affectedElement href="../../random100.docbook#//@books.0/@articles.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <deletedElement href="../../random100.docbook#se2"/>
   </changes>
   <changes xsi:type="changes:AttributePropertyChange" newValue="[e23] TechReport The House of Mirth Dr. Clement O'Hara Carin Reichel Anderson Schulist Mrs. Eldora Shields Ms. Dagny Stark Mrs. Loyd Rau Charolette Towne Ellie Denesik Alesha Moen 2014. Optio in corrupti." oldValue="[e23] TechReport The House of Mirth Dr. Clement O'Hara Carin Reichel Anderson Schulist Mrs. Eldora Shields Ms. Dagny Stark Mrs. Loyd Rau Charolette Towne Ellie Denesik Alesha Moen 2014">
     <affectedElement href="../../random100.docbook#92e6a723-3ce9-4af2-8665-2cd6065ac8ed"/>
