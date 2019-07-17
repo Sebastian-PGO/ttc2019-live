@@ -84,11 +84,11 @@ public class Mutator {
 		rs.getPackageRegistry().put(DocbookPackage.eNS_URI, DocbookPackage.eINSTANCE);
 		rs.getResourceFactoryRegistry().getExtensionToFactoryMap().put("*", new XMIResourceFactoryImpl());
 
-		final Resource rMutated = rs.createResource(URI.createURI(new File(fMutantDir, "mutated.docbook").getPath()));
+		final Resource rMutated = rs.createResource(URI.createFileURI(new File(fMutantDir, "mutated.docbook").getCanonicalPath()));
 		final DocBook toMutate = EcoreUtil.copy(source);
 		rMutated.getContents().add(toMutate);
 
-		final Resource rChanges = rs.createResource(URI.createURI(new File(fMutantDir, "applied.changes").getPath()));
+		final Resource rChanges = rs.createResource(URI.createFileURI(new File(fMutantDir, "applied.changes").getCanonicalPath()));
 		final ModelChangeSet changeSet = ChangesFactory.eINSTANCE.createModelChangeSet();
 		rChanges.getContents().add(changeSet);
 
