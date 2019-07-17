@@ -33,11 +33,12 @@ public class RemoveRandomInstance extends AbstractMutationOperator {
 		if (!oTarget.isPresent()) {
 			return;
 		}
-		final EObject target = oTarget.get();
+		final EObject toDelete = oTarget.get();
 
-		final String uriFragment = target.eResource().getURIFragment(target);
-		final EObject eContainer = target.eContainer();
-		final EReference feature = (EReference) target.eContainingFeature();
+		final String toDeleteFragment = toDelete.eResource().getURIFragment(toDelete);
+		final EObject eContainer = toDelete.eContainer();
+		final String containerFragment = eContainer.eResource().getURIFragment(eContainer);
+		final EReference feature = (EReference) toDelete.eContainingFeature();
 
 		// Apply the change
 		int idxTarget = 0;
@@ -45,14 +46,15 @@ public class RemoveRandomInstance extends AbstractMutationOperator {
 			@SuppressWarnings("unchecked")
 			final EList<EObject> eList = (EList<EObject>)eContainer.eGet(feature);
 
-			idxTarget = eList.indexOf(target);
+			idxTarget = eList.indexOf(toDelete);
 			eList.remove(idxTarget);
 		} else {
-			target.eUnset(feature);
+			eContainer.eUnset(feature);
 		}
 
 		CompositionListDeletion change = ChangesFactory.eINSTANCE.createCompositionListDeletion();
-		change.setAffectedElement(getOriginalObject(uriFragment, source, changes));
+		change.setAffectedElement(getOriginalObject(containerFragment, source, changes));
+		change.setDeletedElement(getOriginalObject(toDeleteFragment, source, changes));
 		change.setFeature(feature);
 		change.setIndex(idxTarget);
 		changes.getChanges().add(change);
