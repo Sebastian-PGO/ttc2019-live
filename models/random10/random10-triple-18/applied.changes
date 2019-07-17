@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:AttributePropertyChange" newValue="[e9] InProceedings Look Homeward, Angel Karyl Stehr Williemae Block 2002 Far From the Madding Crowd. Consequatur eius aut consequatur vel dolor ipsa. Culpa autem fugiat ut. Est fuga veniam sed." oldValue="[e9] InProceedings Look Homeward, Angel Karyl Stehr Williemae Block 2002 Far From the Madding Crowd">
-    <affectedElement href="../random10.docbook#4be42888-4a79-478d-ab1e-8034fd8b11c5"/>
+    <affectedElement href="../../random10.docbook#4be42888-4a79-478d-ab1e-8034fd8b11c5"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
   <changes xsi:type="changes:AttributePropertyChange" newValue="Sung Mertz. Vitae ducimus praesentium iusto vitae non et enim. Delectus impedit temporibus omnis consequatur. Illum repellat enim quasi asperiores sed adipisci." oldValue="Sung Mertz">
-    <affectedElement href="../random10.docbook#9eb2324f-9766-4c1d-b59c-27cca6647bf4"/>
+    <affectedElement href="../../random10.docbook#9eb2324f-9766-4c1d-b59c-27cca6647bf4"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
   <changes xsi:type="changes:CompositionMoveToList" index="1">
-    <affectedElement href="../random10.docbook#//@books.0/@articles.0"/>
+    <affectedElement href="../../random10.docbook#//@books.0/@articles.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
-    <movedElement href="../random10.docbook#se4"/>
+    <movedElement href="../../random10.docbook#se4"/>
   </changes>
 </changes:ModelChangeSet>

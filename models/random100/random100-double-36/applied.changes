@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:AttributePropertyChange" newValue="Mrs. Evon Keeling. Fugiat similique accusantium ducimus." oldValue="Mrs. Evon Keeling">
-    <affectedElement href="../random100.docbook#55be0bac-7a1d-4fe1-8176-e364a6547012"/>
+    <affectedElement href="../../random100.docbook#55be0bac-7a1d-4fe1-8176-e364a6547012"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
   <changes xsi:type="changes:CompositionListInsertion" index="48">
-    <affectedElement href="../random100.docbook#se3"/>
+    <affectedElement href="../../random100.docbook#se3"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
     <addedElement xsi:type="docb:Para" content="Sit nesciunt autem quaerat. At commodi cum quis qui iure. Consequatur reprehenderit hic ut assumenda sint saepe. Officiis recusandae repellendus est sed architecto illo autem."/>
   </changes>

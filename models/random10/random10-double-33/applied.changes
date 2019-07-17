@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:CompositionMoveToList" index="21">
-    <affectedElement href="../random10.docbook#se2"/>
+    <affectedElement href="../../random10.docbook#se2"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <movedElement href="../random10.docbook#ef71f912-9e8b-41d9-b46c-b9692b71576f"/>
+    <movedElement href="../../random10.docbook#ef71f912-9e8b-41d9-b46c-b9692b71576f"/>
   </changes>
   <changes xsi:type="changes:CompositionMoveToList" index="17">
-    <affectedElement href="../random10.docbook#se2"/>
+    <affectedElement href="../../random10.docbook#se2"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <movedElement href="../random10.docbook#1022326f-2379-48a0-a7f0-5bbfeee6494a"/>
+    <movedElement href="../../random10.docbook#1022326f-2379-48a0-a7f0-5bbfeee6494a"/>
   </changes>
 </changes:ModelChangeSet>

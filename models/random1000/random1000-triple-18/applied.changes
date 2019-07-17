@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:AttributePropertyChange" newValue="Aaron Purdy. Consequatur eius aut consequatur vel dolor ipsa. Culpa autem fugiat ut. Est fuga veniam sed." oldValue="Aaron Purdy">
-    <affectedElement href="../random1000.docbook#f2b9d414-a7d7-4f5a-81cc-35f7ed431907"/>
+    <affectedElement href="../../random1000.docbook#f2b9d414-a7d7-4f5a-81cc-35f7ed431907"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
   <changes xsi:type="changes:AttributePropertyChange" newValue="For Whom the Bell Tolls. Vitae ducimus praesentium iusto vitae non et enim. Delectus impedit temporibus omnis consequatur. Illum repellat enim quasi asperiores sed adipisci." oldValue="For Whom the Bell Tolls">
-    <affectedElement href="../random1000.docbook#952807b2-6ed1-4afc-b9e9-10dcd4bdc046"/>
+    <affectedElement href="../../random1000.docbook#952807b2-6ed1-4afc-b9e9-10dcd4bdc046"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
   <changes xsi:type="changes:CompositionMoveToList" index="1">
-    <affectedElement href="../random1000.docbook#//@books.0/@articles.0"/>
+    <affectedElement href="../../random1000.docbook#//@books.0/@articles.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
-    <movedElement href="../random1000.docbook#se4"/>
+    <movedElement href="../../random1000.docbook#se4"/>
   </changes>
 </changes:ModelChangeSet>

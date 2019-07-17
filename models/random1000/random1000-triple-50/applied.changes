@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:CompositionListDeletion" index="1091">
-    <affectedElement href="../random1000.docbook#f6ed0031-08e6-4570-949c-8540ae3b5e4e"/>
+    <affectedElement href="../../random1000.docbook#f6ed0031-08e6-4570-949c-8540ae3b5e4e"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
   </changes>
   <changes xsi:type="changes:CompositionListInsertion" index="316">
-    <affectedElement href="../random1000.docbook#se2"/>
+    <affectedElement href="../../random1000.docbook#se2"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
     <addedElement xsi:type="docb:Para" content="Quas ut ut animi. Tenetur quis ratione a unde. Quas dolor et sunt nisi. Consequuntur unde a nulla dolores."/>
   </changes>
   <changes xsi:type="changes:AttributePropertyChange" newValue="Mrs. Jaleesa Runte. Placeat velit dolorem delectus. Voluptatem provident deleniti eos expedita ut in possimus." oldValue="Mrs. Jaleesa Runte">
-    <affectedElement href="../random1000.docbook#a61b10f6-4554-4607-98df-03668bcd82b8"/>
+    <affectedElement href="../../random1000.docbook#a61b10f6-4554-4607-98df-03668bcd82b8"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
 </changes:ModelChangeSet>

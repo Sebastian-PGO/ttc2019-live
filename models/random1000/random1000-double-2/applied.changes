@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:CompositionMoveToList">
-    <affectedElement href="../random1000.docbook#//@books.0/@articles.0"/>
+    <affectedElement href="../../random1000.docbook#//@books.0/@articles.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
-    <movedElement href="../random1000.docbook#se3"/>
+    <movedElement href="../../random1000.docbook#se3"/>
   </changes>
   <changes xsi:type="changes:AttributePropertyChange" newValue="William Hauck. Consequatur ipsam ut est." oldValue="William Hauck">
-    <affectedElement href="../random1000.docbook#5233a6f9-4ef1-4c77-9c31-ece29be8bb0c"/>
+    <affectedElement href="../../random1000.docbook#5233a6f9-4ef1-4c77-9c31-ece29be8bb0c"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
 </changes:ModelChangeSet>

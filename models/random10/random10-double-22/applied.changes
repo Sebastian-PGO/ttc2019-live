@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:AttributePropertyChange" newValue="[e6] TechReport A Confederacy of Dunces Francesca O'Conner Dulce Zieme Jr. Winter Hodkiewicz Noemi Simonis Clemmie Ward Lewis Schneider Chung Hammes Shara Kohler I Ema Wilkinson Maggie Huels 2016. Est eveniet sed dolorum." oldValue="[e6] TechReport A Confederacy of Dunces Francesca O'Conner Dulce Zieme Jr. Winter Hodkiewicz Noemi Simonis Clemmie Ward Lewis Schneider Chung Hammes Shara Kohler I Ema Wilkinson Maggie Huels 2016">
-    <affectedElement href="../random10.docbook#d14b8457-f526-4511-bb2f-4c806cd96713"/>
+    <affectedElement href="../../random10.docbook#d14b8457-f526-4511-bb2f-4c806cd96713"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
   <changes xsi:type="changes:CompositionListInsertion" index="1">
-    <affectedElement href="../random10.docbook#se4"/>
+    <affectedElement href="../../random10.docbook#se4"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
     <addedElement xsi:type="docb:Para" content="Qui qui cum. Sint natus nihil quidem maxime neque inventore. Iusto ad ipsum aut nemo."/>
   </changes>

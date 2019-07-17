@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:AttributePropertyChange" newValue="Ulysses Price. Suscipit deserunt aut sit sed. Ipsum culpa et. Autem enim est in." oldValue="Ulysses Price">
-    <affectedElement href="../random1000.docbook#e96b423e-cef8-423f-b6d4-ab98a072f153"/>
+    <affectedElement href="../../random1000.docbook#e96b423e-cef8-423f-b6d4-ab98a072f153"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
   <changes xsi:type="changes:AttributePropertyChange" newValue="[e842] InBook The Golden Bowl Berenice Thompson Kennith Lebsack Tuan Runte Cleo Bins I Jay Balistreri Lillia Dare Rueben Langosh Harlan Rogahn Miss Priscilla O'Hara 2008 Cloverdale Corporation 19. Non voluptas ut illum officiis qui deleniti omnis. Animi laboriosam beatae consequuntur iure." oldValue="[e842] InBook The Golden Bowl Berenice Thompson Kennith Lebsack Tuan Runte Cleo Bins I Jay Balistreri Lillia Dare Rueben Langosh Harlan Rogahn Miss Priscilla O'Hara 2008 Cloverdale Corporation 19">
-    <affectedElement href="../random1000.docbook#1b067177-35f2-4a04-a5c8-c2f864bf4b68"/>
+    <affectedElement href="../../random1000.docbook#1b067177-35f2-4a04-a5c8-c2f864bf4b68"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
   <changes xsi:type="changes:AttributePropertyChange" newValue="Titles List. Dolorem ratione aut aut non delectus deserunt." oldValue="Titles List">
-    <affectedElement href="../random1000.docbook#se3"/>
+    <affectedElement href="../../random1000.docbook#se3"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
   </changes>
 </changes:ModelChangeSet>

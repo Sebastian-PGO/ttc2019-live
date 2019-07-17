@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:CompositionListInsertion" index="368">
-    <affectedElement href="../random1000.docbook#se1"/>
+    <affectedElement href="../../random1000.docbook#se1"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
     <addedElement xsi:type="docb:Para" content="Ipsa consectetur id repudiandae. Sunt ipsa consequatur labore perspiciatis et. Voluptas sapiente recusandae deserunt id recusandae."/>
   </changes>
   <changes xsi:type="changes:AttributePropertyChange" newValue="Authors list. Et sequi nobis culpa a tempore rem qui. Modi vero in aut rem." oldValue="Authors list">
-    <affectedElement href="../random1000.docbook#se2"/>
+    <affectedElement href="../../random1000.docbook#se2"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
   </changes>
   <changes xsi:type="changes:AttributePropertyChange" newValue="Petronila Ruecker MD. Exercitationem voluptatem repellat reiciendis adipisci id at. Qui fugiat perspiciatis quia." oldValue="Petronila Ruecker MD">
-    <affectedElement href="../random1000.docbook#793d3da3-7f9c-44e8-942d-e011676b0e69"/>
+    <affectedElement href="../../random1000.docbook#793d3da3-7f9c-44e8-942d-e011676b0e69"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
 </changes:ModelChangeSet>

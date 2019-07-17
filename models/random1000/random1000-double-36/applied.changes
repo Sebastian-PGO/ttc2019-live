@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:AttributePropertyChange" newValue="Arron Casper DDS. Fugiat similique accusantium ducimus." oldValue="Arron Casper DDS">
-    <affectedElement href="../random1000.docbook#6afc59b4-204a-48fe-adc7-35705fd63526"/>
+    <affectedElement href="../../random1000.docbook#6afc59b4-204a-48fe-adc7-35705fd63526"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
   <changes xsi:type="changes:CompositionListInsertion" index="111">
-    <affectedElement href="../random1000.docbook#se3"/>
+    <affectedElement href="../../random1000.docbook#se3"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
     <addedElement xsi:type="docb:Para" content="Sit nesciunt autem quaerat. At commodi cum quis qui iure. Consequatur reprehenderit hic ut assumenda sint saepe. Officiis recusandae repellendus est sed architecto illo autem."/>
   </changes>
