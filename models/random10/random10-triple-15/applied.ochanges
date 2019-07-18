@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionListDeletion" index="3">
+    <affectedElement href="../../random10.docbook#se1"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random10.docbook#7ee252c0-ab4e-4576-b3e0-952edb007a19"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="[e2] Article A Glass of Blessings Lesley Johns Alejandro Roob Sung Mertz Merissa Johns Ian Jerde Janise Schneider Augustine Mueller V Cecelia Schumm 2017 Sleep the Brave. Vel repudiandae dolores voluptatum aut voluptate nesciunt. Qui alias ducimus sit id." oldValue="[e2] Article A Glass of Blessings Lesley Johns Alejandro Roob Sung Mertz Merissa Johns Ian Jerde Janise Schneider Augustine Mueller V Cecelia Schumm 2017 Sleep the Brave">
+    <affectedElement href="../../random10.docbook#ecc9cae1-2fb7-4fb8-9797-6fccfb6b43a3"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+  <changes xsi:type="changes:CompositionMoveToList" index="4">
+    <affectedElement href="../../random10.docbook#se1"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <movedElement href="../../random10.docbook#2be7a5f1-04f9-4f28-b21f-10d71f2ace1d"/>
+  </changes>
+</changes:ModelChangeSet>

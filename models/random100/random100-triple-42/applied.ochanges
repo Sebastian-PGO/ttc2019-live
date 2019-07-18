@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionListDeletion" index="227">
+    <affectedElement href="../../random100.docbook#se2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random100.docbook#da3c0103-6239-493e-859b-d2526620aa01"/>
+  </changes>
+  <changes xsi:type="changes:CompositionMoveToList" index="347">
+    <affectedElement href="../../random100.docbook#se2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <movedElement href="../../random100.docbook#ee84201e-2152-4801-b71e-c6e822b10c9b"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Helena Feil. Quod et ipsa veritatis eum hic aut. Voluptatum doloremque rerum suscipit aut. Sapiente et eaque amet laborum esse et veniam." oldValue="Helena Feil">
+    <affectedElement href="../../random100.docbook#1ec7c5b6-b77c-4a50-a270-c630b98df3fb"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+</changes:ModelChangeSet>

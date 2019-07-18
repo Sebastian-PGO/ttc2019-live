@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionMoveToList" index="1">
+    <affectedElement href="../../random1000.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <movedElement href="../../random1000.docbook#se1"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Titles List. Aut quibusdam molestiae doloremque. Iusto ab autem eos aut est." oldValue="Titles List">
+    <affectedElement href="../../random1000.docbook#se3"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
+  </changes>
+  <changes xsi:type="changes:CompositionListDeletion" index="269">
+    <affectedElement href="../../random1000.docbook#se1"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random1000.docbook#bb3d0885-741c-4e69-902c-fd8565acfcac"/>
+  </changes>
+</changes:ModelChangeSet>

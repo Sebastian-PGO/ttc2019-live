@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionListDeletion" index="114">
+    <affectedElement href="../../random100.docbook#se2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random100.docbook#9574e728-5a81-4b6b-b0dc-c30fe941a862"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Floyd Hauck. Et debitis non fugiat ratione aut." oldValue="Floyd Hauck">
+    <affectedElement href="../../random100.docbook#f1f6f8e5-0809-4493-8285-2358e4d88b97"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+</changes:ModelChangeSet>
