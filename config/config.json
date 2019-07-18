@@ -4,7 +4,12 @@
       "random100.bibtex",
       "random1000.bibtex"
   ],
-  "Tools": ["NMF", "NMF-Batch"],
+  "Tools": [
+      "Epsilon",
+      "NMF",
+      "NMF-Batch",
+      "Fulib"
+  ],
   "ChangeSets": [
     "single", "double", "triple"
   ],
