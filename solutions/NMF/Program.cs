@@ -60,17 +60,11 @@ namespace TTC2019.LiveContest
                 var initialDocBook = initialTarget.RootElements[0] as DocBook;
                 var context = transformation.Synchronize(ref bibTex, ref initialDocBook, NMF.Synchronizations.SynchronizationDirection.CheckOnly, NMF.Transformations.ChangePropagationMode.TwoWay);
                 var directory = Path.GetDirectoryName(sourcePath);
-                for (int i = 1; i < mutant; i++)
-                {
-                    var changes = repository.Resolve(Path.Combine(directory, model, $"{model}-{mutantSet}-{i}", "applied.changes"));
-                    var changeSet = changes.RootElements[0] as ModelChangeSet;
-                    changeSet.Apply();
-                }
+                
+                var changes = repository.Resolve(Path.Combine(directory, model, $"{model}-{mutantSet}-{mutant}", "applied.ochanges"));
                 Report("Load");
-
-                var actualChanges = repository.Resolve(Path.Combine(directory, model, $"{model}-{mutantSet}-{mutant}", "applied.changes"));
-                var actualChangeSet = actualChanges.RootElements[0] as ModelChangeSet;
-                actualChangeSet.Apply();
+                var changeSet = changes.RootElements[0] as ModelChangeSet;
+                changeSet.Apply();
                 Report("Run", context.Inconsistencies.Count);
             }
         }
