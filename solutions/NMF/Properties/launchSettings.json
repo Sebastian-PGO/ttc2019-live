@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "NMFSolution": {
+      "commandName": "Project",
+      "commandLineArgs": "incremental",
+      "environmentVariables": {
+        "RunIndex": "Debug",
+        "MutantPath": "D:\\Projekte\\ttc2019-live\\models\\random10\\random10-single-1\\mutated.docbook",
+        "MutantSet": "single",
+        "Tool": "NMF",
+        "Mutant": "1",
+        "SourcePath": "D:\\Projekte\\ttc2019-live\\models\\random10.bibtex"
+      }
+    }
+  }
+}
