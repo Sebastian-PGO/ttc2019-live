@@ -9,6 +9,6 @@
     "single", "double", "triple"
   ],
   "Mutants": 50,
-  "Runs": 5,
-  "Timeout": 6000
+  "Runs": 3,
+  "Timeout": 600
 }
