@@ -11,15 +11,15 @@
   },
   "Summarize_Functions": [
     {
-      "Name": "Updates",
+      "Name": "Run",
       "Phases": [
-        "Update"
+        "Run"
       ]
     },
 	{
 	  "Name": "Batch",
 	  "Phases": [
-		"Initial"
+		"Initialization"
 	  ]
 	},
 	{

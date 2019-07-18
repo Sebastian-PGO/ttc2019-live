@@ -9,7 +9,8 @@ args <- commandArgs(trailingOnly = TRUE)
 configPath <- args[1]
 
 results <-read.csv2(resultsPath, header=TRUE, row.names = NULL)
-results$ChangeSet = as.factor(results$ChangeSet)
+results$ChangeSet = as.factor(results$Mutant)
+results$View = paste(results$Source, results$MutantSet, sep="-")
 
 config <- fromJSON(configPath)
 
