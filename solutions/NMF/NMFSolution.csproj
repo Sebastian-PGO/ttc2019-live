@@ -17,8 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="NMF-Basics" Version="2.0.139" />
-    <PackageReference Include="NMF-Synchronizations" Version="2.0.139" />
+    <PackageReference Include="NMF-Basics" Version="2.0.140" />
+    <PackageReference Include="NMF-Synchronizations" Version="2.0.140" />
   </ItemGroup>
 
 </Project>
