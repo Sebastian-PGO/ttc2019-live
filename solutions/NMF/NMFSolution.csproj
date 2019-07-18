@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>TTC2019.LiveContest</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BibTeX.nmeta" />
+    <None Remove="DocBook.nmeta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="BibTeX.nmeta" />
+    <EmbeddedResource Include="DocBook.nmeta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NMF-Basics" Version="2.0.139" />
+    <PackageReference Include="NMF-Synchronizations" Version="2.0.139" />
+  </ItemGroup>
+
+</Project>
