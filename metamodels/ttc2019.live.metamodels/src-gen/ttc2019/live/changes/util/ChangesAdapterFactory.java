@@ -176,6 +176,10 @@ public class ChangesAdapterFactory extends AdapterFactoryImpl {
 				return createCompositionMoveToListAdapter();
 			}
 			@Override
+			public Adapter caseCompositionMoveToCollection(CompositionMoveToCollection object) {
+				return createCompositionMoveToCollectionAdapter();
+			}
+			@Override
 			public Adapter caseOperationCall(OperationCall object) {
 				return createOperationCallAdapter();
 			}
@@ -586,6 +590,20 @@ public class ChangesAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createCompositionMoveToListAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link ttc2019.live.changes.CompositionMoveToCollection <em>Composition Move To Collection</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see ttc2019.live.changes.CompositionMoveToCollection
+	 * @generated
+	 */
+	public Adapter createCompositionMoveToCollectionAdapter() {
 		return null;
 	}
 

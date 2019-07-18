@@ -89,6 +89,10 @@
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference NMetaChanges.ecore#//CompositionMoveToList/movedElement"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference NMetaChanges.ecore#//CompositionMoveToList/origin"/>
     </genClasses>
+    <genClasses ecoreClass="NMetaChanges.ecore#//CompositionMoveToCollection">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference NMetaChanges.ecore#//CompositionMoveToCollection/movedElement"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference NMetaChanges.ecore#//CompositionMoveToCollection/origin"/>
+    </genClasses>
     <genClasses ecoreClass="NMetaChanges.ecore#//OperationCall">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference NMetaChanges.ecore#//OperationCall/operation"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference NMetaChanges.ecore#//OperationCall/targetElement"/>
