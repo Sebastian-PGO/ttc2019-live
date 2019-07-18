@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:AttributePropertyChange" newValue="[e9] InProceedings Look Homeward, Angel Karyl Stehr Williemae Block 2002 Far From the Madding Crowd. Commodi accusantium est tenetur aperiam rerum." oldValue="[e9] InProceedings Look Homeward, Angel Karyl Stehr Williemae Block 2002 Far From the Madding Crowd">
-    <affectedElement href="../../random10.docbook#4be42888-4a79-478d-ab1e-8034fd8b11c5"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="[e818] Manual Brandy of the Damned. Commodi accusantium est tenetur aperiam rerum." oldValue="[e818] Manual Brandy of the Damned">
+    <affectedElement href="../../random1000.docbook#03e6f177-715f-4837-8082-0700fe917c44"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
 </changes:ModelChangeSet>
