@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:CompositionMoveToList" index="159">
-    <affectedElement href="../../random100.docbook#se2"/>
+    <affectedElement href="../random100.docbook#se2"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <movedElement href="../../random100.docbook#5b6c54f2-f7aa-4a42-a3f1-5b630a07d97f"/>
+    <movedElement href="../random100.docbook#5b6c54f2-f7aa-4a42-a3f1-5b630a07d97f"/>
   </changes>
   <changes xsi:type="changes:AttributePropertyChange" newValue="Titles List. Quia quisquam tenetur ab accusantium veritatis minima." oldValue="Titles List">
-    <affectedElement href="../../random100.docbook#se3"/>
+    <affectedElement href="../random100.docbook#se3"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
   </changes>
 </changes:ModelChangeSet>

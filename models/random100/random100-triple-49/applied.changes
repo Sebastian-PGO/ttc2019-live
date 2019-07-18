@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:CompositionMoveToList" index="330">
-    <affectedElement href="../../random100.docbook#se2"/>
+    <affectedElement href="../random100.docbook#se2"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <movedElement href="../../random100.docbook#40167bbd-6292-454c-96e2-935792ce03d4"/>
+    <movedElement href="../random100.docbook#40167bbd-6292-454c-96e2-935792ce03d4"/>
   </changes>
   <changes xsi:type="changes:CompositionListDeletion" index="1">
-    <affectedElement href="../../random100.docbook#//@books.0/@articles.0"/>
+    <affectedElement href="../random100.docbook#se2"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
-    <deletedElement href="../../random100.docbook#se2"/>
   </changes>
   <changes xsi:type="changes:CompositionMoveToList" index="35">
-    <affectedElement href="../../random100.docbook#se3"/>
+    <affectedElement href="../random100.docbook#se3"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <movedElement href="../../random100.docbook#5dc27d3d-b720-4f44-bb28-f6eb2a08b29c"/>
+    <movedElement href="../random100.docbook#5dc27d3d-b720-4f44-bb28-f6eb2a08b29c"/>
   </changes>
 </changes:ModelChangeSet>

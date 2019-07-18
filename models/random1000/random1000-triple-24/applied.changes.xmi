@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+  <objectChanges>
+    <key href="mutated.docbook#se4"/>
+    <value featureName="paras">
+      <listChanges index="2" referenceValues="//@objectsToAttach.0"/>
+    </value>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#se1"/>
+    <value featureName="paras">
+      <listChanges index="346" referenceValues="//@objectsToAttach.1"/>
+    </value>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#21ecd2e6-580b-4429-841b-c3cc988bcfa4"/>
+    <value featureName="content" dataValue="Mertie Kohler. Et laborum aut ut nemo eius asperiores cupiditate. Aliquid voluptas ea quis quaerat quia eligendi. Laudantium accusamus explicabo."/>
+  </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" content="Corporis amet corporis ut et. Tempore consequuntur aut repellat. Provident et odit quod."/>
+  <objectsToAttach xsi:type="docb:Para" content="Consectetur et tempora at nam vero asperiores. Omnis dolorum architecto. Quisquam quia neque rem blanditiis quis temporibus. Aut nesciunt incidunt nihil suscipit magnam numquam. Reiciendis quo dolorem."/>
+</change:ChangeDescription>

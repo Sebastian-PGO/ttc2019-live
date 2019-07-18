@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:AttributePropertyChange" newValue="[e53] InProceedings Gone with the Wind Chester Leuschke Ms. Dennise Huels Mrs. Emmaline Harber Celena Upton Marybelle Hintz Leif Kohler Theresia Labadie 2005 This Lime Tree Bower. Corrupti qui quam molestias ut sed rerum." oldValue="[e53] InProceedings Gone with the Wind Chester Leuschke Ms. Dennise Huels Mrs. Emmaline Harber Celena Upton Marybelle Hintz Leif Kohler Theresia Labadie 2005 This Lime Tree Bower">
-    <affectedElement href="../../random100.docbook#9c7dedf2-8b5b-472f-8a72-a58183b10af9"/>
+    <affectedElement href="../random100.docbook#9c7dedf2-8b5b-472f-8a72-a58183b10af9"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
 </changes:ModelChangeSet>

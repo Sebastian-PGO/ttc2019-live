@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:CompositionListDeletion" index="18">
-    <affectedElement href="../../random10.docbook#se2"/>
+  <changes xsi:type="changes:CompositionListDeletion" index="645">
+    <affectedElement href="../random1000.docbook#268010a1-c1e3-47a9-9c56-f962bc62cbbe"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <deletedElement href="../../random10.docbook#b5b19c13-17ec-48a9-93ea-84512254089e"/>
   </changes>
 </changes:ModelChangeSet>

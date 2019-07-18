@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#e1d2d959-c3b1-4887-8c86-ed2a86da9817"/>
+    <value featureName="content" dataValue="[e8] Book The Violent Bear It Away Ronnie Langworth Mira Hansen Celinda McClure Nicky Corkery Aretha Sanford Jimmie Kohler I 2009 FabJob. Quibusdam quod iste ipsum amet. Inventore repellat est aut consequatur."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#//@books.0/@articles.0"/>
+    <value featureName="sections_1">
+      <listChanges kind="REMOVE" index="3"/>
+      <listChanges kind="REMOVE" index="0"/>
+    </value>
+  </objectChanges>
+</change:ChangeDescription>

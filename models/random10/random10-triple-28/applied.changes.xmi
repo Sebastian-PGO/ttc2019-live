@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#se2"/>
+    <value featureName="title" dataValue="Authors list. Cumque quae amet et consequatur. Facilis quam error nam incidunt. Exercitationem ea vel beatae dolorem autem."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#d9927edc-d9aa-49a0-a1d4-905046469636"/>
+    <value featureName="content" dataValue="Javier Berge. Quis eaque natus velit enim et reprehenderit. Quibusdam aperiam architecto ut aut expedita quis."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#//@books.0/@articles.0"/>
+    <value featureName="sections_1">
+      <listChanges kind="MOVE" index="1"/>
+    </value>
+  </objectChanges>
+</change:ChangeDescription>

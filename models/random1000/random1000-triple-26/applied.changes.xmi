@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#se1"/>
+    <value featureName="title" dataValue="References List. Maxime a quia id laborum nobis. Voluptatem voluptas molestiae voluptate voluptatibus voluptas."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#se2"/>
+    <value featureName="title" dataValue="Authors list. Doloremque in nostrum omnis. Non consequuntur dolorem officia commodi ipsam amet."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#4b99cf5b-e8e7-4468-aece-838e3279a2c2"/>
+    <value featureName="content" dataValue="Mrs. Pierre Goyette. Iusto aut excepturi facere autem quo quisquam."/>
+  </objectChanges>
+</change:ChangeDescription>

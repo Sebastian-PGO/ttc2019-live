@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:AttributePropertyChange" newValue="Hildegard Purdy DDS. Sunt praesentium sed deleniti est est sed. Voluptas soluta perferendis et sapiente et eligendi." oldValue="Hildegard Purdy DDS">
-    <affectedElement href="../../random100.docbook#ae83b561-1dc0-4d8c-a5d1-c316a55c0220"/>
+    <affectedElement href="../random100.docbook#ae83b561-1dc0-4d8c-a5d1-c316a55c0220"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
   <changes xsi:type="changes:CompositionListDeletion" index="2">
-    <affectedElement href="../../random100.docbook#//@books.0/@articles.0"/>
+    <affectedElement href="../random100.docbook#se3"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
-    <deletedElement href="../../random100.docbook#se3"/>
   </changes>
 </changes:ModelChangeSet>

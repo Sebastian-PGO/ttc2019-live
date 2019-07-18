@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#se2"/>
+    <value featureName="paras">
+      <listChanges kind="REMOVE" index="107"/>
+      <listChanges kind="MOVE" index="403" moveToIndex="406"/>
+    </value>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#5bc24c92-97ee-4a05-a541-3dfd3781b791"/>
+    <value featureName="content" dataValue="Wanita Predovic. Vel repudiandae dolores voluptatum aut voluptate nesciunt. Qui alias ducimus sit id."/>
+  </objectChanges>
+</change:ChangeDescription>

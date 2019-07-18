@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#//@books.0/@articles.0"/>
+    <value featureName="sections_1">
+      <listChanges kind="MOVE" index="1"/>
+    </value>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#se3"/>
+    <value featureName="title" dataValue="Titles List. Aut quibusdam molestiae doloremque. Iusto ab autem eos aut est."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#se1"/>
+    <value featureName="paras">
+      <listChanges kind="REMOVE" index="269"/>
+    </value>
+  </objectChanges>
+</change:ChangeDescription>

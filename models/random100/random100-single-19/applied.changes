@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
   <changes xsi:type="changes:CompositionMoveToList" index="58">
-    <affectedElement href="../../random100.docbook#se3"/>
+    <affectedElement href="../random100.docbook#se3"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <movedElement href="../../random100.docbook#d1d0d3e9-4045-43da-8f38-0f6091407d63"/>
+    <movedElement href="../random100.docbook#d1d0d3e9-4045-43da-8f38-0f6091407d63"/>
   </changes>
 </changes:ModelChangeSet>
