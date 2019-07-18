@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Epsilon reference solution for live case
-Bundle-SymbolicName: ttc2019.solutions.epsilon
+Bundle-SymbolicName: ttc2019.live.solutions.epsilon
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: Transformation Tools Contest
 Automatic-Module-Name: ttc2019.solutions.epsilon
