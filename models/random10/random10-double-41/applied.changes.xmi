@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
     <key href="mutated.docbook#se1"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="7" moveToIndex="5"/>
+      <listChanges kind="MOVE" index="5" moveToIndex="7"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges index="37" referenceValues="//@objectsToAttach.0"/>
+      <listChanges kind="REMOVE" index="37"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" content="Pariatur id beatae perferendis dolor quia inventore labore. Maiores tenetur repudiandae maxime aspernatur rerum. Qui et omnis a praesentium. Quia ea ullam aliquam magnam velit."/>
 </change:ChangeDescription>

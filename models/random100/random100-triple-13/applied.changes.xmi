@@ -2,18 +2,18 @@
 <change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
     <key href="mutated.docbook#6cc4979f-96fd-4a11-b7e6-9feea3bf331e"/>
-    <value featureName="content" dataValue="Christoper Conn IV. Quod consectetur rerum architecto nemo quisquam aliquid. Qui consequatur recusandae a."/>
+    <value featureName="content" dataValue="Christoper Conn IV"/>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="248" moveToIndex="235"/>
+      <listChanges kind="MOVE" index="235" moveToIndex="248"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="MOVE" index="3" moveToIndex="2"/>
+      <listChanges kind="MOVE" index="2" moveToIndex="3"/>
     </value>
   </objectChanges>
 </change:ChangeDescription>

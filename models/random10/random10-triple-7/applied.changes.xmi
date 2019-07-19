@@ -1,19 +1,66 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="REMOVE" index="1"/>
+      <listChanges index="1" referenceValues="se2"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se1"/>
-    <value featureName="title" dataValue="References List. Facere et excepturi. Tempore sed sed eos. Illum nam error doloremque nulla."/>
+    <value featureName="title" dataValue="References List"/>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se3"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="1"/>
+      <listChanges index="1" referenceValues="1a61782e-597b-49e4-98c0-fac1efdeccc4"/>
     </value>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Sect1" id="se2" title="Authors list">
+    <paras id="594b8918-24c9-4a90-aec2-fa264e04ff14" content="Abram Carter III"/>
+    <paras id="83ccc48f-109a-488f-941c-2309d9abfa39" content="Alejandro Roob"/>
+    <paras id="681e3847-25b1-4289-9766-c693102d8b46" content="Allan Anderson"/>
+    <paras id="471ac463-638f-4ea5-a637-698c3ac3629d" content="Andrea Marvin DVM"/>
+    <paras id="11d719b0-bd5a-4517-b7b2-cc160de5853d" content="Armando Conn Sr."/>
+    <paras id="09a6ddf5-620b-433f-a14e-0e72648d4db7" content="Augustine Mueller V"/>
+    <paras id="91887f2c-fd6e-4ddc-b570-ab58832a2179" content="Ayana Towne"/>
+    <paras id="cd82a239-4826-445a-94eb-5e912aa5f75b" content="Cecelia Schumm"/>
+    <paras id="7e238785-54a4-4cba-a705-08747c6e5c6c" content="Chung Hammes"/>
+    <paras id="55ec1289-d44b-497e-baed-aed80892ac83" content="Clemmie Ward"/>
+    <paras id="1b23e95d-24b7-4db7-8c4c-08dc5c472cb6" content="Donald Robel"/>
+    <paras id="17bef5b2-b33b-49af-9805-aa0338cf174b" content="Dulce Zieme Jr."/>
+    <paras id="e069a816-6685-41c3-8f90-3ecc2fdda4d8" content="Ema Wilkinson"/>
+    <paras id="f4e54f24-912b-4fe8-aa27-5f9c8c472559" content="Ethan Marvin"/>
+    <paras id="e091484a-fb29-4d70-aaaf-a3b95ce07582" content="Francesca O'Conner"/>
+    <paras id="18423e00-8dd8-4b06-9f14-04041fe378b5" content="Gemma Sanford DVM"/>
+    <paras id="6ba51f44-7bdf-4fda-b653-8bc6fa7d6736" content="Glinda Rodriguez"/>
+    <paras id="5fd239e6-861e-420e-9991-9105d257852e" content="Hosea Marks"/>
+    <paras id="b5b19c13-17ec-48a9-93ea-84512254089e" content="Ian Jerde"/>
+    <paras id="49bb39e6-a5b8-4cd8-917e-c34b16930477" content="Janise Schneider"/>
+    <paras id="d9927edc-d9aa-49a0-a1d4-905046469636" content="Javier Berge"/>
+    <paras id="17fb9aac-9c1e-4bbf-95d8-35aa904057bf" content="Jeanice Hoeger"/>
+    <paras id="599575a5-c170-485f-97bf-a0157666eded" content="Jewell Labadie DDS"/>
+    <paras id="bfcd3c38-ccb7-40b2-9549-782665bea8f2" content="Josiah Hudson"/>
+    <paras id="7575ef6a-2e92-4277-a508-09726a8b0950" content="Karry Legros"/>
+    <paras id="a640209d-c07c-49e0-956f-791dbed435bf" content="Karyl Stehr"/>
+    <paras id="e34d92cf-82b4-4c33-b2dc-381045bb4d51" content="Lesley Johns"/>
+    <paras id="7c6ea3c3-e043-4896-9e0d-a39b3b661b88" content="Lewis Schneider"/>
+    <paras id="74addccb-e2b1-40e9-a99c-814cc0229a7a" content="Lindsey Rogahn"/>
+    <paras id="ede4b695-c22e-43a0-88bc-b024e11ad858" content="Maggie Huels"/>
+    <paras id="d0a24977-c155-48d7-8d99-b1f421cbfeb8" content="Malcom Thiel"/>
+    <paras id="c6ff8778-17cc-486f-a22c-15def70f466f" content="Merissa Johns"/>
+    <paras id="3eb588d4-6200-401c-96fd-1474477cdf54" content="Mikel Homenick"/>
+    <paras id="94d1f475-2a8d-40f0-8e10-954497bf7c16" content="Mr. Catarina McKenzie"/>
+    <paras id="ef71f912-9e8b-41d9-b46c-b9692b71576f" content="Mrs. Abram Greenfelder"/>
+    <paras id="1022326f-2379-48a0-a7f0-5bbfeee6494a" content="Nadia Cole"/>
+    <paras id="4987d3f1-e044-497d-b3c4-323acab0a198" content="Noemi Simonis"/>
+    <paras id="66d55bd3-0580-4d0c-a075-b0a8a51aab0c" content="Normand Jacobson"/>
+    <paras id="1558bcc9-bf88-4c21-8e46-4d06a0b9f7d6" content="Rochel Mitchell"/>
+    <paras id="08e01a0c-bb24-46c7-a468-6ea822e85ea3" content="Rufina Walter"/>
+    <paras id="79152b2a-114a-401b-a30c-e922cc873bfc" content="Shara Kohler I"/>
+    <paras id="9eb2324f-9766-4c1d-b59c-27cca6647bf4" content="Sung Mertz"/>
+    <paras id="c0739a49-6d19-4aef-ac94-41d66bd707ef" content="Williemae Block"/>
+    <paras id="0551f857-2e18-4c1a-9074-aed3dff39113" content="Winter Hodkiewicz"/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="docb:Para" id="1a61782e-597b-49e4-98c0-fac1efdeccc4" content="A Darkling Plain"/>
 </change:ChangeDescription>

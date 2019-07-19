@@ -2,6 +2,6 @@
 <change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
     <key href="mutated.docbook#se1"/>
-    <value featureName="title" dataValue="References List. Aperiam et et voluptates nihil provident. Aut tempora officia illum qui reiciendis mollitia. Doloribus maiores voluptas necessitatibus."/>
+    <value featureName="title" dataValue="References List"/>
   </objectChanges>
 </change:ChangeDescription>

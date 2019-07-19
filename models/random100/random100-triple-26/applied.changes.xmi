@@ -2,14 +2,14 @@
 <change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
     <key href="mutated.docbook#se1"/>
-    <value featureName="title" dataValue="References List. Maxime a quia id laborum nobis. Voluptatem voluptas molestiae voluptate voluptatibus voluptas."/>
+    <value featureName="title" dataValue="References List"/>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se2"/>
-    <value featureName="title" dataValue="Authors list. Doloremque in nostrum omnis. Non consequuntur dolorem officia commodi ipsam amet."/>
+    <value featureName="title" dataValue="Authors list"/>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#ff2c1aac-c5ea-4108-95da-2f834ffa6f67"/>
-    <value featureName="content" dataValue="Silas Collins. Iusto aut excepturi facere autem quo quisquam."/>
+    <value featureName="content" dataValue="Silas Collins"/>
   </objectChanges>
 </change:ChangeDescription>

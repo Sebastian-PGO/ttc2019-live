@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#se3"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="0"/>
+      <listChanges index="0" referenceValues="6435fde6-8614-4ffc-b1e6-4ac97ceab439"/>
     </value>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" id="6435fde6-8614-4ffc-b1e6-4ac97ceab439" content="A Confederacy of Dunces"/>
 </change:ChangeDescription>

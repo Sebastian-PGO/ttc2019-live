@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="463"/>
+      <listChanges index="463" referenceValues="5bc24c92-97ee-4a05-a541-3dfd3781b791"/>
     </value>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" id="5bc24c92-97ee-4a05-a541-3dfd3781b791" content="Wanita Predovic"/>
 </change:ChangeDescription>

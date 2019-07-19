@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="948"/>
+      <listChanges index="948" referenceValues="983332ac-29e4-4fb9-9f5a-f90933640c2b"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#0cef59bb-f804-4dea-bc4b-9d984b0c09f6"/>
-    <value featureName="content" dataValue="Kenny Torphy. Et debitis non fugiat ratione aut."/>
+    <value featureName="content" dataValue="Kenny Torphy"/>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" id="983332ac-29e4-4fb9-9f5a-f90933640c2b" content="Don Macejkovic"/>
 </change:ChangeDescription>

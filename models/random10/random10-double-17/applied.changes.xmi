@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="REMOVE" index="2"/>
+      <listChanges index="2" referenceValues="se3"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se2"/>
-    <value featureName="title" dataValue="Authors list. Autem autem voluptatum est laboriosam. Eos aut est molestiae ut fuga sunt."/>
+    <value featureName="title" dataValue="Authors list"/>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Sect1" id="se3" title="Titles List">
+    <paras id="6435fde6-8614-4ffc-b1e6-4ac97ceab439" content="A Confederacy of Dunces"/>
+    <paras id="1a61782e-597b-49e4-98c0-fac1efdeccc4" content="A Darkling Plain"/>
+    <paras id="1a2d41f0-5147-4c8f-8bf4-8c910a1b1d06" content="A Glass of Blessings"/>
+    <paras id="052c267e-6767-453c-af88-ea3f69bfe003" content="By Grand Central Station I Sat Down and Wept"/>
+    <paras id="512cb5b7-941d-43ad-9f41-4ec53e62d835" content="Fair Stood the Wind for France"/>
+    <paras id="c1dec287-f551-445a-8334-f9388f34fcfa" content="Look Homeward, Angel"/>
+    <paras id="bcc7bec2-e478-42ab-a57e-3387838a2b00" content="The Lathe of Heaven"/>
+    <paras id="81e68d5c-b269-44ab-90ce-50f4ec6b0c70" content="The Millstone"/>
+    <paras id="ca284fdb-d86e-4be8-9b3e-19e23bc3552d" content="This Lime Tree Bower"/>
+    <paras id="2104f1d8-3900-44a1-a3d1-9fcdc862aea5" content="Where Angels Fear to Tread"/>
+  </objectsToAttach>
 </change:ChangeDescription>

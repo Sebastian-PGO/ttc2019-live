@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="98"/>
+      <listChanges index="98" referenceValues="75db2fb0-f0e4-4cb6-b215-6517d33ef05f"/>
     </value>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" id="75db2fb0-f0e4-4cb6-b215-6517d33ef05f" content="Deloras Kuhlman"/>
 </change:ChangeDescription>

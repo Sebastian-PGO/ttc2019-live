@@ -3,11 +3,10 @@
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="288"/>
-      <listChanges index="3219" referenceValues="//@objectsToAttach.1"/>
-      <listChanges index="797" referenceValues="//@objectsToAttach.0"/>
+      <listChanges kind="REMOVE" index="797"/>
+      <listChanges kind="REMOVE" index="3219"/>
+      <listChanges index="288" referenceValues="4eaab52d-d5a1-42e1-b5ca-fd9b4e9a1062"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" content="Quia occaecati expedita omnis. Provident magni doloribus ab aut maxime. Voluptatibus qui aut earum explicabo nulla et. Laudantium modi cum sed et blanditiis. Dolorem quo accusamus ullam quisquam."/>
-  <objectsToAttach xsi:type="docb:Para" content="Ipsum quo totam. Quia accusamus cupiditate officiis fugit ea et. Id rerum tempora expedita sed. At enim fuga. Id qui iusto earum tenetur et ad."/>
+  <objectsToAttach xsi:type="docb:Para" id="4eaab52d-d5a1-42e1-b5ca-fd9b4e9a1062" content="Augustus Conroy"/>
 </change:ChangeDescription>

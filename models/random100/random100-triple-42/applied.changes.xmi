@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="227"/>
-      <listChanges kind="MOVE" index="303" moveToIndex="347"/>
+      <listChanges kind="MOVE" index="347" moveToIndex="303"/>
+      <listChanges index="227" referenceValues="da3c0103-6239-493e-859b-d2526620aa01"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#1ec7c5b6-b77c-4a50-a270-c630b98df3fb"/>
-    <value featureName="content" dataValue="Helena Feil. Quod et ipsa veritatis eum hic aut. Voluptatum doloremque rerum suscipit aut. Sapiente et eaque amet laborum esse et veniam."/>
+    <value featureName="content" dataValue="Helena Feil"/>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" id="da3c0103-6239-493e-859b-d2526620aa01" content="Kirk Kris"/>
 </change:ChangeDescription>

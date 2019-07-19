@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#se1"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="688" moveToIndex="490"/>
-      <listChanges kind="MOVE" index="520" moveToIndex="997"/>
+      <listChanges kind="MOVE" index="997" moveToIndex="520"/>
+      <listChanges kind="MOVE" index="490" moveToIndex="688"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="3523"/>
+      <listChanges index="3523" referenceValues="b32ad94a-b340-4073-b800-f2e171f1fed1"/>
     </value>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" id="b32ad94a-b340-4073-b800-f2e171f1fed1" content="Rickie Huel"/>
 </change:ChangeDescription>

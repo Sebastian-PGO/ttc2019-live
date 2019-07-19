@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#se3"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="47"/>
+      <listChanges index="47" referenceValues="dece55d1-80e7-403e-b328-403226b57d21"/>
     </value>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" id="dece55d1-80e7-403e-b328-403226b57d21" content="The Glory and the Dream"/>
 </change:ChangeDescription>

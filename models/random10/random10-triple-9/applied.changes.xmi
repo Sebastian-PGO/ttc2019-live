@@ -3,15 +3,15 @@
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="29"/>
-      <listChanges index="4" referenceValues="//@objectsToAttach.0"/>
+      <listChanges kind="REMOVE" index="4"/>
+      <listChanges index="29" referenceValues="ede4b695-c22e-43a0-88bc-b024e11ad858"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se3"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="7" moveToIndex="5"/>
+      <listChanges kind="MOVE" index="5" moveToIndex="7"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" content="Cumque labore enim id. Quaerat explicabo voluptas et ducimus totam voluptatum et. Quasi praesentium debitis quo debitis sint."/>
+  <objectsToAttach xsi:type="docb:Para" id="ede4b695-c22e-43a0-88bc-b024e11ad858" content="Maggie Huels"/>
 </change:ChangeDescription>

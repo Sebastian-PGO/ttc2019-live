@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="16" moveToIndex="37"/>
+      <listChanges kind="MOVE" index="37" moveToIndex="16"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se4"/>
     <value featureName="paras">
-      <listChanges index="0" referenceValues="//@objectsToAttach.0"/>
+      <listChanges kind="REMOVE" index="0"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#e34d92cf-82b4-4c33-b2dc-381045bb4d51"/>
-    <value featureName="content" dataValue="Lesley Johns. Aperiam repudiandae sed quasi quia officiis aut fuga. Accusantium animi iste qui unde incidunt corrupti tempora."/>
+    <value featureName="content" dataValue="Lesley Johns"/>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" content="Vel et ut voluptatem aperiam dolores corrupti. Possimus eveniet est. Animi sint voluptatem voluptatem velit commodi iusto."/>
 </change:ChangeDescription>

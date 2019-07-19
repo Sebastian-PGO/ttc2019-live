@@ -3,9 +3,9 @@
   <objectChanges>
     <key href="mutated.docbook#se3"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="3"/>
-      <listChanges index="32" referenceValues="//@objectsToAttach.0"/>
+      <listChanges kind="REMOVE" index="32"/>
+      <listChanges index="3" referenceValues="aa0cf342-8cdf-45d2-a291-8d26226d2441"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" content="Sunt voluptas atque necessitatibus maxime. Dicta dolores earum officia incidunt officiis modi. Corporis minima cum aliquam est eveniet libero praesentium. Reiciendis quod voluptas minus nesciunt aut."/>
+  <objectsToAttach xsi:type="docb:Para" id="aa0cf342-8cdf-45d2-a291-8d26226d2441" content="A Handful of Dust"/>
 </change:ChangeDescription>

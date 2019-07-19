@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
     <key href="mutated.docbook#98ae1dfb-263e-4162-9c4c-e93cada7b122"/>
-    <value featureName="content" dataValue="[e81] InCollection Sleep the Brave Ute Funk DVM Brandi Walker Tyree Fay Desiree Olson Wiley Pouros Basil Blick Maybell Hilll Julia McLaughlin Kellie Becker 2018 Tirra Lirra by the River E. P. Dutton. Est eveniet sed dolorum."/>
+    <value featureName="content" dataValue="[e81] InCollection Sleep the Brave Ute Funk DVM Brandi Walker Tyree Fay Desiree Olson Wiley Pouros Basil Blick Maybell Hilll Julia McLaughlin Kellie Becker 2018 Tirra Lirra by the River E. P. Dutton"/>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se4"/>
     <value featureName="paras">
-      <listChanges index="1" referenceValues="//@objectsToAttach.0"/>
+      <listChanges kind="REMOVE" index="1"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" content="Qui qui cum. Sint natus nihil quidem maxime neque inventore. Iusto ad ipsum aut nemo."/>
 </change:ChangeDescription>

@@ -2,6 +2,6 @@
 <change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
     <key href="mutated.docbook#se3"/>
-    <value featureName="title" dataValue="Titles List. Eaque eum et. Enim aut quo eos excepturi."/>
+    <value featureName="title" dataValue="Titles List"/>
   </objectChanges>
 </change:ChangeDescription>

@@ -3,13 +3,13 @@
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="17"/>
-      <listChanges index="4" referenceValues="//@objectsToAttach.0"/>
+      <listChanges kind="REMOVE" index="4"/>
+      <listChanges index="17" referenceValues="5fd239e6-861e-420e-9991-9105d257852e"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#1a61782e-597b-49e4-98c0-fac1efdeccc4"/>
-    <value featureName="content" dataValue="A Darkling Plain. Placeat velit dolorem delectus. Voluptatem provident deleniti eos expedita ut in possimus."/>
+    <value featureName="content" dataValue="A Darkling Plain"/>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" content="Quas ut ut animi. Tenetur quis ratione a unde. Quas dolor et sunt nisi. Consequuntur unde a nulla dolores."/>
+  <objectsToAttach xsi:type="docb:Para" id="5fd239e6-861e-420e-9991-9105d257852e" content="Hosea Marks"/>
 </change:ChangeDescription>

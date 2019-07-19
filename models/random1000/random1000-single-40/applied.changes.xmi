@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="166"/>
+      <listChanges index="166" referenceValues="53546f63-0164-4f8a-a8dd-4511fa7f19e2"/>
     </value>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" id="53546f63-0164-4f8a-a8dd-4511fa7f19e2" content="Anitra Kozey"/>
 </change:ChangeDescription>
