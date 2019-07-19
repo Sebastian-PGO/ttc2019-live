@@ -1,0 +1,74 @@
+plugins {
+	id "org.xtext.xtend" version "2.0.7"
+}
+
+repositories {
+	mavenCentral()
+	jcenter()
+	flatDir {
+		dirs	'libs'
+	}
+}
+
+dependencies {
+	compile name: 'aof'
+
+	compile 'org.eclipse.xtend:org.eclipse.xtend.lib:2.18.0'
+	compile 'org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.15.0'
+	compile project(':ttc2019.live.metamodels')
+}
+
+apply plugin: 'eclipse'
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'java-library-distribution'
+
+xtext.version = "2.18.0"
+
+
+xtend {
+	sourceSets {
+		main.xtendOutputDir = 'xtend-gen'
+	}
+}
+
+mainClassName = 'ttc2019.solutions.aof.LiveContestDriver'
+
+sourceSets {
+	main {
+		java {
+			srcDirs = ['src', 'src-gen']
+		}
+	}
+}
+
+eclipse.project.name = 'ttc2019.solutions.aof'
+
+// Create a single Jar with all dependencies (useful fo tests)
+task fatJar(type: Jar) {
+    manifest { 
+    	attributes 'Main-Class' : 'ttc2019.solutions.xtend.LiveContestDriver'
+   	}
+   	archiveName = 'emf-aof.jar'
+    from {
+        configurations.runtime.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+    sourceSets {
+	    main {
+	        java {
+	            srcDir 'src'
+	        }
+	        resources {
+	            srcDir 'res'
+	        }
+	    }
+	}
+    with jar
+    exclude 'META-INF/*'
+    destinationDir file('.')
+ }
