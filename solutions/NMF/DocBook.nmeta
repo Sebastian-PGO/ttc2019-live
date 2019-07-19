@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nmeta:Namespace xmi:version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Uri="https://www.transformation-tool-contest.eu/2019/docbook" Prefix="docb" Name="docbook" xmlns:xmi="http://www.omg.org/XMI" xmlns:nmeta="http://nmf.codeplex.com/nmeta/">
+  <Types xsi:type="nmeta:Class" BaseTypes="#//Identifiable" Name="DocBook">
+    <References IsContainment="True" ReferenceType="nmeta:Class #//Book" IsOrdered="True" IsUnique="True" LowerBound="1" UpperBound="-1" Name="books" />
+  </Types>
+  <Types xsi:type="nmeta:Class" BaseTypes="#//Identifiable" Name="Book">
+    <References IsContainment="True" ReferenceType="nmeta:Class #//Article" IsOrdered="True" IsUnique="True" LowerBound="1" UpperBound="-1" Name="articles" />
+  </Types>
+  <Types xsi:type="nmeta:Class" IsAbstract="True" BaseTypes="#//Identifiable" Name="TitledElement">
+    <Attributes IsUnique="True" LowerBound="1" Type="nmeta:PrimitiveType http://nmf.codeplex.com/nmeta/#//String" Name="title" />
+  </Types>
+  <Types xsi:type="nmeta:Class" BaseTypes="#//TitledElement" Name="Article">
+    <References IsContainment="True" ReferenceType="nmeta:Class #//Sect1" IsOrdered="True" IsUnique="True" LowerBound="1" UpperBound="-1" Name="sections_1" />
+  </Types>
+  <Types xsi:type="nmeta:Class" IsAbstract="True" BaseTypes="#//TitledElement" Name="Section">
+    <References IsContainment="True" ReferenceType="nmeta:Class #//Para" IsOrdered="True" IsUnique="True" LowerBound="1" UpperBound="-1" Name="paras" />
+  </Types>
+  <Types xsi:type="nmeta:Class" BaseTypes="#//Section" Name="Sect1">
+    <References IsContainment="True" ReferenceType="nmeta:Class #//Sect2" IsOrdered="True" IsUnique="True" LowerBound="1" UpperBound="-1" Name="sections_2" />
+  </Types>
+  <Types xsi:type="nmeta:Class" BaseTypes="#//Section" Name="Sect2" />
+  <Types xsi:type="nmeta:Class" BaseTypes="#//Identifiable" Name="Para">
+    <Attributes IsUnique="True" LowerBound="1" Type="nmeta:PrimitiveType http://nmf.codeplex.com/nmeta/#//String" Name="content" />
+  </Types>
+  <Types xsi:type="nmeta:Class" IsAbstract="True" IdentifierScope="Global" Identifier="#//Identifiable/id" Name="Identifiable">
+    <Attributes IsOrdered="True" IsUnique="True" LowerBound="1" Type="nmeta:PrimitiveType http://nmf.codeplex.com/nmeta/#//String" Name="id" />
+  </Types>
+</nmeta:Namespace>

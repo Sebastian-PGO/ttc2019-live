@@ -33,6 +33,7 @@ import ttc2019.live.changes.CompositionCollectionReset;
 import ttc2019.live.changes.CompositionListDeletion;
 import ttc2019.live.changes.CompositionListInsertion;
 import ttc2019.live.changes.CompositionMoveIntoProperty;
+import ttc2019.live.changes.CompositionMoveToCollection;
 import ttc2019.live.changes.CompositionMoveToList;
 import ttc2019.live.changes.CompositionPropertyChange;
 import ttc2019.live.changes.ElementaryChange;
@@ -238,6 +239,13 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * @generated
 	 */
 	private EClass compositionMoveToListEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass compositionMoveToCollectionEClass = null;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -954,6 +962,36 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * @generated
 	 */
 	@Override
+	public EClass getCompositionMoveToCollection() {
+		return compositionMoveToCollectionEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EReference getCompositionMoveToCollection_MovedElement() {
+		return (EReference)compositionMoveToCollectionEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EReference getCompositionMoveToCollection_Origin() {
+		return (EReference)compositionMoveToCollectionEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public EClass getOperationCall() {
 		return operationCallEClass;
 	}
@@ -1166,6 +1204,10 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 		createEReference(compositionMoveToListEClass, COMPOSITION_MOVE_TO_LIST__MOVED_ELEMENT);
 		createEReference(compositionMoveToListEClass, COMPOSITION_MOVE_TO_LIST__ORIGIN);
 
+		compositionMoveToCollectionEClass = createEClass(COMPOSITION_MOVE_TO_COLLECTION);
+		createEReference(compositionMoveToCollectionEClass, COMPOSITION_MOVE_TO_COLLECTION__MOVED_ELEMENT);
+		createEReference(compositionMoveToCollectionEClass, COMPOSITION_MOVE_TO_COLLECTION__ORIGIN);
+
 		operationCallEClass = createEClass(OPERATION_CALL);
 		createEReference(operationCallEClass, OPERATION_CALL__OPERATION);
 		createEReference(operationCallEClass, OPERATION_CALL__TARGET_ELEMENT);
@@ -1327,6 +1369,10 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 		initEAttribute(getCompositionMoveToList_Index(), ecorePackage.getEInt(), "index", null, 1, 1, CompositionMoveToList.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getCompositionMoveToList_MovedElement(), ecorePackage.getEObject(), null, "movedElement", null, 1, 1, CompositionMoveToList.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getCompositionMoveToList_Origin(), this.getElementaryChange(), null, "origin", null, 1, 1, CompositionMoveToList.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		initEClass(compositionMoveToCollectionEClass, CompositionMoveToCollection.class, "CompositionMoveToCollection", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEReference(getCompositionMoveToCollection_MovedElement(), ecorePackage.getEObject(), null, "movedElement", null, 1, 1, CompositionMoveToCollection.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getCompositionMoveToCollection_Origin(), this.getElementaryChange(), null, "origin", null, 1, 1, CompositionMoveToCollection.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(operationCallEClass, OperationCall.class, "OperationCall", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getOperationCall_Operation(), ecorePackage.getEOperation(), null, "operation", null, 1, 1, OperationCall.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

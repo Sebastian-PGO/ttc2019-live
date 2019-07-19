@@ -59,29 +59,17 @@ context B!Article {
 context D!Para {
   constraint AuthorsAreSorted {
     guard : self.eContainer = getAuthorsList() and self.hasMatchingAuthor()
-    check {
-      var idx = self.eContainer.paras.indexOf(self);
-      return self.eContainer.paras.subList(idx+1, self.eContainer.paras.size)
-        .forAll(p | not p.hasMatchingAuthor() or p.content.compareTo(self.content) >= 0);
-    }
+    check : self.followingParagraphIsLarger()
   }
 
   constraint TitlesAreSorted {
     guard : self.eContainer = getTitlesList() and self.hasMatchingTitle()
-    check {
-      var idx = self.eContainer.paras.indexOf(self);
-      return self.eContainer.paras.subList(idx+1, self.eContainer.paras.size)
-        .forAll(p | not p.hasMatchingTitle() or p.content.compareTo(self.content) >= 0);
-    }
+    check : self.followingParagraphIsLarger()
   }
 
   constraint JournalsAreSorted {
     guard : self.eContainer = getJournalsList() and self.hasMatchingTitle()
-    check {
-      var idx = self.eContainer.paras.indexOf(self);
-      return self.eContainer.paras.subList(idx+1, self.eContainer.paras.size)
-        .forAll(p | not p.hasMatchingJournal() or p.content.compareTo(self.content) >= 0);
-    }
+    check : self.followingParagraphIsLarger()
   }
 
 }
@@ -119,4 +107,14 @@ operation getTitlesList(): D!Sect1 {
 @cached
 operation getJournalsList(): D!Sect1 {
   return D!Sect1.all.selectOne(s | s.`title`.startsWith('Journals List'));
+}
+
+operation D!Para followingParagraphIsLarger() {
+  var siblingParas = self.eContainer.paras;
+  var idx = siblingParas.indexOf(self);
+  if (idx + 1 < siblingParas.size) {
+    return self.content.compareTo(siblingParas.get(idx + 1).content) <= 0;
+  } else {
+    return true;
+  }
 }
