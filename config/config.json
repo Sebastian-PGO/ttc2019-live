@@ -18,7 +18,7 @@
   "ChangeSets": [
     "single", "double", "triple"
   ],
-  "Mutants": 10,
-  "Runs": 1,
-  "Timeout": 6000
+  "Mutants": 50,
+  "Runs": 3,
+  "Timeout": 600
 }
