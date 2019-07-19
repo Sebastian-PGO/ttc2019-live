@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="REMOVE" index="3"/>
-      <listChanges kind="MOVE" index="2" moveToIndex="1"/>
+      <listChanges kind="MOVE" index="1" moveToIndex="2"/>
+      <listChanges index="3" referenceValues="se4"/>
     </value>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Sect1" id="se4" title="Journals List">
+    <paras id="6e98b189-7525-4b13-bd04-7e369bdb9823" content="East of Eden"/>
+    <paras id="25de7774-65c6-4244-9bc7-614df1fbdcff" content="Endless Night"/>
+    <paras id="f9cdc31a-e784-4864-a478-9746ca98a650" content="In Death Ground"/>
+    <paras id="e8c77ad5-d478-400b-bef1-f54d225db103" content="O Pioneers!"/>
+    <paras id="dac2ee73-0ae2-4af1-abee-dc1aee272051" content="Recalled to Life"/>
+  </objectsToAttach>
 </change:ChangeDescription>

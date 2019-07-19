@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#se3"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="181"/>
+      <listChanges index="181" referenceValues="e89a46fe-1069-44ae-b674-f4f8b4f35bff"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#73ff89dc-fd3d-407b-9433-9426ea1a8ca7"/>
-    <value featureName="content" dataValue="Shonta Zemlak. Exercitationem rerum velit reprehenderit doloremque ad eligendi. Quod dolor quis."/>
+    <value featureName="content" dataValue="Shonta Zemlak"/>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#040f59bb-4e59-48ab-ab3d-534ad920ef5b"/>
-    <value featureName="content" dataValue="Renato Schneider. Voluptatem eligendi fugiat qui sapiente voluptate debitis quis. Quod aspernatur sit. Ut occaecati eveniet occaecati voluptatem debitis."/>
+    <value featureName="content" dataValue="Renato Schneider"/>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" id="e89a46fe-1069-44ae-b674-f4f8b4f35bff" content="Vanity Fair"/>
 </change:ChangeDescription>

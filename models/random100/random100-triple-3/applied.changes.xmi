@@ -3,15 +3,194 @@
   <objectChanges>
     <key href="mutated.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="REMOVE" index="2"/>
-      <listChanges kind="REMOVE" index="0"/>
+      <listChanges index="0" referenceValues="se1"/>
+      <listChanges index="2" referenceValues="se3"/>
     </value>
   </objectChanges>
-  <objectChanges>
-    <key href="mutated.docbook#se1"/>
+  <objectChanges key="se1">
     <value featureName="paras">
-      <listChanges index="90" referenceValues="//@objectsToAttach.0"/>
+      <listChanges kind="REMOVE" index="90"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" content="Aperiam quam non sit ex laboriosam autem. Et quis omnis. Reiciendis et sunt qui optio. Aut eaque neque et provident placeat. Corrupti repellat excepturi voluptate ab qui."/>
+  <objectsToAttach xsi:type="docb:Sect1" id="se1" title="References List">
+    <paras id="8e2bc2d3-d2ad-491a-8b9e-ce5909bc076c" content="[e0] TechReport I Know Why the Caged Bird Sings Elenore Stanton 2002"/>
+    <paras id="a5edcca2-3348-443c-b4eb-85391753bc4c" content="[e1] PhDThesis When the Green Woods Laugh Augustus Pollich Christoper Conn IV Hilma Runolfsdottir Sebastian Doyle Aleshia Nicolas Clemente Borer DDS Althea Krajcik 2012 Walter College"/>
+    <paras id="4f2c10d5-bc6f-4856-985b-69871eaeaee3" content="[e10] Proceedings An Evil Cradling 2013"/>
+    <paras id="cf7a05a5-afd2-49ed-8e7b-a08007fd99c6" content="[e11] Book A Catskill Eagle Chang Ondricka Ione Hahn Deanne Spencer Howard Nader Cheryll Boyle Lyndon Hackett Mr. Lazaro Reynolds Ernie Kihn Helena Feil 2004 Nauka"/>
+    <paras id="42490035-cfe6-429f-b3a9-e1505868eb99" content="[e12] InProceedings The Stars' Tennis Balls Charlette Ratke Omar Grant Shaunte Littel Angelina White DDS Dana Kovacek Jospeh Jast Vivian Gleason Julio Thompson Velva Beatty George Parker 2002 Endless Night"/>
+    <paras id="ebc8515e-8054-494e-aab6-d07d2b234b28" content="[e13] PhDThesis Number the Stars Carma Huel Andrew Boyer Markus Mayer Addie Monahan DDS Shayne Stracke Pamela Zulauf Forest Klein 2006 Eastern Maggio"/>
+    <paras id="df24c604-e62d-47d6-a68d-7e0fa9a26135" content="[e14] Proceedings Beyond the Mexique Bay 2017"/>
+    <paras id="0cc11610-8067-460b-86c8-d951d07fac29" content="[e15] InCollection Postern of Fate Toney Brown Graig Heaney Morris Wisoky Bonnie Hagenes Gail Koepp Porter Koss Mrs. Denice Wisozk Joni Spencer Jared Marquardt Zoraida Jacobi 2002 Things Fall Apart Belknap Press"/>
+    <paras id="b8e56f4c-48fd-42d5-9ca5-e0851ac63260" content="[e16] Book Dying of the Light Mrs. Carrol Hintz Mrs. Whitney Reilly Rosalinda Witting Selma Lebsack 2002 Burns &amp; Oates"/>
+    <paras id="572fabb6-d4a5-48c5-b008-86e06f25aa18" content="[e17] Manual No Country for Old Men"/>
+    <paras id="99fdae0c-5866-46ea-a82c-e876452d0263" content="[e18] PhDThesis Lilies of the Field Bertha Wilkinson Maegan Rath Thomas Grady V Tam Rodriguez Mr. Glennis Leannon Jordon Bartell IV Glenn Bednar Jr. Dr. Doug Kshlerin 2014 Northern Rhode Island Academy"/>
+    <paras id="236a38e1-5b82-4e59-998f-4324abd1e5aa" content="[e19] Article Dying of the Light Verna Grant 2017 In Death Ground"/>
+    <paras id="4445b2e2-9f69-4512-b970-14e369a2081d" content="[e2] InProceedings The Man Within Mr. Romaine Borer Vicente Kuhn PhD Dr. Raymundo Gerhold Jefferey VonRueden 2007 The Painted Veil"/>
+    <paras id="057fe498-5203-4bd8-8087-75456a8e4f70" content="[e20] Article If I Forget Thee Jerusalem Robbi Russel I Asuncion Volkman Ms. Gene Fay Marcellus Larson Efren Hoppe Mechelle Marquardt Josef Emmerich Jr. 2011 Recalled to Life"/>
+    <paras id="5aa0ffdb-3cbf-44ce-b82b-d760aa86ee8f" content="[e21] Article In Death Ground Ms. Wiley Jerde Rhonda Runte Johnnie Barton Orville Bernhard Nerissa Gleason Sr. Carlena Legros III Audrie Howe 2000 East of Eden"/>
+    <paras id="21a84fe2-e5bd-4bd0-bb9d-91948d09f9b8" content="[e22] Proceedings All Passion Spent 2004"/>
+    <paras id="92e6a723-3ce9-4af2-8665-2cd6065ac8ed" content="[e23] TechReport The House of Mirth Dr. Clement O'Hara Carin Reichel Anderson Schulist Mrs. Eldora Shields Ms. Dagny Stark Mrs. Loyd Rau Charolette Towne Ellie Denesik Alesha Moen 2014"/>
+    <paras id="1f50dc36-8387-4ad4-a5ad-498b412b7d00" content="[e24] TechReport The Wealth of Nations Libbie Reynolds Patricia Ritchie Kevin Schumm 2014"/>
+    <paras id="ada78312-002e-46f1-bca3-5b463435c150" content="[e25] PhDThesis Butter In a Lordly Dish Wai Mertz Kam Gulgowski Fritz Beatty Shawna Mante Albina Walter III Nolan Hammes Mrs. Quintin Ankunding Felicia McCullough Avery Daniel 2018 Walter University"/>
+    <paras id="d668255f-d073-46cd-aebe-48ce2ee86f6b" content="[e26] PhDThesis Jacob Have I Loved Ms. Nolan Barrows Hector Cassin Miss Diana Aufderhar Tomiko Howe Jr. Ty Schmitt DDS 2002 North Blanda"/>
+    <paras id="3f4f20df-7cda-4e9e-85e7-25d105c5c357" content="[e27] Proceedings A Confederacy of Dunces 2013"/>
+    <paras id="115ea51c-8cd2-4a65-868e-52f7444164d3" content="[e28] Manual The Grapes of Wrath"/>
+    <paras id="7f509c14-e1b3-4129-aeaa-cd6f16e9bf2d" content="[e29] Proceedings Postern of Fate 2014"/>
+    <paras id="a353f182-2c78-431d-9c46-8263eeb951bc" content="[e3] InProceedings From Here to Eternity Miss Gene King Candelaria Feeney Dean Lesch Mrs. Ervin Corkery Yuki Pouros Arlen Maggio Hermina Price DVM Lonny Larson Deloras Kuhlman Wayne Bednar 2005 The Wives of Bath"/>
+    <paras id="db485b40-c541-4116-94f6-ce1f2e5b5882" content="[e30] Manual The Last Temptation"/>
+    <paras id="a08ce4f8-c404-4300-8bcf-0cd6c11df309" content="[e31] InBook A Darkling Plain Cyndy Toy V Olevia Jacobson 2018 Atlas Press 16"/>
+    <paras id="89f4188b-e905-46c7-965b-5f224fc40413" content="[e32] InProceedings The Torment of Others Shantay Sanford Percy Grady Genevieve Rice Sherlyn Gibson DDS Sonja Quigley Otto Kemmer Missy Christiansen Merna Haley PhD 2014 Great Work of Time"/>
+    <paras id="476dde43-ce59-43c7-a4a2-cd1dd3b1144c" content="[e33] TechReport A Handful of Dust Hildegard Purdy DDS Boyd Wuckert II Elvis Harber Miss Paul Murray Lucius Stamm Clayton Hegmann Myrtis Wunsch Jr. Chong Simonis MD Sheree Schultz 2013"/>
+    <paras id="294a0d41-305c-4b68-a752-debceff85c9d" content="[e34] TechReport Cover Her Face Fermin Wiza DVM 2001"/>
+    <paras id="c24d0622-6df2-4ea2-b002-e04673a4adef" content="[e35] TechReport What's Become of Waring Margarito Willms Clint Bins Mrs. Kiley Jaskolski Gala Kautzer Corrin Huel Columbus Weber DDS Ms. Evelyne Grady Ayana Zemlak 2015"/>
+    <paras id="60fc0aa9-c015-48c6-8a6d-3eb6d433106b" content="[e36] InProceedings Number the Stars Liliana Zboncak Kiera Hodkiewicz 2011 The Glory and the Dream"/>
+    <paras id="7c738e72-6bfc-4a2d-b978-f88c9270e630" content="[e37] TechReport Taming a Sea Horse Jeremiah Mann Jed Hegmann Sr. Ms. Jules Nolan Arielle Hoeger 2013"/>
+    <paras id="dbba4f10-edc6-47d8-ac49-ad1cd69408ea" content="[e38] Book To Say Nothing of the Dog Gisela Stark Eilene Buckridge Miss Issac Kozey Ms. Sung McGlynn Shantelle Ebert 2008 Del Rey Books"/>
+    <paras id="ed341a83-2850-47a8-b783-61b9a666d670" content="[e39] PhDThesis The House of Mirth Mrs. Jaime Sipes Dr. Tawny Ryan Birdie Pacocha Bernard Treutel Steven Pagac MD Logan Maggio II 2010 Western New Jersey University"/>
+    <paras id="20918c63-6f9b-4d40-9b68-5d981ab08e84" content="[e4] Manual This Lime Tree Bower"/>
+    <paras id="b9fa669e-750d-43a8-80c9-96ae9b7cddfb" content="[e40] InBook The Yellow Meads of Asphodel Roberta Bednar Darron Bins 2000 Horizon Scientific Press 24"/>
+    <paras id="484567db-6276-4af4-81d1-c530af8711db" content="[e41] Book Where Angels Fear to Tread Louisa Hilpert Miss Seth Mohr Dr. Nikita Klocko Donny Spinka DDS Jordan Borer I Raven Deckow Ms. Cheyenne Blanda Terry Borer I 2003 Hamish Hamilton"/>
+    <paras id="79f68ca8-7718-40e0-a52f-90b57b8c8dc7" content="[e42] Proceedings In a Dry Season 2017"/>
+    <paras id="875d9407-df0d-48a4-b3af-688b8d2f1789" content="[e43] InBook The Millstone Noe Conn Pamela Borer Maurine Effertz Delmar Schmitt Cassi Sporer Ginette Hirthe Ambrose Monahan Dr. Maggie Kassulke Brigid McClure 2003 Harper &amp; Row 6"/>
+    <paras id="7c700570-d44d-406e-ab52-6e9f79382177" content="[e44] Manual The Waste Land"/>
+    <paras id="6444e2cd-3e48-434a-846d-24c998f3d86e" content="[e45] Book Cabbages and Kings Franklin Cummings MD 2002 George Newnes"/>
+    <paras id="531e04ac-e7d4-48ea-b47a-946dafa89eca" content="[e46] InBook An Instant In The Wind Byron Collins Wilfred Armstrong 2012 Ignatius Press 13"/>
+    <paras id="449926a7-ce17-409a-a77d-b6586710dbae" content="[e47] Proceedings Mr Standfast 2007"/>
+    <paras id="9fe8bbf4-a92a-4f48-99a0-653699f05e8d" content="[e48] Manual The Doors of Perception"/>
+    <paras id="4a6bf789-aef3-49db-9df5-80e17a26d753" content="[e49] InCollection Now Sleeps the Crimson Petal Emery Homenick Cornelius Rice Marni Douglas Marianela Parker Kareem Bartell Klara Stroman Dante Davis Mr. Leon Mills Cary Bins IV Keven Beahan I 2001 Tender Is the Night G. P. Putnam's Sons"/>
+    <paras id="59208572-dfa0-4e11-b89d-5cf9847deef3" content="[e5] Proceedings The Wives of Bath 2015"/>
+    <paras id="e7b832d0-ed03-45b0-b25c-1cf1b215e171" content="[e50] InCollection An Evil Cradling Chance Bradtke Hillary Renner Alla Ferry MD Alissa Hodkiewicz 2018 Edna O'Brien Virgin Publishing"/>
+    <paras id="93738ae3-2ca0-42e4-8c63-7433845682d1" content="[e51] TechReport The Millstone Dwana Ferry Victor Sporer 2014"/>
+    <paras id="33c37b35-f4cd-4536-9fd4-689a7fb6eff5" content="[e52] InBook In a Glass Darkly Golda Grant Shiela Conroy 2019 Harvard University Press 15"/>
+    <paras id="9c7dedf2-8b5b-472f-8a72-a58183b10af9" content="[e53] InProceedings Gone with the Wind Chester Leuschke Ms. Dennise Huels Mrs. Emmaline Harber Celena Upton Marybelle Hintz Leif Kohler Theresia Labadie 2005 This Lime Tree Bower"/>
+    <paras id="a0bd2ad9-6ea5-4dfb-9366-54be5111b22b" content="[e54] InCollection A Darkling Plain Cristy Smith 2001 The Far-Distant Oxus Ballantine Books"/>
+    <paras id="fed9f458-2493-4083-8600-982c3b9c2ca9" content="[e55] Book The Grapes of Wrath Sarah Murray Kimberly Conroy Pablo Shields Daniella Mueller Jr. Mitzie Bailey Miss Elayne Metz Estell Stehr Page Mayert II Zachary Ruecker Melvin Schaefer 2008 Cisco Press"/>
+    <paras id="d3835740-9bed-454b-b0b2-61a1b1a246b4" content="[e56] InBook The Mirror Crack'd from Side to Side Shirley Russel Patti Balistreri Concha Green Elvira Roob Cyril Bode Darin Bednar DVM Mr. Rafael Runolfsson Dayna Simonis Michell Goyette 2005 Packt Publishing 5"/>
+    <paras id="9c3620b1-6e2b-40ff-ba42-09bc58d56846" content="[e57] InProceedings A Catskill Eagle Newton Bailey Marguerita Fay Gaye Schamberger Sr. Mariette Boyer MD Miss Irwin Langworth Scott Hintz Miss Jess D'Amore Patrick Rolfson Newton Haley 2008 Quo Vadis"/>
+    <paras id="30150fc5-4422-4eba-8e63-ab2c6d6322ca" content="[e58] InProceedings Time To Murder And Create Katia Hermiston II Ermelinda Dach Leonard Muller Roxanna Von Dr. Neida Schultz Winifred Nikolaus Corina Raynor Matha Block 2016 To Your Scattered Bodies Go"/>
+    <paras id="51101a22-375e-4275-9f9e-0adb6341af26" content="[e59] MasterThesis Recalled to Life Sandy Adams Kurt Hettinger Al Cronin V Jarod Skiles Ms. Robbin Raynor Dannie Roob Richard Anderson Tamica Bruen Sheldon Pollich Izola Effertz 2008 Kreiger University"/>
+    <paras id="2a0feea9-b884-481c-9a72-27e4ed9fb00c" content="[e6] PhDThesis Blithe Spirit Jasmin Klocko Rueben Strosin DDS Armida Bogisich Ms. Hermina Williamson Dona Brakus Kanisha Lindgren PhD Zella Wyman 2016 West Lowe"/>
+    <paras id="94964a06-2b5f-4528-aa02-07a6a1e706e4" content="[e60] PhDThesis The Proper Study Tracey Dickens Denisha Mueller Rob Jaskolski Debora Bergnaum Travis Altenwerth May Kiehn Ted Hartmann Hector Ward Josue Torphy Roosevelt Medhurst 2005 West Ohio University"/>
+    <paras id="0b9032c5-93e5-42bc-8f4a-37d256c86b91" content="[e61] PhDThesis The Last Temptation Earnest Turner Wanita Predovic Kirk Kris Everette Roberts Werner McClure Royce Durgan Reyes Langworth Rachal Kuhic Landon Dibbert 2006 Western Mitchell Academy"/>
+    <paras id="048a19b8-d0bb-4ed1-a63b-5ea674c7f0f6" content="[e62] InBook Where Angels Fear to Tread Stanford Kling 2014 Oberon Books 3"/>
+    <paras id="ea9b3f95-c3ef-4ba7-b96d-3e6b51f662d8" content="[e63] InBook In a Dry Season Trevor Hilll Rosalinda Jaskolski Jr. Homer Homenick Valentin Turner Victor Reichel Tammi Ward 2001 Hackett Publishing Company 14"/>
+    <paras id="298aba08-27fc-4896-ab5d-8bb50113c600" content="[e64] InBook The Doors of Perception Sidney Ernser Lanny Blanda Georgiann Bednar Ozzie Prosacco 2012 Pen and Sword Books 2"/>
+    <paras id="24a34d02-bf5d-4a45-b710-d833b00ff62d" content="[e65] MasterThesis Carrion Comfort Mrs. Lanie Treutel 2008 North Colorado Institute"/>
+    <paras id="38f2e8fb-b4d4-4de4-9110-03d43b081291" content="[e66] Book As I Lay Dying Charley Klein Rocky Rowe Ms. Hannah Murazik Ashlie Zieme Kasha Nolan 2017 Tachyon Publications"/>
+    <paras id="f9d8f9a0-2a28-4e50-92c3-57dabb276c3e" content="[e67] PhDThesis The Mirror Crack'd from Side to Side Mae Block Alva Schmitt Ethan Padberg II Myrle Littel DVM Miss Dan Crona Golden Feest Cyndy Lynch Arden Labadie 2018 Northern New Hampshire Institute"/>
+    <paras id="59f7681b-ce54-4055-a92c-270cd359b9b0" content="[e68] Book The Little Foxes Carma Schaden IV Mr. Christy Glover Marita Moen PhD Ramiro Ortiz Leonel Runolfsdottir Chuck Emard Janeth Ryan Dr. Denver Mraz Bennie Labadie 2018 Mainstream Publishing"/>
+    <paras id="b736f2c5-c16e-4b04-9949-701b81796ac3" content="[e69] MasterThesis Nine Coaches Waiting Luke Rodriguez Lillia VonRueden Dr. Jerrell Metz Chase Glover Chuck Christiansen Tula Yundt Addie Little Jewel Predovic Tamar Hammes 2016 Goldner Institute"/>
+    <paras id="ababaa9b-a9b5-4e05-8178-2a7b5d7677d0" content="[e7] TechReport Where Angels Fear to Tread Barbera McCullough Nelson Parker 2016"/>
+    <paras id="d2172b24-8264-4edd-bbe8-30d8445cfce0" content="[e70] TechReport To a God Unknown Silas Collins Elijah Mann Ms. Emil Franecki Ms. Sonny Denesik Mrs. Pablo Larson 2015"/>
+    <paras id="f7423eb4-d0bc-4550-a44d-c5ff5c511189" content="[e71] InBook Everything is Illuminated Hassan Stehr IV Elida Dickinson Marianela Marvin Floyd Hauck 2007 Reed Publishing 16"/>
+    <paras id="06b95c32-0390-4087-aa82-9a8d71c8fd57" content="[e72] TechReport Surprised by Joy Elmo Rolfson DDS Irvin Huels Madge Sawayn MD Eddie Franecki Shelton Parker Shakita Muller Ms. Carleen Deckow 2013"/>
+    <paras id="b9c95e60-8fe6-4471-8370-2f922faeb0e2" content="[e73] InProceedings Endless Night Fabian Bahringer Kristofer Hyatt Miss Delsie Keeling Marisela Pfannerstill Serena Kassulke 2005 The Road Less Traveled"/>
+    <paras id="91ea9661-90c4-497c-8968-ca121c427c03" content="[e74] PhDThesis Recalled to Life Hilma O'Hara Jr. Tillie Baumbach Mr. Christopher Kirlin Sheridan Strosin Harmony Satterfield Marshall Gusikowski Joel Russel Reid Bergstrom Freida Hessel Miss Gerardo Welch 2001 South Cormier"/>
+    <paras id="6efa9b47-08e7-47b2-8eb8-c5f7d277520d" content="[e75] TechReport The Glory and the Dream Josue Brakus Brandon Kuvalis 1999"/>
+    <paras id="bd0a1031-1730-40cb-835f-78ab14c8c3e5" content="[e76] Article Waiting for the Barbarians Tracie Runte Tommie Muller Barton Ryan Izola Abernathy Ike O'Connell 2008 Endless Night"/>
+    <paras id="979c3431-f4fc-4b88-b5bc-7417f8afb7e2" content="[e77] InBook A Passage to India Coretta Robel IV Megan Corkery 2004 Velazquez Press 21"/>
+    <paras id="f37b4470-a3b2-427a-a74f-26b59663b4d2" content="[e78] PhDThesis The Cricket on the Hearth Arcelia Ward Lynetta Dickinson Bud Lesch DDS Mrs. Janella Quitzon Emanuel Durgan Angel Kshlerin V 2009 Tremblay College"/>
+    <paras id="1f38a790-38f3-4c56-aa40-81aab54ed99a" content="[e79] Proceedings East of Eden 2008"/>
+    <paras id="e1d2d959-c3b1-4887-8c86-ed2a86da9817" content="[e8] Book The Violent Bear It Away Ronnie Langworth Mira Hansen Celinda McClure Nicky Corkery Aretha Sanford Jimmie Kohler I 2009 FabJob"/>
+    <paras id="0ca03e1c-1441-40a2-84b9-0249bf7cf9ef" content="[e80] Proceedings Sleep the Brave 2004"/>
+    <paras id="98ae1dfb-263e-4162-9c4c-e93cada7b122" content="[e81] InCollection Sleep the Brave Ute Funk DVM Brandi Walker Tyree Fay Desiree Olson Wiley Pouros Basil Blick Maybell Hilll Julia McLaughlin Kellie Becker 2018 Tirra Lirra by the River E. P. Dutton"/>
+    <paras id="7540ea16-e990-462b-8915-f74882d3c92c" content="[e82] InCollection If I Forget Thee Jerusalem Dominick Friesen 2012 The Lathe of Heaven Verso Books"/>
+    <paras id="ab99ce2d-ab86-4696-a2dc-bcb796babafb" content="[e83] PhDThesis The Violent Bear It Away Theron Greenholt Jr. Elvin Bernhard Verlene Bergstrom Jarod Schulist Jewell Ondricka Heath Mante DVM Mariko Emmerich Miss Johana Jones Eldridge Armstrong Rafael Streich DDS 2017 Northern Kemmer"/>
+    <paras id="edc5eb64-6c8b-45ba-a450-1c22446807d4" content="[e84] InBook A Passage to India Phil Grady Tennie Herman Dr. Desmond Bernier Sam Bashirian Ms. Bari Ondricka Juliet Koepp Daisy Flatley I 2015 Flame Tree Publishing 23"/>
+    <paras id="3422b268-0e6c-48ef-8d89-0889ba0a4c0f" content="[e85] PhDThesis Quo Vadis Margurite Heathcote Tanika Kassulke 2016 Southern Heidenreich"/>
+    <paras id="1e154b07-d1f4-400d-9bb7-87f2ea36c966" content="[e86] MasterThesis The Mirror Crack'd from Side to Side Eugene Bruen Rene Raynor I Ms. Xochitl Cruickshank Joesph Renner Austin Blick Loyd Runte Ms. Muriel Gleason Pete Rutherford Mrs. Carmelita Gutkowski Rosendo Mills 1999 O'Kon Academy"/>
+    <paras id="4532af98-53e6-42c6-bbbd-850c39bb1aca" content="[e87] PhDThesis An Acceptable Time Ivey Lynch Lonnie Stiedemann Jr. Ms. Margret Paucek Mrs. Carmen Leuschke Mrs. Evon Keeling 2009 Eastern Greenfelder"/>
+    <paras id="faa86fd3-e988-48ae-b508-2c27696c1641" content="[e88] MasterThesis Fair Stood the Wind for France Jeannetta Armstrong Herbert Cartwright Mrs. Riva Moore Jay Spinka Ernie Nolan Victor Konopelski Lucinda Gorczany Parker West Tomika Morar Sung Kulas 2012 North Doyle"/>
+    <paras id="fa63f7df-fa6b-420a-b365-7a4fcb57d377" content="[e89] InBook Bury My Heart at Wounded Knee Lyman Ferry Norma Romaguera Clotilde Kunde III James O'Connell Nery White Ruben Tillman Rosaline D'Amore Kris Wolf 1999 University of Minnesota Press 14"/>
+    <paras id="c8cb453d-0a65-4c62-9563-54177ede2119" content="[e9] Proceedings Dulce et Decorum Est 2008"/>
+    <paras content="Aperiam quam non sit ex laboriosam autem. Et quis omnis. Reiciendis et sunt qui optio. Aut eaque neque et provident placeat. Corrupti repellat excepturi voluptate ab qui."/>
+    <paras id="5def661f-2a98-4187-ab65-abcc96db5cf4" content="[e90] Article The Line of Beauty Milo Weissnat Werner Cremin Ms. Loren Kuhlman Dr. Dean Beier Ms. Phillis Gutkowski Nanci Haag Danelle Nikolaus Winford Streich Lanora Kautzer Tennie Connelly 2006 O Pioneers!"/>
+    <paras id="c66f2c23-d69d-4b82-b85c-02e0aca0d0d9" content="[e91] TechReport The Mermaids Singing Clayton Satterfield 2015"/>
+    <paras id="9c90b88a-a035-4535-a404-c1a1807e4a63" content="[e92] InBook The Way Through the Woods Berta Welch Tyson Beatty Dierdre Cummerata Ms. Pat Predovic Mckinley Herzog 2010 Viking Press 11"/>
+    <paras id="02639f55-cbf1-42f2-8583-3b20a9510b87" content="[e93] Manual Fear and Trembling"/>
+    <paras id="00f1c8e5-57ea-4d60-a2bb-5650e66573e3" content="[e94] InBook The Last Enemy Gertrude Paucek 2005 Palgrave Macmillan 29"/>
+    <paras id="4621cebf-7042-4415-9785-bc68b5237cc6" content="[e95] InBook Number the Stars Jewell Sipes V Reyes Hickle Eddie Hermann V 1999 Canongate Books 27"/>
+    <paras id="555d2c79-b12e-44cd-af3f-58a9e3387410" content="[e96] Manual The Moving Finger"/>
+    <paras id="c0f9ab3e-9663-4675-83c3-f0e5ecb355e9" content="[e97] PhDThesis The Waste Land Danita Brown DDS Mrs. Lilliana Willms Dr. Chang Greenholt Barabara O'Kon Kerry Bergnaum Dan Williamson Dr. Penney Osinski Daphine Steuber Miss Greg Crona Ms. Tanner Hansen 2002 North Iowa University"/>
+    <paras id="6450ee38-58c9-45bd-ab44-3c82774126ba" content="[e98] InCollection Such, Such Were the Joys Isaiah O'Kon Alton Kub V Eloy Harber Sarina Raynor MD Garland Reynolds Miss Diedre Gislason 2014 Edna O'Brien Virgin Publishing"/>
+    <paras id="0d84b7c6-1948-4a8c-b3ea-8740ff39777e" content="[e99] InBook Dulce et Decorum Est Jacelyn Casper Cornelius D'Amore Glenn Stiedemann Micheal Auer 2013 Carnegie Mellon University Press 1"/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="docb:Sect1" id="se3" title="Titles List">
+    <paras id="45638348-f432-4d18-b30a-0b565877d257" content="A Catskill Eagle"/>
+    <paras id="9afa923d-a42a-496f-83b8-fb3de815328b" content="A Confederacy of Dunces"/>
+    <paras id="e3a8b309-032d-4869-9f38-f9605c65c1c6" content="A Darkling Plain"/>
+    <paras id="aa0cf342-8cdf-45d2-a291-8d26226d2441" content="A Handful of Dust"/>
+    <paras id="a5ef0011-ff8e-483b-953d-91400c70f87b" content="A Passage to India"/>
+    <paras id="e7e6fa1d-b868-40f8-8044-2e7d1e1a6d4a" content="All Passion Spent"/>
+    <paras id="9751d35e-6bda-4e26-9914-57295c8813cd" content="An Acceptable Time"/>
+    <paras id="3b0d3399-763e-4059-b4ab-633d3a2e19c2" content="An Evil Cradling"/>
+    <paras id="76cdb500-dd2c-4cc9-88ec-dc31a43455b4" content="An Instant In The Wind"/>
+    <paras id="a01033bd-c665-4e74-9912-dde792b03d73" content="As I Lay Dying"/>
+    <paras id="67ee65f6-6cbc-43cf-a03b-691511834fd4" content="Beyond the Mexique Bay"/>
+    <paras id="a1e582da-637e-4d48-8566-1dcede651649" content="Blithe Spirit"/>
+    <paras id="55f31cec-98c7-4bca-8a7e-7e2103f538ad" content="Bury My Heart at Wounded Knee"/>
+    <paras id="1893fd87-c38c-4cd8-8e54-f8fb53ab7ffa" content="Butter In a Lordly Dish"/>
+    <paras id="6ae53f7b-cee2-49e4-813c-c23224290708" content="Cabbages and Kings"/>
+    <paras id="57335816-538a-4624-a1c0-b537bf390572" content="Carrion Comfort"/>
+    <paras id="79720396-9d2e-44a1-b085-ef4fe445745b" content="Cover Her Face"/>
+    <paras id="b4f98968-2529-4bc6-97f5-00d053a2a724" content="Dulce et Decorum Est"/>
+    <paras id="934935d1-4a54-452e-8a53-a44d6dcd2bf4" content="Dying of the Light"/>
+    <paras id="a8d3ed80-4b8a-4635-947b-da5470e1f64e" content="East of Eden"/>
+    <paras id="14b59a3c-8e0b-4dbf-8302-a765ac2be440" content="Endless Night"/>
+    <paras id="d97d80d4-509d-4b15-bd63-aee9c67b3914" content="Everything is Illuminated"/>
+    <paras id="52e98720-5e2c-48f5-99c3-a844d835e697" content="Fair Stood the Wind for France"/>
+    <paras id="b40ca92c-29cd-4035-9112-cad90cd09b07" content="Fear and Trembling"/>
+    <paras id="09924c74-6563-4d4b-8af2-e3e42a76f8ec" content="From Here to Eternity"/>
+    <paras id="c4c26977-654b-4ef6-9a76-10cb5849b7ef" content="Gone with the Wind"/>
+    <paras id="d7bd6689-d2d1-47f9-837e-d6806dbfa7a4" content="I Know Why the Caged Bird Sings"/>
+    <paras id="37b3cfbd-05a6-49ca-8a8d-6bde7aad81a4" content="If I Forget Thee Jerusalem"/>
+    <paras id="141b4274-339c-4c38-b3bd-388cd1e71800" content="In Death Ground"/>
+    <paras id="144bf323-4163-41d7-8e05-b30a31aa6b30" content="In a Dry Season"/>
+    <paras id="3e6f815f-94cf-4ed1-92c2-ace33b6711ee" content="In a Glass Darkly"/>
+    <paras id="3e12d16b-0f87-4106-86fa-84342e709074" content="Jacob Have I Loved"/>
+    <paras id="6dfc63a4-3bcd-4fd2-a227-7739374c2243" content="Lilies of the Field"/>
+    <paras id="f0cb1266-a169-4149-9081-53c168bce441" content="Mr Standfast"/>
+    <paras id="5fc109a7-9fa1-4bd7-a061-f5606f1c92d3" content="Nine Coaches Waiting"/>
+    <paras id="e7969fe2-2b7c-452c-9c77-15c5eceacb25" content="No Country for Old Men"/>
+    <paras id="775de71d-d8b6-4762-b54a-383701dd390d" content="Now Sleeps the Crimson Petal"/>
+    <paras id="b10e80c0-0d34-4152-9645-614849bc816a" content="Number the Stars"/>
+    <paras id="e83bdd27-52eb-411e-ace6-d32ba9dd95ed" content="Postern of Fate"/>
+    <paras id="4f517408-f513-4440-8f91-721391ca5a63" content="Quo Vadis"/>
+    <paras id="27006150-3591-4715-a472-9b53f7d3504f" content="Recalled to Life"/>
+    <paras id="e22e8b21-aa7f-4612-9177-57fdda52e713" content="Sleep the Brave"/>
+    <paras id="249b3170-a35e-4db2-8316-51f5c09f13e9" content="Such, Such Were the Joys"/>
+    <paras id="dcd8029f-1518-4daa-b0d7-619bb1fa2508" content="Surprised by Joy"/>
+    <paras id="5dc27d3d-b720-4f44-bb28-f6eb2a08b29c" content="Taming a Sea Horse"/>
+    <paras id="80e8e66f-08ae-4a60-a3d2-350ad493b5e8" content="The Cricket on the Hearth"/>
+    <paras id="aaa9bc65-a8bd-4e75-8a22-3bd099a78ede" content="The Doors of Perception"/>
+    <paras id="dece55d1-80e7-403e-b328-403226b57d21" content="The Glory and the Dream"/>
+    <paras id="d1d0d3e9-4045-43da-8f38-0f6091407d63" content="The Grapes of Wrath"/>
+    <paras id="a5a844b8-a7ee-441b-a3d5-9307aff04ea3" content="The House of Mirth"/>
+    <paras id="884996f6-b1cc-4179-9b13-2fcce8a822cf" content="The Last Enemy"/>
+    <paras id="8ae11e03-e72f-4d7c-b739-2fc541ea341a" content="The Last Temptation"/>
+    <paras id="7c1d0554-fdf2-4053-bc8a-1045420e2c1b" content="The Line of Beauty"/>
+    <paras id="20ebdc68-1263-4c3e-9f6e-95b2e0123f4d" content="The Little Foxes"/>
+    <paras id="2086b323-f1f8-44ed-90aa-c63a75912cd2" content="The Man Within"/>
+    <paras id="17114fad-1d89-452b-a348-850d48a050ad" content="The Mermaids Singing"/>
+    <paras id="6fd0e137-5dc7-4c9e-9b76-7c881d5ed15f" content="The Millstone"/>
+    <paras id="518efc18-50bc-4424-bb5b-5cdb22c88ab6" content="The Mirror Crack'd from Side to Side"/>
+    <paras id="03152584-8aa7-470b-a235-48ca80a43a8c" content="The Moving Finger"/>
+    <paras id="74dd00ac-c54f-43fb-8dea-03d1efb0ce5a" content="The Proper Study"/>
+    <paras id="9a35f612-301c-4f24-af02-6675c8e56e48" content="The Stars' Tennis Balls"/>
+    <paras id="fb668abb-b0ca-4cd1-8fed-b88db3026f6e" content="The Torment of Others"/>
+    <paras id="98950744-aa4a-43df-b7b9-870696d0f907" content="The Violent Bear It Away"/>
+    <paras id="c16cdfef-2b34-4a4e-9993-21c936c32b35" content="The Waste Land"/>
+    <paras id="a6c14803-0e69-4b9d-ba3a-e6c5b01d8a76" content="The Way Through the Woods"/>
+    <paras id="ff138813-5988-4b7d-8f1f-1d78ec0d3cbd" content="The Wealth of Nations"/>
+    <paras id="1c178bbd-6cae-4067-878a-b07d58bbd1f2" content="The Wives of Bath"/>
+    <paras id="9b0b6407-ace9-486a-b8c1-11b0e4cfb43e" content="The Yellow Meads of Asphodel"/>
+    <paras id="e99f19a0-9ba9-4ef7-b79b-05c843704a1a" content="This Lime Tree Bower"/>
+    <paras id="5ed6b8ad-7591-4c5f-9d47-b1e3f99dd988" content="Time To Murder And Create"/>
+    <paras id="cf4df4a1-0d04-4e82-8fe6-a566d69b2bc9" content="To Say Nothing of the Dog"/>
+    <paras id="0b5fd456-c2b4-41dc-8ed4-df373a9e89e7" content="To a God Unknown"/>
+    <paras id="6a91522c-3cc0-4c40-badc-7cb97edd20b2" content="Waiting for the Barbarians"/>
+    <paras id="984e8316-9eb5-4758-996d-a19c69620615" content="What's Become of Waring"/>
+    <paras id="14ec159b-7cdc-493d-af18-38c512862569" content="When the Green Woods Laugh"/>
+    <paras id="f23ba8c2-fca5-43be-ad69-7d29c3ac15c2" content="Where Angels Fear to Tread"/>
+  </objectsToAttach>
 </change:ChangeDescription>

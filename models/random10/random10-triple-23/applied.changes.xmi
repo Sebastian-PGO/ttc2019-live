@@ -3,15 +3,18 @@
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges index="27" referenceValues="//@objectsToAttach.0"/>
+      <listChanges kind="REMOVE" index="27"/>
     </value>
-    <value featureName="title" dataValue="Authors list. Ut eius neque porro sed accusantium quibusdam. Beatae autem ad. Deserunt quia rerum quo totam."/>
+    <value featureName="title" dataValue="Authors list"/>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="REMOVE" index="3"/>
+      <listChanges index="3" referenceValues="se4"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" content="Non adipisci quisquam. Eos labore officia ea necessitatibus nulla. In fuga vel doloribus quia. Possimus ut eligendi labore neque sunt. Deleniti veritatis nemo officia non."/>
+  <objectsToAttach xsi:type="docb:Sect1" id="se4" title="Journals List">
+    <paras id="7ca417d9-9329-457c-840b-9bf7d8d6dfab" content="A Time of Gifts"/>
+    <paras id="c28517bf-b78f-49eb-98b2-0b81dfce9049" content="Sleep the Brave"/>
+  </objectsToAttach>
 </change:ChangeDescription>

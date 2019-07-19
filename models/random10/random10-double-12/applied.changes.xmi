@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#c6ff8778-17cc-486f-a22c-15def70f466f"/>
-    <value featureName="content" dataValue="Merissa Johns. Facilis fuga minima laboriosam enim quos beatae blanditiis. Ut quia iste totam."/>
+    <value featureName="content" dataValue="Merissa Johns"/>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="20"/>
+      <listChanges index="20" referenceValues="d9927edc-d9aa-49a0-a1d4-905046469636"/>
     </value>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" id="d9927edc-d9aa-49a0-a1d4-905046469636" content="Javier Berge"/>
 </change:ChangeDescription>

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
     <key href="mutated.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="MOVE" index="1" moveToIndex="3"/>
-      <listChanges kind="MOVE" index="1"/>
+      <listChanges kind="MOVE" index="0" moveToIndex="1"/>
+      <listChanges kind="MOVE" index="3" moveToIndex="1"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se4"/>
     <value featureName="paras">
-      <listChanges index="7" referenceValues="//@objectsToAttach.0"/>
+      <listChanges kind="REMOVE" index="7"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" content="Sit vitae et qui autem et. Qui laboriosam voluptatem. Quo fugiat quasi dolorum ducimus soluta dolores. Harum sunt rerum officiis."/>
 </change:ChangeDescription>

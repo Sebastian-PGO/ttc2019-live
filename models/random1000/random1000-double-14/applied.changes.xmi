@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="767"/>
-      <listChanges kind="MOVE" index="4019" moveToIndex="3330"/>
+      <listChanges kind="MOVE" index="3330" moveToIndex="4019"/>
+      <listChanges index="767" referenceValues="35671a2b-3fc4-4ea7-a62f-5ed5bc00f8d6"/>
     </value>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" id="35671a2b-3fc4-4ea7-a62f-5ed5bc00f8d6" content="Danny Kuvalis"/>
 </change:ChangeDescription>

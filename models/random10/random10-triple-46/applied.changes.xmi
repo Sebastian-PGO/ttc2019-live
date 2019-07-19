@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#599575a5-c170-485f-97bf-a0157666eded"/>
-    <value featureName="content" dataValue="Jewell Labadie DDS. Quibusdam quod iste ipsum amet. Inventore repellat est aut consequatur."/>
+    <value featureName="content" dataValue="Jewell Labadie DDS"/>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="REMOVE" index="3"/>
-      <listChanges kind="REMOVE" index="0"/>
+      <listChanges index="0" referenceValues="se1"/>
+      <listChanges index="3" referenceValues="se4"/>
     </value>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Sect1" id="se1" title="References List">
+    <paras id="7eaac20d-a518-4af3-9fd6-9167e0ee6e65" content="[e0] Proceedings The Lathe of Heaven 2019"/>
+    <paras id="958be8c5-a7b8-4a67-b8d1-25062fef92d1" content="[e1] InProceedings A Darkling Plain Armando Conn Sr. Malcom Thiel Abram Carter III Allan Anderson Mikel Homenick Donald Robel Mrs. Abram Greenfelder 2007 Brandy of the Damned"/>
+    <paras id="ecc9cae1-2fb7-4fb8-9797-6fccfb6b43a3" content="[e2] Article A Glass of Blessings Lesley Johns Alejandro Roob Sung Mertz Merissa Johns Ian Jerde Janise Schneider Augustine Mueller V Cecelia Schumm 2017 Sleep the Brave"/>
+    <paras id="7ee252c0-ab4e-4576-b3e0-952edb007a19" content="[e3] PhDThesis Where Angels Fear to Tread Ethan Marvin Rufina Walter Javier Berge Normand Jacobson Hosea Marks Jeanice Hoeger Andrea Marvin DVM 2000 Western Mraz Academy"/>
+    <paras id="2be7a5f1-04f9-4f28-b21f-10d71f2ace1d" content="[e4] Article Fair Stood the Wind for France Mr. Catarina McKenzie Gemma Sanford DVM Rochel Mitchell 2015 A Time of Gifts"/>
+    <paras id="32e3478b-dce2-4ab2-8462-9149958474af" content="[e5] Manual By Grand Central Station I Sat Down and Wept"/>
+    <paras id="d14b8457-f526-4511-bb2f-4c806cd96713" content="[e6] TechReport A Confederacy of Dunces Francesca O'Conner Dulce Zieme Jr. Winter Hodkiewicz Noemi Simonis Clemmie Ward Lewis Schneider Chung Hammes Shara Kohler I Ema Wilkinson Maggie Huels 2016"/>
+    <paras id="b3bf55d2-4999-44cf-a591-6de8a4c6e783" content="[e7] Manual This Lime Tree Bower"/>
+    <paras id="cfde3bbf-492c-46d3-9af3-7c47c899e8db" content="[e8] PhDThesis The Millstone Ayana Towne Jewell Labadie DDS Karry Legros Nadia Cole Lindsey Rogahn Josiah Hudson Glinda Rodriguez 2008 Eastern Morar Institute"/>
+    <paras id="4be42888-4a79-478d-ab1e-8034fd8b11c5" content="[e9] InProceedings Look Homeward, Angel Karyl Stehr Williemae Block 2002 Far From the Madding Crowd"/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="docb:Sect1" id="se4" title="Journals List">
+    <paras id="7ca417d9-9329-457c-840b-9bf7d8d6dfab" content="A Time of Gifts"/>
+    <paras id="c28517bf-b78f-49eb-98b2-0b81dfce9049" content="Sleep the Brave"/>
+  </objectsToAttach>
 </change:ChangeDescription>

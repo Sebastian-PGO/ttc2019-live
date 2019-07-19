@@ -1,9 +1,94 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="REMOVE" index="3"/>
+      <listChanges index="3" referenceValues="se4"/>
     </value>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Sect1" id="se4" title="Journals List">
+    <paras id="a1b56601-d4a3-4bca-acd9-ffec723a913f" content="A Catskill Eagle"/>
+    <paras id="9a21112d-5794-4ece-bbfc-6c14179f8d30" content="A Confederacy of Dunces"/>
+    <paras id="0f427fca-d184-4bf0-98bf-dea32c54b927" content="A Darkling Plain"/>
+    <paras id="f430c1e4-742c-436b-b52c-5371cfc2db2c" content="A Summer Bird-Cage"/>
+    <paras id="adc6cfcf-d069-4aaa-a726-d38890b7c172" content="Absalom, Absalom!"/>
+    <paras id="72534cae-e94c-4ff5-89b3-83c510ded7e9" content="Ah, Wilderness!"/>
+    <paras id="f7356a67-aece-4e4b-8b57-57dd4a721f6d" content="All Passion Spent"/>
+    <paras id="1d33d852-adb2-41ef-ba91-fc3c7be1897c" content="An Acceptable Time"/>
+    <paras id="dbb10a54-a4a0-49da-b96a-38ca2ce6632a" content="An Evil Cradling"/>
+    <paras id="5d437fe2-d248-428c-980a-9703aae9499d" content="Behold the Man"/>
+    <paras id="92847d09-60e2-4e91-a671-74f786a96b68" content="Beneath the Bleeding"/>
+    <paras id="70fe1883-f54c-42de-be53-0cf75e0e7f06" content="Blithe Spirit"/>
+    <paras id="bbd80c47-b3e3-47d0-9bdb-182203e2b798" content="Brandy of the Damned"/>
+    <paras id="cd3bde86-b2c2-42d3-96c4-4ec49fbef059" content="By Grand Central Station I Sat Down and Wept"/>
+    <paras id="e8e666f5-c442-44c3-a8b0-39f1e47057b4" content="Clouds of Witness"/>
+    <paras id="3ea66361-e0ca-4b43-bbda-4ae54ef60d5a" content="Dulce et Decorum Est"/>
+    <paras id="f25384b0-1f73-4bdd-8783-1552d3d5c0d7" content="Dying of the Light"/>
+    <paras id="5656a440-696c-4a14-9ee9-5ae690854460" content="Ego Dominus Tuus"/>
+    <paras id="685cd6a7-4d08-4ace-8abd-b7553b3569f0" content="Endless Night"/>
+    <paras id="9b931cd1-6b22-4fc5-a7eb-eae67ad96e5b" content="Eyeless in Gaza"/>
+    <paras id="25049dc2-1c18-42fa-8cc1-05ccf36c9675" content="Fair Stood the Wind for France"/>
+    <paras id="3f5517b2-30d3-4e7c-873a-a77d17671eac" content="Fame Is the Spur"/>
+    <paras id="1c408737-01da-4f0a-bbf8-4ffcba1b04ef" content="Far From the Madding Crowd"/>
+    <paras id="952807b2-6ed1-4afc-b9e9-10dcd4bdc046" content="For Whom the Bell Tolls"/>
+    <paras id="e2a44ef2-3c08-4905-86c3-84e9eee7420a" content="For a Breath I Tarry"/>
+    <paras id="152cd62c-2936-4dbb-a73f-abf22bb19602" content="Fran&#xe7;oise Sagan"/>
+    <paras id="234285b4-ee96-43a8-b9bb-b5ebfe51547f" content="From Here to Eternity"/>
+    <paras id="f62e6e8e-5557-48cc-8637-9dc85e35d4dc" content="Gone with the Wind"/>
+    <paras id="ee02a981-2681-430b-b9be-3966c490595b" content="Great Work of Time"/>
+    <paras id="96ce9760-6004-4905-97e5-176d45679085" content="Have His Carcase"/>
+    <paras id="f03051c8-a782-42df-bd64-e615bb9d4cba" content="Infinite Jest"/>
+    <paras id="ac1bee3c-e7bb-45cd-bc8b-40e514192cbc" content="Jesting Pilate"/>
+    <paras id="6068e207-667a-48c6-bed2-baf2a22d679b" content="Little Hands Clapping"/>
+    <paras id="26e24538-c69d-4504-8d38-30b7c45f831c" content="Look Homeward, Angel"/>
+    <paras id="163c96a0-fddd-4337-8358-f74b686753db" content="Many Waters"/>
+    <paras id="361e5f20-8179-4a07-aa52-d33145b9b231" content="Mother Night"/>
+    <paras id="944800c3-3f98-4143-87ad-03a97fc07bc8" content="Mr Standfast"/>
+    <paras id="716c91d2-0dd3-450b-a558-630bd654c165" content="Nectar in a Sieve"/>
+    <paras id="1b68f4d0-55ce-4aa8-a67b-79f71a8f5b43" content="No Country for Old Men"/>
+    <paras id="29c95038-df36-4097-b5b0-a507818f8a5c" content="Noli Me Tangere"/>
+    <paras id="c2eed266-589c-41be-9bf7-de0a11dc7024" content="Number the Stars"/>
+    <paras id="cb071e75-1842-4753-bbf7-a1a5d29afbd1" content="Of Human Bondage"/>
+    <paras id="ba57c58e-9cc0-4719-9450-908230685bff" content="Precious Bane"/>
+    <paras id="09672060-062f-4fd6-b45e-35d9cc944c25" content="Quo Vadis"/>
+    <paras id="c120cc1a-41ec-40bd-9273-aa29d45141bb" content="Recalled to Life"/>
+    <paras id="95a0636e-9ed8-4c8f-8aa8-8f7a62135f2e" content="Ring of Bright Water"/>
+    <paras id="ed449d59-bac1-44fe-8c8c-a2561fbf99a7" content="Shall not Perish"/>
+    <paras id="a609e28a-9ea6-4bec-bcdf-1db8304afcae" content="Sleep the Brave"/>
+    <paras id="48dfca14-7c60-427e-a700-9a1407b7f8cc" content="Specimen Days"/>
+    <paras id="fc9197de-d8c6-4605-b6ac-997d199d5482" content="Such, Such Were the Joys"/>
+    <paras id="cc4a27d3-6cb9-4fa0-888a-81c52856a0e6" content="Terrible Swift Sword"/>
+    <paras id="27fbc336-0be6-4013-ab77-f7dd50751904" content="The Cricket on the Hearth"/>
+    <paras id="f657ab50-c362-4b59-a46e-2212ba2b22ab" content="The Curious Incident of the Dog in the Night-Time"/>
+    <paras id="ffc544c0-2980-4e77-8ba1-2c8f38d325a9" content="The Doors of Perception"/>
+    <paras id="de215084-5e9c-4156-bbd5-b474bb67c5e3" content="The Golden Bowl"/>
+    <paras id="df3b967d-d4aa-4031-92c8-03826122d7d2" content="The Heart Is Deceitful Above All Things"/>
+    <paras id="91e8c881-084f-4041-a660-057bfac73a83" content="The House of Mirth"/>
+    <paras id="f766c5b7-64c9-483b-bfcf-e948c65e5dff" content="The Last Enemy"/>
+    <paras id="6726a036-c34c-4c9c-92f6-54b243738c7a" content="The Line of Beauty"/>
+    <paras id="e73b021d-1afc-4d21-9442-60f2086763e1" content="The Mermaids Singing"/>
+    <paras id="d38787e9-f247-4b60-a654-e8fd166d773d" content="The Moon by Night"/>
+    <paras id="f84ffb42-43bc-4632-87f9-0aae571fee2c" content="The Moving Finger"/>
+    <paras id="be8c1bf6-cec7-4079-9fe1-faeb395350f3" content="The Needle's Eye"/>
+    <paras id="2e030824-b77a-4ed0-a606-c8bef61807f9" content="The Other Side of Silence"/>
+    <paras id="dafc64a6-4bd2-4755-8c55-19756f5fa448" content="The Painted Veil"/>
+    <paras id="f84093fe-005e-450e-9767-29f54aa4ae05" content="The Parliament of Man"/>
+    <paras id="d20862b7-d188-402d-a2ba-2a6a54c39f3d" content="The Road Less Traveled"/>
+    <paras id="51293cc2-a103-4093-8a8c-c7016de8f76a" content="The Torment of Others"/>
+    <paras id="f4e5d83e-9c72-4763-a565-8e4e84b7fd10" content="The Widening Gyre"/>
+    <paras id="fa556b72-54b4-4786-9d99-1e38b46eb63c" content="The Wind's Twelve Quarters"/>
+    <paras id="f65be7bb-72d2-429e-94c3-0e7267254291" content="The Wings of the Dove"/>
+    <paras id="17a58650-8d97-4fad-b9ee-e08d52c9342c" content="The Wives of Bath"/>
+    <paras id="cf611e63-95b0-40cf-8a21-f124abcb0ce6" content="The World, the Flesh and the Devil"/>
+    <paras id="ce36aedf-77ad-44c7-8be3-0fc8ace0acf3" content="The Yellow Meads of Asphodel"/>
+    <paras id="1464d7ed-382d-4bea-967d-957d9d85353b" content="Things Fall Apart"/>
+    <paras id="3f92650c-a782-4b93-8e13-a46db8988701" content="Tiger! Tiger!"/>
+    <paras id="14c1af4e-c6b1-4d7e-b322-6b35bebead4c" content="Tirra Lirra by the River"/>
+    <paras id="d520bb93-7d45-4ef8-95e7-ca64391e6b0b" content="To Say Nothing of the Dog"/>
+    <paras id="06cf3c71-f0f1-44bb-8209-114b993e75b9" content="To Your Scattered Bodies Go"/>
+    <paras id="aafaa1f7-c1a3-4d75-8425-a676fb84972d" content="To a God Unknown"/>
+    <paras id="411752a9-f57d-4269-a1b5-aa492851adc8" content="Vanity Fair"/>
+    <paras id="a8f2adc6-47e1-49bc-96f5-73acf9c2cb77" content="When the Green Woods Laugh"/>
+    <paras id="d0c3d80f-2b7a-413c-91ff-de0e82b94e2d" content="Wildfire at Midnight"/>
+  </objectsToAttach>
 </change:ChangeDescription>

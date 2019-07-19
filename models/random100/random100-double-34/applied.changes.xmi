@@ -3,11 +3,11 @@
   <objectChanges>
     <key href="mutated.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="MOVE" index="3" moveToIndex="2"/>
+      <listChanges kind="MOVE" index="2" moveToIndex="3"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se4"/>
-    <value featureName="title" dataValue="Journals List. Sit eos adipisci et repellat nobis. Voluptatum exercitationem eligendi quo quos quos corrupti."/>
+    <value featureName="title" dataValue="Journals List"/>
   </objectChanges>
 </change:ChangeDescription>

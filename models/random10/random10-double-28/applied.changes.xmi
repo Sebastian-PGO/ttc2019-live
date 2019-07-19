@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="31"/>
-      <listChanges kind="REMOVE" index="14"/>
+      <listChanges index="14" referenceValues="e091484a-fb29-4d70-aaaf-a3b95ce07582"/>
+      <listChanges index="31" referenceValues="c6ff8778-17cc-486f-a22c-15def70f466f"/>
     </value>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" id="e091484a-fb29-4d70-aaaf-a3b95ce07582" content="Francesca O'Conner"/>
+  <objectsToAttach xsi:type="docb:Para" id="c6ff8778-17cc-486f-a22c-15def70f466f" content="Merissa Johns"/>
 </change:ChangeDescription>

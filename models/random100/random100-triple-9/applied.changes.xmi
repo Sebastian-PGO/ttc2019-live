@@ -3,15 +3,15 @@
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="387" moveToIndex="444"/>
-      <listChanges index="82" referenceValues="//@objectsToAttach.0"/>
+      <listChanges kind="REMOVE" index="82"/>
+      <listChanges kind="MOVE" index="444" moveToIndex="387"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se1"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="12"/>
+      <listChanges index="12" referenceValues="4445b2e2-9f69-4512-b970-14e369a2081d"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" content="Cumque labore enim id. Quaerat explicabo voluptas et ducimus totam voluptatum et. Quasi praesentium debitis quo debitis sint."/>
+  <objectsToAttach xsi:type="docb:Para" id="4445b2e2-9f69-4512-b970-14e369a2081d" content="[e2] InProceedings The Man Within Mr. Romaine Borer Vicente Kuhn PhD Dr. Raymundo Gerhold Jefferey VonRueden 2007 The Painted Veil"/>
 </change:ChangeDescription>

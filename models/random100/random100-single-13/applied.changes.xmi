@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="103"/>
+      <listChanges index="103" referenceValues="dec76323-a7bd-4998-beb1-edc8d8524d1e"/>
     </value>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" id="dec76323-a7bd-4998-beb1-edc8d8524d1e" content="Dona Brakus"/>
 </change:ChangeDescription>

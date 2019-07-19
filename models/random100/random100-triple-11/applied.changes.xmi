@@ -3,15 +3,15 @@
   <objectChanges>
     <key href="mutated.docbook#se1"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="4"/>
-      <listChanges index="5" referenceValues="//@objectsToAttach.0"/>
+      <listChanges kind="REMOVE" index="5"/>
+      <listChanges index="4" referenceValues="42490035-cfe6-429f-b3a9-e1505868eb99"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="MOVE" index="0" moveToIndex="3"/>
+      <listChanges kind="MOVE" index="3"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" content="Ea nobis quia id quo. Et consequatur earum quaerat laborum quo sed. Et ut quidem itaque. Eos consequatur et voluptatem."/>
+  <objectsToAttach xsi:type="docb:Para" id="42490035-cfe6-429f-b3a9-e1505868eb99" content="[e12] InProceedings The Stars' Tennis Balls Charlette Ratke Omar Grant Shaunte Littel Angelina White DDS Dana Kovacek Jospeh Jast Vivian Gleason Julio Thompson Velva Beatty George Parker 2002 Endless Night"/>
 </change:ChangeDescription>

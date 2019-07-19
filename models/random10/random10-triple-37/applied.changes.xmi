@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="MOVE" index="1"/>
+      <listChanges kind="MOVE" index="0" moveToIndex="1"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se3"/>
-    <value featureName="title" dataValue="Titles List. Aut quibusdam molestiae doloremque. Iusto ab autem eos aut est."/>
+    <value featureName="title" dataValue="Titles List"/>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se1"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="1"/>
+      <listChanges index="1" referenceValues="958be8c5-a7b8-4a67-b8d1-25062fef92d1"/>
     </value>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" id="958be8c5-a7b8-4a67-b8d1-25062fef92d1" content="[e1] InProceedings A Darkling Plain Armando Conn Sr. Malcom Thiel Abram Carter III Allan Anderson Mikel Homenick Donald Robel Mrs. Abram Greenfelder 2007 Brandy of the Damned"/>
 </change:ChangeDescription>

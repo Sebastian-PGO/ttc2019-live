@@ -3,20 +3,20 @@
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="3757"/>
+      <listChanges index="3757" referenceValues="b47c3ba9-8c84-4004-9d8b-e92f35d7f3b0"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se1"/>
     <value featureName="paras">
-      <listChanges index="104" referenceValues="//@objectsToAttach.0"/>
+      <listChanges kind="REMOVE" index="104"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="MOVE" index="0" moveToIndex="3"/>
+      <listChanges kind="MOVE" index="3"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" content="Ea nobis quia id quo. Et consequatur earum quaerat laborum quo sed. Et ut quidem itaque. Eos consequatur et voluptatem."/>
+  <objectsToAttach xsi:type="docb:Para" id="b47c3ba9-8c84-4004-9d8b-e92f35d7f3b0" content="Shelton Brekke DDS"/>
 </change:ChangeDescription>

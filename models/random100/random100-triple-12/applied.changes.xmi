@@ -3,11 +3,10 @@
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="89"/>
-      <listChanges index="391" referenceValues="//@objectsToAttach.1"/>
-      <listChanges index="372" referenceValues="//@objectsToAttach.0"/>
+      <listChanges kind="REMOVE" index="372"/>
+      <listChanges kind="REMOVE" index="391"/>
+      <listChanges index="89" referenceValues="99d5e9a9-ba2c-4e41-b947-227330a78be0"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" content="Quia occaecati expedita omnis. Provident magni doloribus ab aut maxime. Voluptatibus qui aut earum explicabo nulla et. Laudantium modi cum sed et blanditiis. Dolorem quo accusamus ullam quisquam."/>
-  <objectsToAttach xsi:type="docb:Para" content="Ipsum quo totam. Quia accusamus cupiditate officiis fugit ea et. Id rerum tempora expedita sed. At enim fuga. Id qui iusto earum tenetur et ad."/>
+  <objectsToAttach xsi:type="docb:Para" id="99d5e9a9-ba2c-4e41-b947-227330a78be0" content="Dante Davis"/>
 </change:ChangeDescription>

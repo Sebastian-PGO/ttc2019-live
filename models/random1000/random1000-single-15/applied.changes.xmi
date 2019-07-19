@@ -3,7 +3,7 @@
   <objectChanges>
     <key href="mutated.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="1812" moveToIndex="3576"/>
+      <listChanges kind="MOVE" index="3576" moveToIndex="1812"/>
     </value>
   </objectChanges>
 </change:ChangeDescription>

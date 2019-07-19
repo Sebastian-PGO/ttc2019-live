@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
     <key href="mutated.docbook#se3"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="7"/>
+      <listChanges index="7" referenceValues="3b0d3399-763e-4059-b4ab-633d3a2e19c2"/>
     </value>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#8ae11e03-e72f-4d7c-b739-2fc541ea341a"/>
-    <value featureName="content" dataValue="The Last Temptation. Exercitationem rerum velit reprehenderit doloremque ad eligendi. Quod dolor quis."/>
+    <value featureName="content" dataValue="The Last Temptation"/>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#095e187b-1d73-4de4-81d3-06a5dc402f92"/>
-    <value featureName="content" dataValue="Miss Seth Mohr. Voluptatem eligendi fugiat qui sapiente voluptate debitis quis. Quod aspernatur sit. Ut occaecati eveniet occaecati voluptatem debitis."/>
+    <value featureName="content" dataValue="Miss Seth Mohr"/>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" id="3b0d3399-763e-4059-b4ab-633d3a2e19c2" content="An Evil Cradling"/>
 </change:ChangeDescription>

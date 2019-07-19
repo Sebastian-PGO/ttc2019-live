@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
     <key href="mutated.docbook#6afc59b4-204a-48fe-adc7-35705fd63526"/>
-    <value featureName="content" dataValue="Arron Casper DDS. Fugiat similique accusantium ducimus."/>
+    <value featureName="content" dataValue="Arron Casper DDS"/>
   </objectChanges>
   <objectChanges>
     <key href="mutated.docbook#se3"/>
     <value featureName="paras">
-      <listChanges index="111" referenceValues="//@objectsToAttach.0"/>
+      <listChanges kind="REMOVE" index="111"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" content="Sit nesciunt autem quaerat. At commodi cum quis qui iure. Consequatur reprehenderit hic ut assumenda sint saepe. Officiis recusandae repellendus est sed architecto illo autem."/>
 </change:ChangeDescription>
