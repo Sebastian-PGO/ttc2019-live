@@ -33,4 +33,5 @@ target
 
 # Run outputs
 output/output.csv
+/diagrams
 .Rproj.user

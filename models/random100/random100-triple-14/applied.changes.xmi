@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#ab99ce2d-ab86-4696-a2dc-bcb796babafb"/>
+    <value featureName="content" dataValue="[e83] PhDThesis The Violent Bear It Away Theron Greenholt Jr. Elvin Bernhard Verlene Bergstrom Jarod Schulist Jewell Ondricka Heath Mante DVM Mariko Emmerich Miss Johana Jones Eldridge Armstrong Rafael Streich DDS 2017 Northern Kemmer. Ullam rem ducimus consequuntur praesentium asperiores rem. Laboriosam pariatur ab aspernatur dolorum et."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#//@books.0/@articles.0"/>
+    <value featureName="sections_1">
+      <listChanges kind="REMOVE" index="1"/>
+      <listChanges kind="MOVE" index="2" moveToIndex="1"/>
+    </value>
+  </objectChanges>
+</change:ChangeDescription>

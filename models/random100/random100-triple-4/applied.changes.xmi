@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#baff2c98-412c-49b7-ab6a-47a06250ba40"/>
+    <value featureName="content" dataValue="Angelina White DDS. Soluta ullam sed voluptatum fugit dolorem dolores nostrum."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#se1"/>
+    <value featureName="paras">
+      <listChanges kind="MOVE" index="94" moveToIndex="19"/>
+    </value>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#//@books.0/@articles.0"/>
+    <value featureName="sections_1">
+      <listChanges kind="REMOVE" index="3"/>
+    </value>
+  </objectChanges>
+</change:ChangeDescription>

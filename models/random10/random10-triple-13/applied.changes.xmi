@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#cd82a239-4826-445a-94eb-5e912aa5f75b"/>
+    <value featureName="content" dataValue="Cecelia Schumm. Quod consectetur rerum architecto nemo quisquam aliquid. Qui consequatur recusandae a."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#se2"/>
+    <value featureName="paras">
+      <listChanges kind="MOVE" index="22" moveToIndex="41"/>
+    </value>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#//@books.0/@articles.0"/>
+    <value featureName="sections_1">
+      <listChanges kind="MOVE" index="3" moveToIndex="2"/>
+    </value>
+  </objectChanges>
+</change:ChangeDescription>

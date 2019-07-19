@@ -11,12 +11,14 @@
       "Fulib",
       "EMFSolutionXtend",
       "EMFSolutionXtendFollowingEVL",
-      "EMFSolutionAOF"
+      "EMFSolutionAOF",
+      "ttc2019.live.EMFSolutionYAMTL",
+      "ttc2019.live.EMFSolutionYAMTL.full"
   ],
   "ChangeSets": [
     "single", "double", "triple"
   ],
-  "Mutants": 50,
-  "Runs": 3,
-  "Timeout": 600
+  "Mutants": 10,
+  "Runs": 1,
+  "Timeout": 6000
 }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+  <objectChanges>
+    <key href="mutated.docbook#d14b8457-f526-4511-bb2f-4c806cd96713"/>
+    <value featureName="content" dataValue="[e6] TechReport A Confederacy of Dunces Francesca O'Conner Dulce Zieme Jr. Winter Hodkiewicz Noemi Simonis Clemmie Ward Lewis Schneider Chung Hammes Shara Kohler I Ema Wilkinson Maggie Huels 2016. Est eveniet sed dolorum."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#se4"/>
+    <value featureName="paras">
+      <listChanges index="1" referenceValues="//@objectsToAttach.0"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" content="Qui qui cum. Sint natus nihil quidem maxime neque inventore. Iusto ad ipsum aut nemo."/>
+</change:ChangeDescription>
