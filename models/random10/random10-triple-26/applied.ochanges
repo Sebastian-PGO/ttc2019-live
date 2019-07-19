@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:AttributePropertyChange" newValue="References List. Maxime a quia id laborum nobis. Voluptatem voluptas molestiae voluptate voluptatibus voluptas." oldValue="References List">
+    <affectedElement href="../../random10.docbook#se1"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Authors list. Doloremque in nostrum omnis. Non consequuntur dolorem officia commodi ipsam amet." oldValue="Authors list">
+    <affectedElement href="../../random10.docbook#se2"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="[e4] Article Fair Stood the Wind for France Mr. Catarina McKenzie Gemma Sanford DVM Rochel Mitchell 2015 A Time of Gifts. Iusto aut excepturi facere autem quo quisquam." oldValue="[e4] Article Fair Stood the Wind for France Mr. Catarina McKenzie Gemma Sanford DVM Rochel Mitchell 2015 A Time of Gifts">
+    <affectedElement href="../../random10.docbook#2be7a5f1-04f9-4f28-b21f-10d71f2ace1d"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+</changes:ModelChangeSet>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionListDeletion" index="181">
+    <affectedElement href="../../random1000.docbook#se3"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random1000.docbook#e89a46fe-1069-44ae-b674-f4f8b4f35bff"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Shonta Zemlak. Exercitationem rerum velit reprehenderit doloremque ad eligendi. Quod dolor quis." oldValue="Shonta Zemlak">
+    <affectedElement href="../../random1000.docbook#73ff89dc-fd3d-407b-9433-9426ea1a8ca7"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Renato Schneider. Voluptatem eligendi fugiat qui sapiente voluptate debitis quis. Quod aspernatur sit. Ut occaecati eveniet occaecati voluptatem debitis." oldValue="Renato Schneider">
+    <affectedElement href="../../random1000.docbook#040f59bb-4e59-48ab-ab3d-534ad920ef5b"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+</changes:ModelChangeSet>

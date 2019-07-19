@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Journals List. Eveniet magni modi sint. Et non similique. Ipsam reprehenderit et quasi." oldValue="Journals List">
+    <affectedElement href="../../random10.docbook#se4"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
+  </changes>
+  <changes xsi:type="changes:CompositionListInsertion" index="24">
+    <affectedElement href="../../random10.docbook#se2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <addedElement xsi:type="docb:Para" content="Qui reprehenderit corporis at aut neque sint. Facere consequuntur magni. Nulla dicta et magnam aspernatur placeat hic omnis. Est deleniti omnis id nostrum officiis. Consequuntur quaerat dignissimos nihil sit."/>
+  </changes>
+  <changes xsi:type="changes:CompositionMoveToList" index="30">
+    <affectedElement href="../../random10.docbook#se2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <movedElement href="../../random10.docbook#5fd239e6-861e-420e-9991-9105d257852e"/>
+  </changes>
+</changes:ModelChangeSet>

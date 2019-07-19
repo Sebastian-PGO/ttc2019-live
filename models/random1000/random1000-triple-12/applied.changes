@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionListDeletion" index="288">
+    <affectedElement href="../../random1000.docbook#se2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random1000.docbook#4eaab52d-d5a1-42e1-b5ca-fd9b4e9a1062"/>
+  </changes>
+  <changes xsi:type="changes:CompositionListInsertion" index="797">
+    <affectedElement href="../../random1000.docbook#se2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <addedElement xsi:type="docb:Para" content="Quia occaecati expedita omnis. Provident magni doloribus ab aut maxime. Voluptatibus qui aut earum explicabo nulla et. Laudantium modi cum sed et blanditiis. Dolorem quo accusamus ullam quisquam."/>
+  </changes>
+  <changes xsi:type="changes:CompositionListInsertion" index="3220">
+    <affectedElement href="../../random1000.docbook#se2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <addedElement xsi:type="docb:Para" content="Ipsum quo totam. Quia accusamus cupiditate officiis fugit ea et. Id rerum tempora expedita sed. At enim fuga. Id qui iusto earum tenetur et ad."/>
+  </changes>
+</changes:ModelChangeSet>

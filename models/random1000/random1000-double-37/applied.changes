@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:AttributePropertyChange" newValue="[e35] Proceedings To Say Nothing of the Dog 2005. Eos molestiae sunt. Eius ipsa ea nam." oldValue="[e35] Proceedings To Say Nothing of the Dog 2005">
+    <affectedElement href="../../random1000.docbook#c82538ea-fc46-456f-b8a9-8585478ac1ea"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Zelda Abbott. Aliquam debitis et non ut voluptatem dolorum. In et suscipit. Ex magni quia optio adipisci reprehenderit totam voluptas." oldValue="Zelda Abbott">
+    <affectedElement href="../../random1000.docbook#bf789e2f-d848-46a7-bf8e-0db7dbcaa404"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+</changes:ModelChangeSet>

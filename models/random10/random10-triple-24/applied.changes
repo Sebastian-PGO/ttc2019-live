@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionListInsertion" index="2">
+    <affectedElement href="../../random10.docbook#se4"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <addedElement xsi:type="docb:Para" content="Corporis amet corporis ut et. Tempore consequuntur aut repellat. Provident et odit quod."/>
+  </changes>
+  <changes xsi:type="changes:CompositionListInsertion" index="5">
+    <affectedElement href="../../random10.docbook#se1"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <addedElement xsi:type="docb:Para" content="Consectetur et tempora at nam vero asperiores. Omnis dolorum architecto. Quisquam quia neque rem blanditiis quis temporibus. Aut nesciunt incidunt nihil suscipit magnam numquam. Reiciendis quo dolorem."/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="A Confederacy of Dunces. Et laborum aut ut nemo eius asperiores cupiditate. Aliquid voluptas ea quis quaerat quia eligendi. Laudantium accusamus explicabo." oldValue="A Confederacy of Dunces">
+    <affectedElement href="../../random10.docbook#6435fde6-8614-4ffc-b1e6-4ac97ceab439"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+</changes:ModelChangeSet>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Christoper Conn IV. Quod consectetur rerum architecto nemo quisquam aliquid. Qui consequatur recusandae a." oldValue="Christoper Conn IV">
+    <affectedElement href="../../random100.docbook#6cc4979f-96fd-4a11-b7e6-9feea3bf331e"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+  <changes xsi:type="changes:CompositionMoveToList" index="235">
+    <affectedElement href="../../random100.docbook#se2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <movedElement href="../../random100.docbook#3630ee76-0035-44e9-a641-e0d4d4237ca4"/>
+  </changes>
+  <changes xsi:type="changes:CompositionMoveToList" index="2">
+    <affectedElement href="../../random100.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <movedElement href="../../random100.docbook#se4"/>
+  </changes>
+</changes:ModelChangeSet>

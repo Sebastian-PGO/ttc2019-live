@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Angelina White DDS. Soluta ullam sed voluptatum fugit dolorem dolores nostrum." oldValue="Angelina White DDS">
+    <affectedElement href="../../random100.docbook#baff2c98-412c-49b7-ab6a-47a06250ba40"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+  <changes xsi:type="changes:CompositionMoveToList" index="19">
+    <affectedElement href="../../random100.docbook#se1"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <movedElement href="../../random100.docbook#00f1c8e5-57ea-4d60-a2bb-5650e66573e3"/>
+  </changes>
+  <changes xsi:type="changes:CompositionListDeletion" index="3">
+    <affectedElement href="../../random100.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <deletedElement href="../../random100.docbook#se4"/>
+  </changes>
+</changes:ModelChangeSet>

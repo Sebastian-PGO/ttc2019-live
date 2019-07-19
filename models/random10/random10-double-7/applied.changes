@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionListDeletion" index="1">
+    <affectedElement href="../../random10.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <deletedElement href="../../random10.docbook#se2"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="The Lathe of Heaven. Optio in corrupti." oldValue="The Lathe of Heaven">
+    <affectedElement href="../../random10.docbook#bcc7bec2-e478-42ab-a57e-3387838a2b00"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+</changes:ModelChangeSet>

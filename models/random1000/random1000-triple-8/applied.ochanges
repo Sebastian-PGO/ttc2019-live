@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionMoveToList" index="490">
+    <affectedElement href="../../random1000.docbook#se1"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <movedElement href="../../random1000.docbook#df4882be-e38b-4ba1-96b9-9c5bbcecfdb7"/>
+  </changes>
+  <changes xsi:type="changes:CompositionListDeletion" index="3523">
+    <affectedElement href="../../random1000.docbook#se2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random1000.docbook#b32ad94a-b340-4073-b800-f2e171f1fed1"/>
+  </changes>
+  <changes xsi:type="changes:CompositionMoveToList" index="997">
+    <affectedElement href="../../random1000.docbook#se1"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <movedElement href="../../random1000.docbook#e5d20652-3980-4b86-a0bc-456b036efe1d"/>
+  </changes>
+</changes:ModelChangeSet>

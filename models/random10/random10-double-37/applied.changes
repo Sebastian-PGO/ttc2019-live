@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Rufina Walter. Eos molestiae sunt. Eius ipsa ea nam." oldValue="Rufina Walter">
+    <affectedElement href="../../random10.docbook#08e01a0c-bb24-46c7-a468-6ea822e85ea3"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Sung Mertz. Aliquam debitis et non ut voluptatem dolorum. In et suscipit. Ex magni quia optio adipisci reprehenderit totam voluptas." oldValue="Sung Mertz">
+    <affectedElement href="../../random10.docbook#9eb2324f-9766-4c1d-b59c-27cca6647bf4"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+</changes:ModelChangeSet>

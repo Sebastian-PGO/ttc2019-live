@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionListDeletion" index="14">
+    <affectedElement href="../../random10.docbook#se2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random10.docbook#e091484a-fb29-4d70-aaaf-a3b95ce07582"/>
+  </changes>
+  <changes xsi:type="changes:CompositionListDeletion" index="30">
+    <affectedElement href="../../random10.docbook#se2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random10.docbook#c6ff8778-17cc-486f-a22c-15def70f466f"/>
+  </changes>
+</changes:ModelChangeSet>

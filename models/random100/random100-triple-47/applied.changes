@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionMoveToList" index="34">
+    <affectedElement href="../../random100.docbook#se2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <movedElement href="../../random100.docbook#ff2aad5a-04e6-43cc-92f4-1a4cd365f637"/>
+  </changes>
+  <changes xsi:type="changes:CompositionListInsertion">
+    <affectedElement href="../../random100.docbook#se4"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <addedElement xsi:type="docb:Para" content="Vel et ut voluptatem aperiam dolores corrupti. Possimus eveniet est. Animi sint voluptatem voluptatem velit commodi iusto."/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="[e60] PhDThesis The Proper Study Tracey Dickens Denisha Mueller Rob Jaskolski Debora Bergnaum Travis Altenwerth May Kiehn Ted Hartmann Hector Ward Josue Torphy Roosevelt Medhurst 2005 West Ohio University. Aperiam repudiandae sed quasi quia officiis aut fuga. Accusantium animi iste qui unde incidunt corrupti tempora." oldValue="[e60] PhDThesis The Proper Study Tracey Dickens Denisha Mueller Rob Jaskolski Debora Bergnaum Travis Altenwerth May Kiehn Ted Hartmann Hector Ward Josue Torphy Roosevelt Medhurst 2005 West Ohio University">
+    <affectedElement href="../../random100.docbook#94964a06-2b5f-4528-aa02-07a6a1e706e4"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+</changes:ModelChangeSet>

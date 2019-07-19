@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Ema Wilkinson. Suscipit deserunt aut sit sed. Ipsum culpa et. Autem enim est in." oldValue="Ema Wilkinson">
+    <affectedElement href="../../random10.docbook#e069a816-6685-41c3-8f90-3ecc2fdda4d8"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Cecelia Schumm. Non voluptas ut illum officiis qui deleniti omnis. Animi laboriosam beatae consequuntur iure." oldValue="Cecelia Schumm">
+    <affectedElement href="../../random10.docbook#cd82a239-4826-445a-94eb-5e912aa5f75b"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Titles List. Dolorem ratione aut aut non delectus deserunt." oldValue="Titles List">
+    <affectedElement href="../../random10.docbook#se3"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
+  </changes>
+</changes:ModelChangeSet>

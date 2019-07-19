@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionMoveToList" index="5">
+    <affectedElement href="../../random10.docbook#se1"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <movedElement href="../../random10.docbook#b3bf55d2-4999-44cf-a591-6de8a4c6e783"/>
+  </changes>
+  <changes xsi:type="changes:CompositionListInsertion" index="37">
+    <affectedElement href="../../random10.docbook#se2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <addedElement xsi:type="docb:Para" content="Pariatur id beatae perferendis dolor quia inventore labore. Maiores tenetur repudiandae maxime aspernatur rerum. Qui et omnis a praesentium. Quia ea ullam aliquam magnam velit."/>
+  </changes>
+</changes:ModelChangeSet>

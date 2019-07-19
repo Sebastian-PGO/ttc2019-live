@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionListDeletion" index="50">
+    <affectedElement href="../../random100.docbook#se3"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random100.docbook#884996f6-b1cc-4179-9b13-2fcce8a822cf"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="[e4] Manual This Lime Tree Bower. Ut quod eum blanditiis expedita dolorem. Sit vel earum facere. Odio accusantium asperiores cumque omnis eius et." oldValue="[e4] Manual This Lime Tree Bower">
+    <affectedElement href="../../random100.docbook#20918c63-6f9b-4d40-9b68-5d981ab08e84"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+</changes:ModelChangeSet>

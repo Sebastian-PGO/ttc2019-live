@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Bury My Heart at Wounded Knee. Consequatur eius aut consequatur vel dolor ipsa. Culpa autem fugiat ut. Est fuga veniam sed." oldValue="Bury My Heart at Wounded Knee">
+    <affectedElement href="../../random100.docbook#55f31cec-98c7-4bca-8a7e-7e2103f538ad"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Sarina Raynor MD. Vitae ducimus praesentium iusto vitae non et enim. Delectus impedit temporibus omnis consequatur. Illum repellat enim quasi asperiores sed adipisci." oldValue="Sarina Raynor MD">
+    <affectedElement href="../../random100.docbook#21559c62-da70-4b57-ad00-629ab4c28920"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+  <changes xsi:type="changes:CompositionMoveToList" index="1">
+    <affectedElement href="../../random100.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <movedElement href="../../random100.docbook#se4"/>
+  </changes>
+</changes:ModelChangeSet>

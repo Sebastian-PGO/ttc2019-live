@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Arielle Hickle II. Quod consectetur rerum architecto nemo quisquam aliquid. Qui consequatur recusandae a." oldValue="Arielle Hickle II">
+    <affectedElement href="../../random1000.docbook#4e7e7691-7ba5-4751-a424-af7726698d2a"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+  <changes xsi:type="changes:CompositionMoveToList" index="85">
+    <affectedElement href="../../random1000.docbook#se1"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <movedElement href="../../random1000.docbook#211ab00d-a327-4c51-b6b6-84cdb7d6f6be"/>
+  </changes>
+  <changes xsi:type="changes:CompositionMoveToList" index="2">
+    <affectedElement href="../../random1000.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <movedElement href="../../random1000.docbook#se4"/>
+  </changes>
+</changes:ModelChangeSet>

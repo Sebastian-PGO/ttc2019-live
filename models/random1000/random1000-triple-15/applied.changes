@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionListDeletion" index="3184">
+    <affectedElement href="../../random1000.docbook#se2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <deletedElement href="../../random1000.docbook#ab072766-cc2b-4320-a9fb-8532f5559ada"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="[e14] Article Down to a Sunless Sea Lacy Johnson Gino Rowe Scottie Cummings Fairy Padberg Mireya Kuhic II Rhett Borer Veta Koch Gracie Kerluke 2011 Terrible Swift Sword. Vel repudiandae dolores voluptatum aut voluptate nesciunt. Qui alias ducimus sit id." oldValue="[e14] Article Down to a Sunless Sea Lacy Johnson Gino Rowe Scottie Cummings Fairy Padberg Mireya Kuhic II Rhett Borer Veta Koch Gracie Kerluke 2011 Terrible Swift Sword">
+    <affectedElement href="../../random1000.docbook#8db99e8a-802d-42dd-9880-b21bb524b6f7"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+  <changes xsi:type="changes:CompositionMoveToList" index="38">
+    <affectedElement href="../../random1000.docbook#se1"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <movedElement href="../../random1000.docbook#95ef4ce7-da81-406e-997a-3d5d07cc1f28"/>
+  </changes>
+</changes:ModelChangeSet>

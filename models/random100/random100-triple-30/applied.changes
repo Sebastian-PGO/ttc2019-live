@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Journals List. Dolores omnis suscipit non et unde porro. Et maxime dolore impedit enim consequatur neque asperiores. Vitae porro alias ullam et similique." oldValue="Journals List">
+    <affectedElement href="../../random100.docbook#se4"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="References List. Odit sed pariatur quod a." oldValue="References List">
+    <affectedElement href="../../random100.docbook#se1"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Genevieve Rice. Numquam sit quod unde est. Vel omnis et dolore." oldValue="Genevieve Rice">
+    <affectedElement href="../../random100.docbook#ee9bcda4-2a8c-4a10-85db-ccb587cdbcf6"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+</changes:ModelChangeSet>
