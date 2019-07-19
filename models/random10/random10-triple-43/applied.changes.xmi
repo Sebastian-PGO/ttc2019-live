@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+  <objectChanges>
+    <key href="mutated.docbook#se2"/>
+    <value featureName="title" dataValue="Authors list. Eaque nostrum non est quis voluptatem."/>
+    <value featureName="paras">
+      <listChanges kind="MOVE" index="7" moveToIndex="41"/>
+      <listChanges index="5" referenceValues="//@objectsToAttach.0"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" content="Voluptas soluta voluptas. Rerum amet aut quia. Eveniet ad saepe non officia sunt quia."/>
+</change:ChangeDescription>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#se2"/>
+    <value featureName="paras">
+      <listChanges kind="REMOVE" index="227"/>
+      <listChanges kind="MOVE" index="303" moveToIndex="347"/>
+    </value>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#1ec7c5b6-b77c-4a50-a270-c630b98df3fb"/>
+    <value featureName="content" dataValue="Helena Feil. Quod et ipsa veritatis eum hic aut. Voluptatum doloremque rerum suscipit aut. Sapiente et eaque amet laborum esse et veniam."/>
+  </objectChanges>
+</change:ChangeDescription>

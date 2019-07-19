@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#4f7f470b-1cf6-43b0-95b2-314c91d91d66"/>
+    <value featureName="content" dataValue="Mrs. Tristan DuBuque. Sunt praesentium sed deleniti est est sed. Voluptas soluta perferendis et sapiente et eligendi."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#//@books.0/@articles.0"/>
+    <value featureName="sections_1">
+      <listChanges kind="REMOVE" index="2"/>
+    </value>
+  </objectChanges>
+</change:ChangeDescription>

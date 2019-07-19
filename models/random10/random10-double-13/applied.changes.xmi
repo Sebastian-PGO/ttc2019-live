@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#se3"/>
+    <value featureName="paras">
+      <listChanges kind="REMOVE" index="0"/>
+    </value>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#1a2d41f0-5147-4c8f-8bf4-8c910a1b1d06"/>
+    <value featureName="content" dataValue="A Glass of Blessings. Et debitis non fugiat ratione aut."/>
+  </objectChanges>
+</change:ChangeDescription>

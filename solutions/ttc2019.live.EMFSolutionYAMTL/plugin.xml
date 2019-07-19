@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated BibTeX -->
+      <package
+            uri="https://www.transformation-tool-contest.eu/2019/bibtex"
+            class="bibtex.BibtexPackage"
+            genModel="src/main/resources/metamodels/BibTeX.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated DocBook -->
+      <package
+            uri="https://www.transformation-tool-contest.eu/2019/docbook"
+            class="docbook.DocbookPackage"
+            genModel="src/main/resources/metamodels/DocBook.genmodel"/>
+   </extension>
+
+</plugin>

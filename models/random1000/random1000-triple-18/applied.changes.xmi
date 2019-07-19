@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#f2b9d414-a7d7-4f5a-81cc-35f7ed431907"/>
+    <value featureName="content" dataValue="Aaron Purdy. Consequatur eius aut consequatur vel dolor ipsa. Culpa autem fugiat ut. Est fuga veniam sed."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#952807b2-6ed1-4afc-b9e9-10dcd4bdc046"/>
+    <value featureName="content" dataValue="For Whom the Bell Tolls. Vitae ducimus praesentium iusto vitae non et enim. Delectus impedit temporibus omnis consequatur. Illum repellat enim quasi asperiores sed adipisci."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#//@books.0/@articles.0"/>
+    <value featureName="sections_1">
+      <listChanges kind="MOVE" index="3" moveToIndex="1"/>
+    </value>
+  </objectChanges>
+</change:ChangeDescription>
