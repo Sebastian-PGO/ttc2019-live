@@ -8,7 +8,10 @@
       "Epsilon",
       "NMF",
       "NMF-Batch",
-      "Fulib"
+      "Fulib",
+      "EMFSolutionXtend",
+      "EMFSolutionXtendFollowingEVL",
+      "EMFSolutionAOF"
   ],
   "ChangeSets": [
     "single", "double", "triple"
