@@ -4,7 +4,14 @@
       "random100.bibtex",
       "random1000.bibtex"
   ],
-  "Tools": ["ttc2019.live.EMFSolutionYAMTL","ttc2019.live.EMFSolutionYAMTL.full"],
+  "Tools": [
+      "Epsilon",
+      "NMF",
+      "NMF-Batch",
+      "Fulib",
+      "ttc2019.live.EMFSolutionYAMTL",
+      "ttc2019.live.EMFSolutionYAMTL.full"
+  ],
   "ChangeSets": [
     "single", "double", "triple"
   ],

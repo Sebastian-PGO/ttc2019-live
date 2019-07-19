@@ -1,0 +1,17 @@
+#Tue Jul 16 00:15:53 CEST 2019
+//outlet.DEFAULT_OUTPUT.sourceFolder.src/test/resources.directory=build/xtend/test
+generateSuppressWarnings=true
+//outlet.DEFAULT_OUTPUT.sourceFolder.src/test/java.directory=build/xtend/test
+BuilderConfiguration.is_project_specific=true
+targetJavaVersion=Java8
+useJavaCompilerCompliance=false
+outlet.DEFAULT_OUTPUT.installDslAsPrimarySource=false
+outlet.DEFAULT_OUTPUT.userOutputPerSourceFolder=true
+outlet.DEFAULT_OUTPUT.hideLocalSyntheticVariables=true
+eclipse.preferences.version=1
+//outlet.DEFAULT_OUTPUT.sourceFolder.../metamodels/ttc2019.live.metamodels/src-gen.directory=build/xtend/main
+generateGeneratedAnnotation=false
+includeDateInGenerated=false
+outlet.DEFAULT_OUTPUT.sourceFolder.src.directory=build/xtend/main
+ValidatorConfiguration.is_project_specific=true
+//outlet.DEFAULT_OUTPUT.sourceFolder.../metamodels/ttc2019.live.metamodels/src.directory=build/xtend/main

@@ -1542,6 +1542,52 @@ public interface ChangesPackage extends EPackage {
 	int COMPOSITION_MOVE_TO_LIST_OPERATION_COUNT = COMPOSITION_CHANGE_OPERATION_COUNT + 0;
 
 	/**
+	 * The meta object id for the '{@link ttc2019.live.changes.impl.CompositionMoveToCollectionImpl <em>Composition Move To Collection</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see ttc2019.live.changes.impl.CompositionMoveToCollectionImpl
+	 * @see ttc2019.live.changes.impl.ChangesPackageImpl#getCompositionMoveToCollection()
+	 * @generated
+	 */
+	int COMPOSITION_MOVE_TO_COLLECTION = 27;
+
+	/**
+	 * The feature id for the '<em><b>Moved Element</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int COMPOSITION_MOVE_TO_COLLECTION__MOVED_ELEMENT = 0;
+
+	/**
+	 * The feature id for the '<em><b>Origin</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int COMPOSITION_MOVE_TO_COLLECTION__ORIGIN = 1;
+
+	/**
+	 * The number of structural features of the '<em>Composition Move To Collection</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int COMPOSITION_MOVE_TO_COLLECTION_FEATURE_COUNT = 2;
+
+	/**
+	 * The number of operations of the '<em>Composition Move To Collection</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int COMPOSITION_MOVE_TO_COLLECTION_OPERATION_COUNT = 0;
+
+	/**
 	 * The meta object id for the '{@link ttc2019.live.changes.impl.OperationCallImpl <em>Operation Call</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1549,7 +1595,7 @@ public interface ChangesPackage extends EPackage {
 	 * @see ttc2019.live.changes.impl.ChangesPackageImpl#getOperationCall()
 	 * @generated
 	 */
-	int OPERATION_CALL = 27;
+	int OPERATION_CALL = 28;
 
 	/**
 	 * The feature id for the '<em><b>Operation</b></em>' reference.
@@ -1604,7 +1650,7 @@ public interface ChangesPackage extends EPackage {
 	 * @see ttc2019.live.changes.impl.ChangesPackageImpl#getOperationArgument()
 	 * @generated
 	 */
-	int OPERATION_ARGUMENT = 28;
+	int OPERATION_ARGUMENT = 29;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -1641,7 +1687,7 @@ public interface ChangesPackage extends EPackage {
 	 * @see ttc2019.live.changes.impl.ChangesPackageImpl#getValueArgument()
 	 * @generated
 	 */
-	int VALUE_ARGUMENT = 29;
+	int VALUE_ARGUMENT = 30;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -1687,7 +1733,7 @@ public interface ChangesPackage extends EPackage {
 	 * @see ttc2019.live.changes.impl.ChangesPackageImpl#getReferenceArgument()
 	 * @generated
 	 */
-	int REFERENCE_ARGUMENT = 30;
+	int REFERENCE_ARGUMENT = 31;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -2382,6 +2428,38 @@ public interface ChangesPackage extends EPackage {
 	EReference getCompositionMoveToList_Origin();
 
 	/**
+	 * Returns the meta object for class '{@link ttc2019.live.changes.CompositionMoveToCollection <em>Composition Move To Collection</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Composition Move To Collection</em>'.
+	 * @see ttc2019.live.changes.CompositionMoveToCollection
+	 * @generated
+	 */
+	EClass getCompositionMoveToCollection();
+
+	/**
+	 * Returns the meta object for the reference '{@link ttc2019.live.changes.CompositionMoveToCollection#getMovedElement <em>Moved Element</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Moved Element</em>'.
+	 * @see ttc2019.live.changes.CompositionMoveToCollection#getMovedElement()
+	 * @see #getCompositionMoveToCollection()
+	 * @generated
+	 */
+	EReference getCompositionMoveToCollection_MovedElement();
+
+	/**
+	 * Returns the meta object for the containment reference '{@link ttc2019.live.changes.CompositionMoveToCollection#getOrigin <em>Origin</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference '<em>Origin</em>'.
+	 * @see ttc2019.live.changes.CompositionMoveToCollection#getOrigin()
+	 * @see #getCompositionMoveToCollection()
+	 * @generated
+	 */
+	EReference getCompositionMoveToCollection_Origin();
+
+	/**
 	 * Returns the meta object for class '{@link ttc2019.live.changes.OperationCall <em>Operation Call</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -3059,6 +3137,32 @@ public interface ChangesPackage extends EPackage {
 		 * @generated
 		 */
 		EReference COMPOSITION_MOVE_TO_LIST__ORIGIN = eINSTANCE.getCompositionMoveToList_Origin();
+
+		/**
+		 * The meta object literal for the '{@link ttc2019.live.changes.impl.CompositionMoveToCollectionImpl <em>Composition Move To Collection</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see ttc2019.live.changes.impl.CompositionMoveToCollectionImpl
+		 * @see ttc2019.live.changes.impl.ChangesPackageImpl#getCompositionMoveToCollection()
+		 * @generated
+		 */
+		EClass COMPOSITION_MOVE_TO_COLLECTION = eINSTANCE.getCompositionMoveToCollection();
+
+		/**
+		 * The meta object literal for the '<em><b>Moved Element</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference COMPOSITION_MOVE_TO_COLLECTION__MOVED_ELEMENT = eINSTANCE.getCompositionMoveToCollection_MovedElement();
+
+		/**
+		 * The meta object literal for the '<em><b>Origin</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference COMPOSITION_MOVE_TO_COLLECTION__ORIGIN = eINSTANCE.getCompositionMoveToCollection_Origin();
 
 		/**
 		 * The meta object literal for the '{@link ttc2019.live.changes.impl.OperationCallImpl <em>Operation Call</em>}' class.

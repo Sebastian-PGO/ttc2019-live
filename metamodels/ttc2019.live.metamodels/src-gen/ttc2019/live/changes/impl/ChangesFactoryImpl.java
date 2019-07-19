@@ -81,6 +81,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 			case ChangesPackage.COMPOSITION_PROPERTY_CHANGE: return createCompositionPropertyChange();
 			case ChangesPackage.COMPOSITION_MOVE_INTO_PROPERTY: return createCompositionMoveIntoProperty();
 			case ChangesPackage.COMPOSITION_MOVE_TO_LIST: return createCompositionMoveToList();
+			case ChangesPackage.COMPOSITION_MOVE_TO_COLLECTION: return createCompositionMoveToCollection();
 			case ChangesPackage.OPERATION_CALL: return createOperationCall();
 			case ChangesPackage.VALUE_ARGUMENT: return createValueArgument();
 			case ChangesPackage.REFERENCE_ARGUMENT: return createReferenceArgument();
@@ -362,6 +363,17 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	public CompositionMoveToList createCompositionMoveToList() {
 		CompositionMoveToListImpl compositionMoveToList = new CompositionMoveToListImpl();
 		return compositionMoveToList;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public CompositionMoveToCollection createCompositionMoveToCollection() {
+		CompositionMoveToCollectionImpl compositionMoveToCollection = new CompositionMoveToCollectionImpl();
+		return compositionMoveToCollection;
 	}
 
 	/**
