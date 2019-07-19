@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#se3"/>
+    <value featureName="paras">
+      <listChanges kind="REMOVE" index="7"/>
+    </value>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#8ae11e03-e72f-4d7c-b739-2fc541ea341a"/>
+    <value featureName="content" dataValue="The Last Temptation. Exercitationem rerum velit reprehenderit doloremque ad eligendi. Quod dolor quis."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#095e187b-1d73-4de4-81d3-06a5dc402f92"/>
+    <value featureName="content" dataValue="Miss Seth Mohr. Voluptatem eligendi fugiat qui sapiente voluptate debitis quis. Quod aspernatur sit. Ut occaecati eveniet occaecati voluptatem debitis."/>
+  </objectChanges>
+</change:ChangeDescription>

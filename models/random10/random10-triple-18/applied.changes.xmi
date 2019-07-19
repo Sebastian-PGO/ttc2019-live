@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#4be42888-4a79-478d-ab1e-8034fd8b11c5"/>
+    <value featureName="content" dataValue="[e9] InProceedings Look Homeward, Angel Karyl Stehr Williemae Block 2002 Far From the Madding Crowd. Consequatur eius aut consequatur vel dolor ipsa. Culpa autem fugiat ut. Est fuga veniam sed."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#9eb2324f-9766-4c1d-b59c-27cca6647bf4"/>
+    <value featureName="content" dataValue="Sung Mertz. Vitae ducimus praesentium iusto vitae non et enim. Delectus impedit temporibus omnis consequatur. Illum repellat enim quasi asperiores sed adipisci."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#//@books.0/@articles.0"/>
+    <value featureName="sections_1">
+      <listChanges kind="MOVE" index="3" moveToIndex="1"/>
+    </value>
+  </objectChanges>
+</change:ChangeDescription>

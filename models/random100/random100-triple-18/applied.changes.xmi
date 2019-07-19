@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#55f31cec-98c7-4bca-8a7e-7e2103f538ad"/>
+    <value featureName="content" dataValue="Bury My Heart at Wounded Knee. Consequatur eius aut consequatur vel dolor ipsa. Culpa autem fugiat ut. Est fuga veniam sed."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#21559c62-da70-4b57-ad00-629ab4c28920"/>
+    <value featureName="content" dataValue="Sarina Raynor MD. Vitae ducimus praesentium iusto vitae non et enim. Delectus impedit temporibus omnis consequatur. Illum repellat enim quasi asperiores sed adipisci."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#//@books.0/@articles.0"/>
+    <value featureName="sections_1">
+      <listChanges kind="MOVE" index="3" moveToIndex="1"/>
+    </value>
+  </objectChanges>
+</change:ChangeDescription>

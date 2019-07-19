@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#se3"/>
+    <value featureName="paras">
+      <listChanges kind="REMOVE" index="181"/>
+    </value>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#73ff89dc-fd3d-407b-9433-9426ea1a8ca7"/>
+    <value featureName="content" dataValue="Shonta Zemlak. Exercitationem rerum velit reprehenderit doloremque ad eligendi. Quod dolor quis."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#040f59bb-4e59-48ab-ab3d-534ad920ef5b"/>
+    <value featureName="content" dataValue="Renato Schneider. Voluptatem eligendi fugiat qui sapiente voluptate debitis quis. Quod aspernatur sit. Ut occaecati eveniet occaecati voluptatem debitis."/>
+  </objectChanges>
+</change:ChangeDescription>

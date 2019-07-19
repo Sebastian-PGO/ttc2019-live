@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+  <objectChanges>
+    <key href="mutated.docbook#9f3fb18f-08ba-4e31-bb62-4d17573373ec"/>
+    <value featureName="content" dataValue="Breanne Goyette. Soluta ullam sed voluptatum fugit dolorem dolores nostrum."/>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#se2"/>
+    <value featureName="paras">
+      <listChanges kind="MOVE" index="3164" moveToIndex="2779"/>
+    </value>
+  </objectChanges>
+  <objectChanges>
+    <key href="mutated.docbook#//@books.0/@articles.0"/>
+    <value featureName="sections_1">
+      <listChanges kind="REMOVE" index="3"/>
+    </value>
+  </objectChanges>
+</change:ChangeDescription>
