@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="ttc2019.live.EMFSolutionYAMTL/src/main/emf-gen/"
+    modelPluginID="ttc2019.live.metamodels" modelName="DocBook" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>DocBook.ecore</foreignModel>
+  <genPackages prefix="Docbook" disposableProviderFactory="true" ecorePackage="DocBook.ecore#/">
+    <genClasses ecoreClass="DocBook.ecore#//DocBook">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference DocBook.ecore#//DocBook/books"/>
+    </genClasses>
+    <genClasses ecoreClass="DocBook.ecore#//Book">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference DocBook.ecore#//Book/articles"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="DocBook.ecore#//TitledElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute DocBook.ecore#//TitledElement/title"/>
+    </genClasses>
+    <genClasses ecoreClass="DocBook.ecore#//Article">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference DocBook.ecore#//Article/sections_1"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="DocBook.ecore#//Section">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference DocBook.ecore#//Section/paras"/>
+    </genClasses>
+    <genClasses ecoreClass="DocBook.ecore#//Sect1">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference DocBook.ecore#//Sect1/sections_2"/>
+    </genClasses>
+    <genClasses ecoreClass="DocBook.ecore#//Sect2"/>
+    <genClasses ecoreClass="DocBook.ecore#//Para">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute DocBook.ecore#//Para/content"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="DocBook.ecore#//Identifiable">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute DocBook.ecore#//Identifiable/id"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

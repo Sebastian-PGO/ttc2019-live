@@ -34,3 +34,4 @@ target
 # Run outputs
 output/output.csv
 /.project
+/diagrams/
