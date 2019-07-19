@@ -1,0 +1,13 @@
+
+task runXtend {
+    dependsOn gradle.includedBuild('EMFSolutionXtend').task(':fatJar')
+}
+
+task runAOF {
+    dependsOn gradle.includedBuild('EMFSolutionAOF').task(':fatJar')
+}
+
+task run {
+    dependsOn gradle.includedBuild('EMFSolutionXtend').task(':fatJar')
+    dependsOn gradle.includedBuild('EMFSolutionAOF').task(':fatJar')
+}

@@ -1,0 +1,6 @@
+
+
+rootProject.name = 'TTC2019'
+
+includeBuild 'solutions/EMFSolutionXtend'
+includeBuild 'solutions/EMFSolutionAOF'
