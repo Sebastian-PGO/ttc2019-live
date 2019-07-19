@@ -18,7 +18,7 @@ for (tool in tools) {
 
         # By using as.character in Source, we don't need to have run all sources to run the comparison
         expected.row = subset(expected,
-                              MutantSet == query.row$MutantSet
+                              as.character(MutantSet) == as.character(query.row$MutantSet)
                               & as.character(Source)==as.character(query.row$Source)
                               & Mutant==query.row$Mutant)
 
