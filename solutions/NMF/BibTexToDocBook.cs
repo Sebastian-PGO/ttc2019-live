@@ -8,6 +8,7 @@ using TTC2019.LiveContest.Metamodels.Bibtex;
 using TTC2019.LiveContest.Metamodels.Docbook;
 using NMF.Collections.ObjectModel;
 using NMF.Expressions;
+using NMF.Collections.Generic;
 
 namespace TTC2019.LiveContest
 {
@@ -65,28 +66,36 @@ namespace TTC2019.LiveContest
                 };
             }
 
-            private static ISect1 GetSection(DocBook docBook, string name)
+            private static IOrderedSetExpression<IPara> GetSection(DocBook docBook, string name)
             {
-                return docBook.Books.Single().Articles.Single().Sections_1.AsEnumerable().FirstOrDefault(sec => sec.Title == name);
+                var section = docBook.Books.Single().Articles.Single().Sections_1.AsEnumerable().FirstOrDefault(sec => sec.Title == name);
+                if (section != null)
+                {
+                    return section.Paras;
+                }
+                else
+                {
+                    return new ObservableOrderedSet<IPara>();
+                }
             }
 
             public override void DeclareSynchronization()
             {
                 SynchronizeMany(SyncRule<ReferenceToPara>(),
                     bibTex => bibTex.Entries,
-                    docBook => GetSection(docBook, "References List").Paras);
+                    docBook => GetSection(docBook, "References List"));
 
                 SynchronizeMany(SyncRule<AuthorToPara>(),
                     bibTex => new PseudoCollection<IAuthor>(bibTex.Entries.OfType<IAuthoredEntry>().SelectMany(entry => entry.Authors).Distinct().OrderBy(a => a.Author_)),
-                    docBook => GetSection(docBook, "Authors list").Paras);
+                    docBook => GetSection(docBook, "Authors list"));
 
                 SynchronizeMany(SyncRule<TitledEntryToPara>(),
                     bibTex => new PseudoCollection<ITitledEntry>(bibTex.Entries.OfType<ITitledEntry>().OrderBy(en => en.Title)),
-                    docBook => GetSection(docBook, "Titles List").Paras);
+                    docBook => GetSection(docBook, "Titles List"));
 
                 SynchronizeMany(SyncRule<JournalNameToPara>(),
                     bibTex => new PseudoCollection<string>(bibTex.Entries.OfType<TTC2019.LiveContest.Metamodels.Bibtex.IArticle>().Select(article => article.Journal).Distinct().OrderBy(journal => journal)),
-                    docBook => GetSection(docBook, "Journals List").Paras);
+                    docBook => GetSection(docBook, "Journals List"));
             }
         }
 

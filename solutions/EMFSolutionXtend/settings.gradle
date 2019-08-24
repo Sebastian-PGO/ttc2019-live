@@ -1,0 +1,6 @@
+
+
+rootProject.name = 'EMFSolutionXtend'
+
+include ':ttc2019.live.metamodels'
+project(':ttc2019.live.metamodels').projectDir = new File("../../metamodels/ttc2019.live.metamodels")

@@ -41,12 +41,12 @@ eclipse {
 }
 
 repositories {
-//	maven {
-//		url "https://github.com/yamtl/yamtl.github.io/raw/mvn-repo/mvn-repo/snapshot-repo"
-//	}
-	mavenLocal()
+	maven {
+		url "https://github.com/yamtl/yamtl.github.io/raw/mvn-repo/mvn-repo/snapshot-repo"
+	}
+	//mavenLocal()
 	mavenCentral()
-    jcenter()
+    	jcenter()
 }
 
 
