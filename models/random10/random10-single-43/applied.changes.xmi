@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random10.docbook#se2"/>
     <value featureName="paras">
-      <listChanges index="18" referenceValues="b5b19c13-17ec-48a9-93ea-84512254089e"/>
+      <listChanges kind="REMOVE" index="18"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="b5b19c13-17ec-48a9-93ea-84512254089e" content="Ian Jerde"/>
 </change:ChangeDescription>

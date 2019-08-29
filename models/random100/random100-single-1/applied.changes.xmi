@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random100.docbook#se2"/>
     <value featureName="paras">
-      <listChanges index="151" referenceValues="7b2d7224-2a0d-4df2-abd8-420896f3d45d"/>
+      <listChanges kind="REMOVE" index="151"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="7b2d7224-2a0d-4df2-abd8-420896f3d45d" content="Gail Koepp"/>
 </change:ChangeDescription>

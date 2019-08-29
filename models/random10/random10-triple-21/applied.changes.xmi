@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
-    <key href="mutated.docbook#se3"/>
+    <key href="../random10.docbook#se3"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="0"/>
+      <listChanges index="0" referenceValues="//@objectsToAttach.0"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random10.docbook#se2"/>
     <value featureName="paras">
-      <listChanges index="11" referenceValues="17bef5b2-b33b-49af-9805-aa0338cf174b"/>
+      <listChanges kind="REMOVE" index="11"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="17bef5b2-b33b-49af-9805-aa0338cf174b" content="Dulce Zieme Jr."/>
+  <objectsToAttach xsi:type="docb:Para" content="Sunt voluptas atque necessitatibus maxime. Dicta dolores earum officia incidunt officiis modi. Corporis minima cum aliquam est eveniet libero praesentium. Reiciendis quod voluptas minus nesciunt aut."/>
 </change:ChangeDescription>

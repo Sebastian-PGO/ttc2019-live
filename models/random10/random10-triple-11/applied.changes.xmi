@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="ASCII"?>
 <change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
-    <key href="mutated.docbook#se1"/>
+    <key href="../random10.docbook#se1"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="5"/>
-      <listChanges index="6" referenceValues="d14b8457-f526-4511-bb2f-4c806cd96713"/>
+      <listChanges kind="REMOVE" index="6"/>
+      <listChanges index="5" referenceValues="//@objectsToAttach.0"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#//@books.0/@articles.0"/>
+    <key href="../random10.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="MOVE" index="3"/>
+      <listChanges kind="MOVE" index="0" moveToIndex="3"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="d14b8457-f526-4511-bb2f-4c806cd96713" content="[e6] TechReport A Confederacy of Dunces Francesca O'Conner Dulce Zieme Jr. Winter Hodkiewicz Noemi Simonis Clemmie Ward Lewis Schneider Chung Hammes Shara Kohler I Ema Wilkinson Maggie Huels 2016"/>
+  <objectsToAttach xsi:type="docb:Para" content="Ea nobis quia id quo. Et consequatur earum quaerat laborum quo sed. Et ut quidem itaque. Eos consequatur et voluptatem."/>
 </change:ChangeDescription>

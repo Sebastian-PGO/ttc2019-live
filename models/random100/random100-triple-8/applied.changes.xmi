@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#se1"/>
+    <key href="../random100.docbook#se1"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="90"/>
+      <listChanges kind="MOVE" index="0" moveToIndex="90"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random100.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="125" moveToIndex="96"/>
-      <listChanges index="57" referenceValues="950f354a-3b4c-4d7b-9bcf-bd1433ee01fc"/>
+      <listChanges kind="REMOVE" index="57"/>
+      <listChanges kind="MOVE" index="96" moveToIndex="125"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="950f354a-3b4c-4d7b-9bcf-bd1433ee01fc" content="Charley Klein"/>
 </change:ChangeDescription>

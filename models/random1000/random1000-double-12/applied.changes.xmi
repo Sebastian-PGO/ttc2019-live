@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#562a6f9d-0daf-4b07-aa83-ed23008baae4"/>
-    <value featureName="content" dataValue="Linnea Metz"/>
+    <key href="../random1000.docbook#562a6f9d-0daf-4b07-aa83-ed23008baae4"/>
+    <value featureName="content" dataValue="Linnea Metz. Facilis fuga minima laboriosam enim quos beatae blanditiis. Ut quia iste totam."/>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random1000.docbook#se2"/>
     <value featureName="paras">
-      <listChanges index="2900" referenceValues="f153d6bf-2c28-49be-88f9-fbdc2b903eae"/>
+      <listChanges kind="REMOVE" index="2900"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="f153d6bf-2c28-49be-88f9-fbdc2b903eae" content="Mr. Nelda Bode"/>
 </change:ChangeDescription>

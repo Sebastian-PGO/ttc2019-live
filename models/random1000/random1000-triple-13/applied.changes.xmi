@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="ASCII"?>
 <change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#4e7e7691-7ba5-4751-a424-af7726698d2a"/>
-    <value featureName="content" dataValue="Arielle Hickle II"/>
+    <key href="../random1000.docbook#4e7e7691-7ba5-4751-a424-af7726698d2a"/>
+    <value featureName="content" dataValue="Arielle Hickle II. Quod consectetur rerum architecto nemo quisquam aliquid. Qui consequatur recusandae a."/>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#se1"/>
+    <key href="../random1000.docbook#se1"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="85" moveToIndex="125"/>
+      <listChanges kind="MOVE" index="125" moveToIndex="85"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#//@books.0/@articles.0"/>
+    <key href="../random1000.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="MOVE" index="2" moveToIndex="3"/>
+      <listChanges kind="MOVE" index="3" moveToIndex="2"/>
     </value>
   </objectChanges>
 </change:ChangeDescription>

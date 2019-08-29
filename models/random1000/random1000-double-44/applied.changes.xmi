@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#se1"/>
-    <value featureName="title" dataValue="References List"/>
+    <key href="../random1000.docbook#se1"/>
+    <value featureName="title" dataValue="References List. Reiciendis voluptate est quibusdam. Minima ducimus et sit ea quas."/>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random1000.docbook#se2"/>
     <value featureName="paras">
-      <listChanges index="142" referenceValues="51cef77a-60f3-45fb-8761-7fff2c8b4959"/>
+      <listChanges kind="REMOVE" index="142"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="51cef77a-60f3-45fb-8761-7fff2c8b4959" content="Andera Stanton"/>
 </change:ChangeDescription>

@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="ASCII"?>
 <change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random10.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="27"/>
+      <listChanges index="27" referenceValues="//@objectsToAttach.0"/>
     </value>
-    <value featureName="title" dataValue="Authors list"/>
+    <value featureName="title" dataValue="Authors list. Ut eius neque porro sed accusantium quibusdam. Beatae autem ad. Deserunt quia rerum quo totam."/>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#//@books.0/@articles.0"/>
+    <key href="../random10.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges index="3" referenceValues="se4"/>
+      <listChanges kind="REMOVE" index="3"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Sect1" id="se4" title="Journals List">
-    <paras id="7ca417d9-9329-457c-840b-9bf7d8d6dfab" content="A Time of Gifts"/>
-    <paras id="c28517bf-b78f-49eb-98b2-0b81dfce9049" content="Sleep the Brave"/>
-  </objectsToAttach>
+  <objectsToAttach xsi:type="docb:Para" content="Non adipisci quisquam. Eos labore officia ea necessitatibus nulla. In fuga vel doloribus quia. Possimus ut eligendi labore neque sunt. Deleniti veritatis nemo officia non."/>
 </change:ChangeDescription>

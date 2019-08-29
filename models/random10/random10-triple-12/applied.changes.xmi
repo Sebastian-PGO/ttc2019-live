@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random10.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="9"/>
-      <listChanges kind="REMOVE" index="36"/>
-      <listChanges index="39" referenceValues="08e01a0c-bb24-46c7-a468-6ea822e85ea3"/>
+      <listChanges kind="REMOVE" index="39"/>
+      <listChanges index="36" referenceValues="//@objectsToAttach.1"/>
+      <listChanges index="9" referenceValues="//@objectsToAttach.0"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="08e01a0c-bb24-46c7-a468-6ea822e85ea3" content="Rufina Walter"/>
+  <objectsToAttach xsi:type="docb:Para" content="Quia occaecati expedita omnis. Provident magni doloribus ab aut maxime. Voluptatibus qui aut earum explicabo nulla et. Laudantium modi cum sed et blanditiis. Dolorem quo accusamus ullam quisquam."/>
+  <objectsToAttach xsi:type="docb:Para" content="Ipsum quo totam. Quia accusamus cupiditate officiis fugit ea et. Id rerum tempora expedita sed. At enim fuga. Id qui iusto earum tenetur et ad."/>
 </change:ChangeDescription>

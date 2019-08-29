@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random10.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="33" moveToIndex="28"/>
-      <listChanges index="39" referenceValues="08e01a0c-bb24-46c7-a468-6ea822e85ea3"/>
+      <listChanges kind="REMOVE" index="39"/>
+      <listChanges kind="MOVE" index="28" moveToIndex="33"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#ca284fdb-d86e-4be8-9b3e-19e23bc3552d"/>
-    <value featureName="content" dataValue="This Lime Tree Bower"/>
+    <key href="../random10.docbook#ca284fdb-d86e-4be8-9b3e-19e23bc3552d"/>
+    <value featureName="content" dataValue="This Lime Tree Bower. Quod et ipsa veritatis eum hic aut. Voluptatum doloremque rerum suscipit aut. Sapiente et eaque amet laborum esse et veniam."/>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="08e01a0c-bb24-46c7-a468-6ea822e85ea3" content="Rufina Walter"/>
 </change:ChangeDescription>

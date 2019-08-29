@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random1000.docbook#se2"/>
     <value featureName="paras">
-      <listChanges index="2973" referenceValues="f84befe9-5e5c-418b-8c66-9377d4feb58d"/>
+      <listChanges kind="REMOVE" index="2973"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#se1"/>
+    <key href="../random1000.docbook#se1"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="733" moveToIndex="955"/>
+      <listChanges kind="MOVE" index="955" moveToIndex="733"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#adc6cfcf-d069-4aaa-a726-d38890b7c172"/>
-    <value featureName="content" dataValue="Absalom, Absalom!"/>
+    <key href="../random1000.docbook#adc6cfcf-d069-4aaa-a726-d38890b7c172"/>
+    <value featureName="content" dataValue="Absalom, Absalom!. Quod et ipsa veritatis eum hic aut. Voluptatum doloremque rerum suscipit aut. Sapiente et eaque amet laborum esse et veniam."/>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="f84befe9-5e5c-418b-8c66-9377d4feb58d" content="Mrs. Darron Nolan"/>
 </change:ChangeDescription>

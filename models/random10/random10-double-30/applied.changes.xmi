@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#//@books.0/@articles.0"/>
+    <key href="../random10.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="MOVE" index="0" moveToIndex="2"/>
-      <listChanges index="3" referenceValues="se4"/>
+      <listChanges kind="REMOVE" index="3"/>
+      <listChanges kind="MOVE" index="2"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Sect1" id="se4" title="Journals List">
-    <paras id="7ca417d9-9329-457c-840b-9bf7d8d6dfab" content="A Time of Gifts"/>
-    <paras id="c28517bf-b78f-49eb-98b2-0b81dfce9049" content="Sleep the Brave"/>
-  </objectsToAttach>
 </change:ChangeDescription>

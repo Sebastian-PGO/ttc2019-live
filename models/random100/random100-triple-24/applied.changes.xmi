@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
-    <key href="mutated.docbook#se4"/>
+    <key href="../random100.docbook#se4"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="2"/>
+      <listChanges index="2" referenceValues="//@objectsToAttach.0"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#se1"/>
+    <key href="../random100.docbook#se1"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="98"/>
+      <listChanges index="98" referenceValues="//@objectsToAttach.1"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#a01033bd-c665-4e74-9912-dde792b03d73"/>
-    <value featureName="content" dataValue="As I Lay Dying"/>
+    <key href="../random100.docbook#a01033bd-c665-4e74-9912-dde792b03d73"/>
+    <value featureName="content" dataValue="As I Lay Dying. Et laborum aut ut nemo eius asperiores cupiditate. Aliquid voluptas ea quis quaerat quia eligendi. Laudantium accusamus explicabo."/>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" content="Corporis amet corporis ut et. Tempore consequuntur aut repellat. Provident et odit quod."/>
+  <objectsToAttach xsi:type="docb:Para" content="Consectetur et tempora at nam vero asperiores. Omnis dolorum architecto. Quisquam quia neque rem blanditiis quis temporibus. Aut nesciunt incidunt nihil suscipit magnam numquam. Reiciendis quo dolorem."/>
 </change:ChangeDescription>

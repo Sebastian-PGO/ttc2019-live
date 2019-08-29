@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random100.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="112" moveToIndex="46"/>
+      <listChanges kind="MOVE" index="46" moveToIndex="112"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#se3"/>
+    <key href="../random100.docbook#se3"/>
     <value featureName="paras">
-      <listChanges index="4" referenceValues="a5ef0011-ff8e-483b-953d-91400c70f87b"/>
+      <listChanges kind="REMOVE" index="4"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="a5ef0011-ff8e-483b-953d-91400c70f87b" content="A Passage to India"/>
 </change:ChangeDescription>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#//@books.0/@articles.0"/>
+    <key href="../random1000.docbook#//@books.0/@articles.0"/>
     <value featureName="sections_1">
-      <listChanges kind="MOVE" index="3"/>
+      <listChanges kind="MOVE" index="0" moveToIndex="3"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#se3"/>
-    <value featureName="title" dataValue="Titles List"/>
+    <key href="../random1000.docbook#se3"/>
+    <value featureName="title" dataValue="Titles List. Quia nihil perferendis iusto labore voluptatem optio. Beatae autem ullam ut."/>
   </objectChanges>
 </change:ChangeDescription>
