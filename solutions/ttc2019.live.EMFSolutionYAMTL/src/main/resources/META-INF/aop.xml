@@ -1,7 +1,5 @@
 <aspectj>
     <aspects>
-        <aspect name="yamtl.InitLocations"/>
-         <!--   aspect name="ttc19.SetterAspect"/ -->
         <aspect name="ttc19.GetterAspect"/>
     </aspects>
     <weaver options="-verbose -showWeaveInfo"> <!-- add -debug to print every class [not] woven  -->

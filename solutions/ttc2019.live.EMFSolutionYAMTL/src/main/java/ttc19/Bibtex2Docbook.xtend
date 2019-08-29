@@ -17,7 +17,6 @@ import docbook.DocbookPackage
 import docbook.Para
 import docbook.Sect1
 import java.util.ArrayList
-import java.util.HashSet
 import java.util.List
 import java.util.Set
 import org.eclipse.emf.ecore.util.EcoreUtil
@@ -119,20 +118,17 @@ class Bibtex2Docbook extends YAMTLModule {
 					val author_para = 'author_para'.fetch as Para
 					author_para.content = a.author
 					author_para.id = EcoreUtil.generateUUID()
-					//println('''author_para «author_para.id» - «author_para.content»''')
 				]).build
 			.build(),
 			
 			new Rule('UntitledEntry') // This rule generates a section_1 paragraph for each untitled entry.
 				.in('e', BibTeX.bibTeXEntry).build
 				.out('entry_para', DocBook.para, [ 
-					//println('UntitledEntry::enter')
 					val e = 'e'.fetch as BibTeXEntry 
 					val entry_para = 'entry_para'.fetch as Para
 					
 					entry_para.content = e.buildEntryPara
 					entry_para.id = EcoreUtil.generateUUID()
-					//println('''UntitledEntry:entry_para «entry_para.id» - «entry_para.content» - e: «e.toString»''')
 				]).build
 			.build,
 			
@@ -145,20 +141,11 @@ class Bibtex2Docbook extends YAMTLModule {
 				].build
 				.out('entry_para', DocBook.para).build
 				.out('title_para', DocBook.para, [ 
-					//println('TitledEntry_Title_NoArticle::enter')
 					val e = 'e'.fetch as TitledEntry 
 					val title_para = 'title_para'.fetch as Para
 					
-					if (e.title.startsWith("Dying of the Light")) { 
-					
-						//println("stop")
-						//println('''e instance of Article: «Article.isInstance(e)» - «e.eClass.name»''')
-						
-					}
-					
 					title_para.content = e.title
 					title_para.id = EcoreUtil.generateUUID()
-					//println('''TitledEntry_Title_NoArticle:title_para «title_para.id» - «title_para.content» - e: «e.toString»''')
 				]).build
 			.build,
 			
@@ -171,36 +158,19 @@ class Bibtex2Docbook extends YAMTLModule {
 				].build
 				.out('entry_para', DocBook.para).build
 				.out('journal_para', DocBook.para, [
-					//println('Article_NoTitle_Journal::enter')
 					val e = 'e'.fetch as Article 
 					val journal_para = 'journal_para'.fetch as Para
 					journal_para.content = e.journal
 					journal_para.id = EcoreUtil.generateUUID()
-					//println('''Article_NoTitle_Journal:journal para «journal_para.id» - «journal_para.content» - e: «e.toString»''')
 				]).build
 			.build,
 			
 			new Rule('Article_Title_Journal') 
 				.inheritsFrom(#['TitledEntry_Title_NoArticle', 'Article_NoTitle_Journal'])
 				.in('e', BibTeX.article).build
-				.out('entry_para', DocBook.para, [
-					//println('Article_Title_Journal:entry_para::enter')
-					val e = 'e'.fetch as Article 
-					val entry_para = 'entry_para'.fetch as Para
-					//println('''Article_Title_Journal::entry_para «entry_para.id» - «entry_para.content» - e: «e.toString»''')
-				]).build
-				.out('title_para', DocBook.para, [
-					//println('Article_Title_Journal:title_para::enter')
-					val e = 'e'.fetch as Article 
-					val title_para = 'title_para'.fetch as Para
-					//println('''Article_Title_Journal::title_para «title_para.id» - «title_para.content» - e: «e.toString»''')
-				]).build
-				.out('journal_para', DocBook.para, [
-					//println('Article_Title_Journal:journal_para::enter')
-					val e = 'e'.fetch as Article 
-					val journal_para = 'journal_para'.fetch as Para
-					//println('''Article_Title_Journal::journal_para «journal_para.id» - «journal_para.content» - e: «e.toString»''')
-				]).build
+				.out('entry_para', DocBook.para).build
+				.out('title_para', DocBook.para).build
+				.out('journal_para', DocBook.para).build
 			.build
 			
 		))
