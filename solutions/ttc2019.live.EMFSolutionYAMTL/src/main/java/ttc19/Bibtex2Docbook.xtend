@@ -17,7 +17,9 @@ import docbook.DocbookPackage
 import docbook.Para
 import docbook.Sect1
 import java.util.ArrayList
+import java.util.HashSet
 import java.util.List
+import java.util.Set
 import org.eclipse.emf.ecore.util.EcoreUtil
 import yamtl.core.YAMTLModule
 import yamtl.dsl.Helper
@@ -34,11 +36,21 @@ class Bibtex2Docbook extends YAMTLModule {
 			new Helper('AuthorList', [
 				new ArrayList(BibTeX.author.allInstances.map[it as Author].groupBy[author].values.map[it.get(0)].sortBy[author])
 			]).build,
+			new Helper('AuthorSet', [
+				BibTeX.author.allInstances.map[it as Author].groupBy[author].values.map[it.get(0)].toSet
+			]).build,
 			new Helper('ArticleList', [
 				new ArrayList(BibTeX.article.allInstances.map[it as Article].groupBy[journal].values.map[it.get(0)].sortBy[journal])
 			]).build,
+			new Helper('ArticleSet', [
+				BibTeX.article.allInstances.map[it as Article].groupBy[journal].values.map[it.get(0)].toSet
+			]).build,
 			new Helper('TitledEntryList', [
-				new ArrayList(BibTeX.titledEntry.allInstances.map[it as TitledEntry].groupBy[title].values.map[it.get(0)].sortBy[title])
+				new ArrayList(BibTeX.titledEntry.allInstances.map[it as TitledEntry].groupBy[title].values.map[it.get(0)].sortBy[title]
+				)
+			]).build,
+			new Helper('TitledEntrySet', [
+				BibTeX.titledEntry.allInstances.map[it as TitledEntry].groupBy[title].values.map[it.get(0)].toSet
 			]).build
 		))
 		
@@ -99,168 +111,105 @@ class Bibtex2Docbook extends YAMTLModule {
 			new Rule('Author') // This rule generates a section_2 paragraph for each distinct author.
 				.in('a', BibTeX.author).filter[ 
 					val a = 'a'.fetch as Author
-					val authorList = 'AuthorList'.fetch as List<Author> 
-					authorList.contains(a)
+					val authorSet = 'AuthorSet'.fetch as Set<Author> 
+					authorSet.contains(a)
 				].build
-				.out('p1', DocBook.para, [ 
+				.out('author_para', DocBook.para, [ 
 					val a = 'a'.fetch as Author 
-					val p1 = 'p1'.fetch as Para
-					p1.content = a.author
-					p1.id = EcoreUtil.generateUUID()
+					val author_para = 'author_para'.fetch as Para
+					author_para.content = a.author
+					author_para.id = EcoreUtil.generateUUID()
+					//println('''author_para «author_para.id» - «author_para.content»''')
 				]).build
 			.build(),
 			
 			new Rule('UntitledEntry') // This rule generates a section_1 paragraph for each untitled entry.
-				.in('e', BibTeX.bibTeXEntry).filter[ 
-					val e = 'e'.fetch as BibTeXEntry
-					!TitledEntry.isInstance(e)
-				].build
-				.out('p', DocBook.para, [ 
+				.in('e', BibTeX.bibTeXEntry).build
+				.out('entry_para', DocBook.para, [ 
+					//println('UntitledEntry::enter')
 					val e = 'e'.fetch as BibTeXEntry 
-					val p = 'p'.fetch as Para
-					p.content = e.buildEntryPara
-					p.id = EcoreUtil.generateUUID()
+					val entry_para = 'entry_para'.fetch as Para
+					
+					entry_para.content = e.buildEntryPara
+					entry_para.id = EcoreUtil.generateUUID()
+					//println('''UntitledEntry:entry_para «entry_para.id» - «entry_para.content» - e: «e.toString»''')
 				]).build
 			.build,
 			
-			new Rule('TitledEntry_Title_NoArticle') 
+			new Rule('TitledEntry_Title_NoArticle')
+				.inheritsFrom(#['UntitledEntry'])
 				.in('e', BibTeX.titledEntry).filter[ 
 					val e = 'e'.fetch as TitledEntry
-					val titledEntryList = 'TitledEntryList'.fetch as List<TitledEntry>
-					titledEntryList.contains(e)
-					&&
-					!Article.isInstance(e)
+					val titledEntrySet = 'TitledEntrySet'.fetch as Set<TitledEntry>
+					titledEntrySet.contains(e)
 				].build
-				.out('entry_para', DocBook.para, [ 
-					val e = 'e'.fetch as TitledEntry 
-					val entry_para = 'entry_para'.fetch as Para
-					entry_para.content = e.buildEntryPara
-					entry_para.id = EcoreUtil.generateUUID()
-				]).build
+				.out('entry_para', DocBook.para).build
 				.out('title_para', DocBook.para, [ 
+					//println('TitledEntry_Title_NoArticle::enter')
 					val e = 'e'.fetch as TitledEntry 
 					val title_para = 'title_para'.fetch as Para
+					
+					if (e.title.startsWith("Dying of the Light")) { 
+					
+						//println("stop")
+						//println('''e instance of Article: «Article.isInstance(e)» - «e.eClass.name»''')
+						
+					}
+					
 					title_para.content = e.title
 					title_para.id = EcoreUtil.generateUUID()
-				]).build
-			.build,
-			
-			new Rule('TitledEntry_NoTitle_NoArticle') 
-				.in('e', BibTeX.titledEntry).filter[ 
-					val e = 'e'.fetch as TitledEntry
-					val titledEntryList = 'TitledEntryList'.fetch as List<TitledEntry>
-					!titledEntryList.contains(e)
-					&&
-					!Article.isInstance(e)
-				].build
-				.out('entry_para', DocBook.para, [ 
-					val e = 'e'.fetch as BibTeXEntry 
-					val entry_para = 'entry_para'.fetch as Para
-					entry_para.content = e.buildEntryPara
-					entry_para.id = EcoreUtil.generateUUID()
-				]).build
-			.build,
-
-			new Rule('Article_Title_Journal') 
-				.in('e', BibTeX.article).filter[ 
-					val e = 'e'.fetch as TitledEntry
-					val titledEntryList = 'TitledEntryList'.fetch as List<TitledEntry>
-					val articleList = 'ArticleList'.fetch as List<Article>
-					titledEntryList.contains(e)
-					&&
-					articleList.contains(e)
-				].build
-				.out('entry_para', DocBook.para, [ 
-					val e = 'e'.fetch as Article 
-					val entry_para = 'entry_para'.fetch as Para
-					entry_para.content = e.buildEntryPara
-					entry_para.id = EcoreUtil.generateUUID()
-				]).build
-				.out('title_para', DocBook.para, [ 
-					val e = 'e'.fetch as Article 
-					val title_para = 'title_para'.fetch as Para
-					title_para.content = e.title
-					title_para.id = EcoreUtil.generateUUID()
-				]).build
-				.out('journal_para', DocBook.para, [ 
-					val e = 'e'.fetch as Article 
-					val journal_para = 'journal_para'.fetch as Para
-					journal_para.content = e.journal
-					journal_para.id = EcoreUtil.generateUUID()
+					//println('''TitledEntry_Title_NoArticle:title_para «title_para.id» - «title_para.content» - e: «e.toString»''')
 				]).build
 			.build,
 			
 			new Rule('Article_NoTitle_Journal') 
+				.inheritsFrom(#['UntitledEntry'])
 				.in('e', BibTeX.article).filter[ 
-					val e = 'e'.fetch as TitledEntry
-					val titledEntryList = 'TitledEntryList'.fetch as List<TitledEntry>
-					val articleList = 'ArticleList'.fetch as List<Article>
-					!titledEntryList.contains(e)
-					&&
-					articleList.contains(e)
+					val e = 'e'.fetch as Article
+					val articleSet = 'ArticleSet'.fetch as Set<Article>
+					articleSet.contains(e)
 				].build
-				.out('entry_para', DocBook.para, [ 
-					val e = 'e'.fetch as Article 
-					val entry_para = 'entry_para'.fetch as Para
-					entry_para.content = e.buildEntryPara
-					entry_para.id = EcoreUtil.generateUUID()
-				]).build
-				.out('journal_para', DocBook.para, [ 
+				.out('entry_para', DocBook.para).build
+				.out('journal_para', DocBook.para, [
+					//println('Article_NoTitle_Journal::enter')
 					val e = 'e'.fetch as Article 
 					val journal_para = 'journal_para'.fetch as Para
 					journal_para.content = e.journal
 					journal_para.id = EcoreUtil.generateUUID()
+					//println('''Article_NoTitle_Journal:journal para «journal_para.id» - «journal_para.content» - e: «e.toString»''')
 				]).build
 			.build,
 			
-			new Rule('Article_Title_NoJournal') 
-				.in('e', BibTeX.article).filter[ 
-					val e = 'e'.fetch as TitledEntry
-					val titledEntryList = 'TitledEntryList'.fetch as List<TitledEntry>
-					val articleList = 'ArticleList'.fetch as List<Article>
-					titledEntryList.contains(e)
-					&&
-					!articleList.contains(e)
-				].build
-				.out('entry_para', DocBook.para, [ 
+			new Rule('Article_Title_Journal') 
+				.inheritsFrom(#['TitledEntry_Title_NoArticle', 'Article_NoTitle_Journal'])
+				.in('e', BibTeX.article).build
+				.out('entry_para', DocBook.para, [
+					//println('Article_Title_Journal:entry_para::enter')
 					val e = 'e'.fetch as Article 
 					val entry_para = 'entry_para'.fetch as Para
-					entry_para.content = e.buildEntryPara
-					entry_para.id = EcoreUtil.generateUUID()
+					//println('''Article_Title_Journal::entry_para «entry_para.id» - «entry_para.content» - e: «e.toString»''')
 				]).build
-				.out('title_para', DocBook.para, [ 
+				.out('title_para', DocBook.para, [
+					//println('Article_Title_Journal:title_para::enter')
 					val e = 'e'.fetch as Article 
 					val title_para = 'title_para'.fetch as Para
-					title_para.content = e.title
-					title_para.id = EcoreUtil.generateUUID()
+					//println('''Article_Title_Journal::title_para «title_para.id» - «title_para.content» - e: «e.toString»''')
 				]).build
-			.build,
-			
-			new Rule('Article_NoTitle_NoJournal') 
-				.in('e', BibTeX.article).filter[ 
-					val e = 'e'.fetch as TitledEntry
-					val titledEntryList = 'TitledEntryList'.fetch as List<TitledEntry>
-					val articleList = 'ArticleList'.fetch as List<Article>
-					!titledEntryList.contains(e)
-					&&
-					!articleList.contains(e)
-				].build
-				.out('entry_para', DocBook.para, [ 
+				.out('journal_para', DocBook.para, [
+					//println('Article_Title_Journal:journal_para::enter')
 					val e = 'e'.fetch as Article 
-					val entry_para = 'entry_para'.fetch as Para
-					entry_para.content = e.buildEntryPara
-					entry_para.id = EcoreUtil.generateUUID()
+					val journal_para = 'journal_para'.fetch as Para
+					//println('''Article_Title_Journal::journal_para «journal_para.id» - «journal_para.content» - e: «e.toString»''')
 				]).build
 			.build
-			
 			
 		))
 	}
 	
 
 	def String buildEntryPara(BibTeXEntry entry) {
-//		println (entry.id) 
-//		println (entry.class.simpleName.substring(0,entry.class.simpleName.length-4))
+//		//println (entry.id) 
+//		//println (entry.class.simpleName.substring(0,entry.class.simpleName.length-4))
 		'''[«entry.id»] «entry.class.simpleName.substring(0,entry.class.simpleName.length-4)»«
 		IF entry instanceof TitledEntry» «entry.title»«ENDIF»«
 		IF entry instanceof AuthoredEntry» «entry.authors.map[author].join(' ')»«ENDIF»«
