@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random10.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="6" moveToIndex="20"/>
+      <listChanges kind="MOVE" index="20" moveToIndex="6"/>
     </value>
   </objectChanges>
 </change:ChangeDescription>

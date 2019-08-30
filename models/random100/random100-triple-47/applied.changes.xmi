@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random100.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="34" moveToIndex="56"/>
+      <listChanges kind="MOVE" index="56" moveToIndex="34"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#se4"/>
+    <key href="../random100.docbook#se4"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="0"/>
+      <listChanges index="0" referenceValues="//@objectsToAttach.0"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#94964a06-2b5f-4528-aa02-07a6a1e706e4"/>
-    <value featureName="content" dataValue="[e60] PhDThesis The Proper Study Tracey Dickens Denisha Mueller Rob Jaskolski Debora Bergnaum Travis Altenwerth May Kiehn Ted Hartmann Hector Ward Josue Torphy Roosevelt Medhurst 2005 West Ohio University"/>
+    <key href="../random100.docbook#94964a06-2b5f-4528-aa02-07a6a1e706e4"/>
+    <value featureName="content" dataValue="[e60] PhDThesis The Proper Study Tracey Dickens Denisha Mueller Rob Jaskolski Debora Bergnaum Travis Altenwerth May Kiehn Ted Hartmann Hector Ward Josue Torphy Roosevelt Medhurst 2005 West Ohio University. Aperiam repudiandae sed quasi quia officiis aut fuga. Accusantium animi iste qui unde incidunt corrupti tempora."/>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" content="Vel et ut voluptatem aperiam dolores corrupti. Possimus eveniet est. Animi sint voluptatem voluptatem velit commodi iusto."/>
 </change:ChangeDescription>

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random10.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="40" moveToIndex="14"/>
-      <listChanges index="37" referenceValues="66d55bd3-0580-4d0c-a075-b0a8a51aab0c"/>
+      <listChanges kind="REMOVE" index="37"/>
+      <listChanges kind="MOVE" index="14" moveToIndex="40"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="66d55bd3-0580-4d0c-a075-b0a8a51aab0c" content="Normand Jacobson"/>
 </change:ChangeDescription>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
 <change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random100.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="98"/>
-      <listChanges index="319" referenceValues="20d295d3-dd25-46f8-a5da-ea8c08dd1f72"/>
+      <listChanges kind="REMOVE" index="319"/>
+      <listChanges index="98" referenceValues="//@objectsToAttach.0"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#14ec159b-7cdc-493d-af18-38c512862569"/>
-    <value featureName="content" dataValue="When the Green Woods Laugh"/>
+    <key href="../random100.docbook#14ec159b-7cdc-493d-af18-38c512862569"/>
+    <value featureName="content" dataValue="When the Green Woods Laugh. Placeat velit dolorem delectus. Voluptatem provident deleniti eos expedita ut in possimus."/>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="20d295d3-dd25-46f8-a5da-ea8c08dd1f72" content="Mrs. Loyd Rau"/>
+  <objectsToAttach xsi:type="docb:Para" content="Quas ut ut animi. Tenetur quis ratione a unde. Quas dolor et sunt nisi. Consequuntur unde a nulla dolores."/>
 </change:ChangeDescription>

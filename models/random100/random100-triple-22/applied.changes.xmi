@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
-    <key href="mutated.docbook#6c1f35a8-d64f-4d88-a15c-6d17df3a1661"/>
-    <value featureName="content" dataValue="Jeremiah Mann"/>
+    <key href="../random100.docbook#6c1f35a8-d64f-4d88-a15c-6d17df3a1661"/>
+    <value featureName="content" dataValue="Jeremiah Mann. Vel sequi est accusamus impedit dolorem. Qui sit harum odio fuga. Illum corporis sed consequatur rerum quibusdam iusto rerum."/>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#se4"/>
+    <key href="../random100.docbook#se4"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="0"/>
-      <listChanges kind="REMOVE" index="1"/>
+      <listChanges index="1" referenceValues="//@objectsToAttach.1"/>
+      <listChanges index="0" referenceValues="//@objectsToAttach.0"/>
     </value>
   </objectChanges>
+  <objectsToAttach xsi:type="docb:Para" content="Id dicta repudiandae quia sed aut. Non quis nam non eius nihil incidunt nostrum. Nobis suscipit placeat illo magni ullam neque ipsam."/>
+  <objectsToAttach xsi:type="docb:Para" content="Quae voluptatibus laudantium temporibus aut dicta. Error velit animi dicta qui veniam voluptatem. Porro qui provident eum cum nulla ipsum. Magni blanditiis ratione eaque illum est."/>
 </change:ChangeDescription>

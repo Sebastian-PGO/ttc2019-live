@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random1000.docbook#se2"/>
     <value featureName="paras">
-      <listChanges index="480" referenceValues="f7c6968e-8499-4ec2-af63-6b3f864bc4dc"/>
+      <listChanges kind="REMOVE" index="480"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="f7c6968e-8499-4ec2-af63-6b3f864bc4dc" content="Candi Veum"/>
 </change:ChangeDescription>

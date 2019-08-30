@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random1000.docbook#se2"/>
     <value featureName="paras">
-      <listChanges index="3184" referenceValues="ab072766-cc2b-4320-a9fb-8532f5559ada"/>
+      <listChanges kind="REMOVE" index="3184"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#8db99e8a-802d-42dd-9880-b21bb524b6f7"/>
-    <value featureName="content" dataValue="[e14] Article Down to a Sunless Sea Lacy Johnson Gino Rowe Scottie Cummings Fairy Padberg Mireya Kuhic II Rhett Borer Veta Koch Gracie Kerluke 2011 Terrible Swift Sword"/>
+    <key href="../random1000.docbook#8db99e8a-802d-42dd-9880-b21bb524b6f7"/>
+    <value featureName="content" dataValue="[e14] Article Down to a Sunless Sea Lacy Johnson Gino Rowe Scottie Cummings Fairy Padberg Mireya Kuhic II Rhett Borer Veta Koch Gracie Kerluke 2011 Terrible Swift Sword. Vel repudiandae dolores voluptatum aut voluptate nesciunt. Qui alias ducimus sit id."/>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#se1"/>
+    <key href="../random1000.docbook#se1"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="38" moveToIndex="371"/>
+      <listChanges kind="MOVE" index="371" moveToIndex="38"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="ab072766-cc2b-4320-a9fb-8532f5559ada" content="Ms. Sari Abshire"/>
 </change:ChangeDescription>

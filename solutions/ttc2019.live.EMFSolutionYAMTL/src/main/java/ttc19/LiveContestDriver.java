@@ -1,8 +1,6 @@
 package ttc19;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 
 import bibtex.BibtexPackage;
@@ -31,6 +29,7 @@ public class LiveContestDriver {
     private static String SourcePath;
     private static String Mutant;
     private static String MutantPath;
+    private static String TargetPath;
     private static String RunIndex;
     private static long stopwatch;
 
@@ -45,7 +44,7 @@ public class LiveContestDriver {
 		xform.stageUpperBound = 1;
 		xform.extentTypeModifier = ExtentTypeModifier.LIST;
 		xform.trackTargetUpdates = true;
-//		xform.initLocationsWhenLoading = true;
+		xform.warning_on = false;
  
     	// Make sure that both metamodels are available and loaded
     	BibtexPackage.eINSTANCE.getName();
@@ -56,6 +55,7 @@ public class LiveContestDriver {
 		SourcePath = System.getenv("SourcePath");
 		Mutant = System.getenv("Mutant");
 		MutantPath = System.getenv("MutantPath");
+		TargetPath = SourcePath.replaceAll(".bibtex", ".docbook");
 		RunIndex = System.getenv("RunIndex");    	
 
         stopwatch = System.nanoTime() - stopwatch;
@@ -74,24 +74,13 @@ public class LiveContestDriver {
     	} else {
     		// solution A)
     		xform.loadOutputModels(
-	    		Map.of("doc", MutantPath)
+	    		Map.of("doc", TargetPath)
 	    	);
+    		String deltaFilePath = new File(MutantPath).getParent() + "/" + "applied.changes.xmi";
+    		xform.loadDelta("doc", Mutant, deltaFilePath);
     	}
     	
-    	if (runFullMode) {
-        	// OPTIONAL: compute the consistency relation between source and target
-	        xform.execute();
-	        String outputModelPath = "./tmp.xmi";
-	        xform.saveOutputModels(Map.of("doc", outputModelPath));
-	        
-	        long stopwatch_aux = stopwatch;
-	        stopwatch = System.nanoTime() - stopwatch;
-	        Report(BenchmarkPhase.LoadTrafoExecution, null);
-	        stopwatch = stopwatch_aux;
-        } 
     	
-    	String deltaFilePath = new File(MutantPath).getParent() + "/" + "applied.changes.xmi";
-        xform.loadDelta("doc", Mutant, deltaFilePath);
 
     	stopwatch = System.nanoTime() - stopwatch;
         Report(BenchmarkPhase.Load, null);
@@ -100,16 +89,28 @@ public class LiveContestDriver {
 
     static void Run() throws Exception
     {
+    	boolean admissible = false;
         stopwatch = System.nanoTime();
 //        List<String> result = new ArrayList<>();
 
-        // Analyse change
-        boolean admissible = xform.admissibleChange("doc", Mutant, YAMTLSolution.inconsistencySpec);
-//        result = xform.findInconsistenciesInChange("doc", Mutant, YAMTLSolution.inconsistencySpec, false);
-        
+        if (runFullMode) {
+        	// OPTIONAL: compute the consistency relation between source and target
+	        xform.execute();
+        } else {
+	        // Analyse change
+	        admissible = xform.admissibleChange("doc", Mutant, YAMTLSolution.inconsistencySpec);
+	//        result = xform.findInconsistenciesInChange("doc", Mutant, YAMTLSolution.inconsistencySpec, false);
+        }
         stopwatch = System.nanoTime() - stopwatch;
-        Report(BenchmarkPhase.Run, admissible ? "0" : "1");
-//        Report(BenchmarkPhase.Run, Integer.toString(result.size()));
+        
+        if (runFullMode)
+        	Report(BenchmarkPhase.Run, "-1");
+        else
+        	Report(BenchmarkPhase.Run, admissible ? "0" : "1");
+        	//        Report(BenchmarkPhase.Run, Integer.toString(result.size()));
+
+		//String outputModelPath = "./tmp.xmi";
+        //xform.saveOutputModels(Map.of("doc", outputModelPath));
     }
 
     static void Report(BenchmarkPhase phase, String result)
@@ -137,7 +138,6 @@ public class LiveContestDriver {
     enum BenchmarkPhase {
         Initialization,
         Load,
-        LoadTrafoExecution,
         Run
     }
 }

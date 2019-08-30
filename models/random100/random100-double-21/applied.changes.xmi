@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ASCII"?>
 <change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
-    <value featureName="title" dataValue="Authors list"/>
+    <key href="../random100.docbook#se2"/>
+    <value featureName="title" dataValue="Authors list. Quas error quaerat vel vitae autem dignissimos occaecati. Voluptatem veniam incidunt."/>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#se1"/>
-    <value featureName="title" dataValue="References List"/>
+    <key href="../random100.docbook#se1"/>
+    <value featureName="title" dataValue="References List. Ducimus magni eligendi eos unde voluptatem. Id sint suscipit laudantium explicabo voluptas modi."/>
   </objectChanges>
 </change:ChangeDescription>

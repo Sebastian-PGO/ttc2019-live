@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#d7929404-8a67-48ab-9d8d-6c7fd9fb29d4"/>
-    <value featureName="content" dataValue="Victor Reichel"/>
+    <key href="../random100.docbook#d7929404-8a67-48ab-9d8d-6c7fd9fb29d4"/>
+    <value featureName="content" dataValue="Victor Reichel. Facilis fuga minima laboriosam enim quos beatae blanditiis. Ut quia iste totam."/>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random100.docbook#se2"/>
     <value featureName="paras">
-      <listChanges index="236" referenceValues="ea55c1a2-5f95-492b-af9b-d14441330d61"/>
+      <listChanges kind="REMOVE" index="236"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="ea55c1a2-5f95-492b-af9b-d14441330d61" content="Leonard Muller"/>
 </change:ChangeDescription>

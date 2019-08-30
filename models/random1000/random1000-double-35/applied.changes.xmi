@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random1000.docbook#se2"/>
     <value featureName="paras">
-      <listChanges index="1573" referenceValues="ac2e3dbc-2ced-4f81-bc82-b396e844c1e5"/>
+      <listChanges kind="REMOVE" index="1573"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#se4"/>
+    <key href="../random1000.docbook#se4"/>
     <value featureName="paras">
-      <listChanges kind="REMOVE" index="80"/>
+      <listChanges index="80" referenceValues="//@objectsToAttach.0"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="ac2e3dbc-2ced-4f81-bc82-b396e844c1e5" content="Harland Heathcote"/>
+  <objectsToAttach xsi:type="docb:Para" content="Nisi id et est et fugit. Natus accusantium mollitia laborum veniam. Ea laborum veniam iste tempora iusto eum laboriosam. Molestiae saepe rerum nihil voluptate. Tempore provident nam reprehenderit non dicta."/>
 </change:ChangeDescription>

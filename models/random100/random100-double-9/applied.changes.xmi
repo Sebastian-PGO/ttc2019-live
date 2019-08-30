@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random100.docbook#se2"/>
     <value featureName="paras">
-      <listChanges kind="MOVE" index="396" moveToIndex="254"/>
-      <listChanges index="452" referenceValues="08eb6888-bb7a-415c-abeb-542f84960ff8"/>
+      <listChanges kind="REMOVE" index="452"/>
+      <listChanges kind="MOVE" index="254" moveToIndex="396"/>
     </value>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="08eb6888-bb7a-415c-abeb-542f84960ff8" content="Ute Funk DVM"/>
 </change:ChangeDescription>

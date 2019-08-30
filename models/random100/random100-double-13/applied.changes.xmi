@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change">
   <objectChanges>
-    <key href="mutated.docbook#se2"/>
+    <key href="../random100.docbook#se2"/>
     <value featureName="paras">
-      <listChanges index="114" referenceValues="9574e728-5a81-4b6b-b0dc-c30fe941a862"/>
+      <listChanges kind="REMOVE" index="114"/>
     </value>
   </objectChanges>
   <objectChanges>
-    <key href="mutated.docbook#f1f6f8e5-0809-4493-8285-2358e4d88b97"/>
-    <value featureName="content" dataValue="Floyd Hauck"/>
+    <key href="../random100.docbook#f1f6f8e5-0809-4493-8285-2358e4d88b97"/>
+    <value featureName="content" dataValue="Floyd Hauck. Et debitis non fugiat ratione aut."/>
   </objectChanges>
-  <objectsToAttach xsi:type="docb:Para" id="9574e728-5a81-4b6b-b0dc-c30fe941a862" content="Dr. Nikita Klocko"/>
 </change:ChangeDescription>

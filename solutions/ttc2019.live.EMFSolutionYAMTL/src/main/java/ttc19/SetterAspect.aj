@@ -45,7 +45,7 @@ public class SetterAspect {
 		module = (YAMTLModule) thisJoinPoint.getThis(); 
 	}
 
-	@Pointcut("( (within(yamtl.utils.ReduceUtil) && execution(void reduce(yamtl.core.MatchMap))) )")
+	@Pointcut("(within(yamtl.core.YAMTLModule) && execution(* reduce(..)))")
 	private void controlFlowReduceScope() {}
 
 	@After("(cflowbelow(controlFlowReduceScope()) ) && syntacticScope() && target(org.eclipse.emf.ecore.EObject) && execution(* *..set* (..))") 

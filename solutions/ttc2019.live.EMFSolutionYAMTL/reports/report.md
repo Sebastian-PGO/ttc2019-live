@@ -3,15 +3,13 @@
 
 Inconsistency *Deleting paragraph*:
 
-* in object **364639279:
+* in object **364639279**:
 
 	* docbook.impl.Sect1Impl@15bbf42f (id: se2) (title: Authors list) 
 
 * feature **paras**:
 
 * **REMOVE** the value 
-
-	* ****
 
 Transformation step: `Main`
 
@@ -25,7 +23,7 @@ Transformation step: `Main`
 
 Inconsistency *Swapping paragraph*:
 
-* in object **1427040229:
+* in object **1427040229**:
 
 	* docbook.impl.Sect1Impl@550ee7e5 (id: se3) (title: Titles List) 
 
