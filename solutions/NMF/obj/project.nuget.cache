@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "VCphU8M1jf8lZbRy8IiTSFjkv778G1oA2NR7ihN6G5vxR7zhLSxGdip0cQpNe3QgatrDNZqlcHqULdCTe6FWZQ==",
+  "success": true,
+  "projectFilePath": "/home/sebasatian/Repos/ttc2019-live/solutions/NMF/NMFSolution.csproj",
+  "expectedPackageFiles": [
+    "/home/sebasatian/.nuget/packages/nmf-basics/2.0.140/nmf-basics.2.0.140.nupkg.sha512",
+    "/home/sebasatian/.nuget/packages/nmf-collections/2.0.140/nmf-collections.2.0.140.nupkg.sha512",
+    "/home/sebasatian/.nuget/packages/nmf-expressions/2.0.140/nmf-expressions.2.0.140.nupkg.sha512",
+    "/home/sebasatian/.nuget/packages/nmf-repository/2.0.140/nmf-repository.2.0.140.nupkg.sha512",
+    "/home/sebasatian/.nuget/packages/nmf-synchronizations/2.0.140/nmf-synchronizations.2.0.140.nupkg.sha512",
+    "/home/sebasatian/.nuget/packages/nmf-transformations/2.0.140/nmf-transformations.2.0.140.nupkg.sha512",
+    "/home/sebasatian/.nuget/packages/nmf-utilities/2.0.140/nmf-utilities.2.0.140.nupkg.sha512"
+  ],
+  "logs": []
+}

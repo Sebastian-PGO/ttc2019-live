@@ -5,20 +5,27 @@
       "random1000.bibtex"
   ],
   "Tools": [
-      "Epsilon",
       "NMF",
+      "NMF_DisabledTieredPGO",
+      "NMF_MaxTypeChecks0",
+      "NMF_MaxTypeChecks1",
+      "NMF_MaxTypeChecks2",
+      "NMF_MaxTypeChecks3",
+      "NMF_MaxTypeChecks4",
+      "NMF_MaxTypeChecks5",
       "NMF-Batch",
-      "Fulib",
-      "EMFSolutionXtend",
-      "EMFSolutionXtendFollowingEVL",
-      "EMFSolutionAOF",
-      "ttc2019.live.EMFSolutionYAMTL",
-      "ttc2019.live.EMFSolutionYAMTL.full"
+      "NMF-Batch_DisabledTieredPGO",
+      "NMF-Batch_MaxTypeChecks0",
+      "NMF-Batch_MaxTypeChecks1",
+      "NMF-Batch_MaxTypeChecks2",
+      "NMF-Batch_MaxTypeChecks3",
+      "NMF-Batch_MaxTypeChecks4",
+      "NMF-Batch_MaxTypeChecks5"
   ],
   "ChangeSets": [
     "single", "double", "triple"
   ],
   "Mutants": 50,
-  "Runs": 3,
+  "Runs": 5,
   "Timeout": 600
 }
