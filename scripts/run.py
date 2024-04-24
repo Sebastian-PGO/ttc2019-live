@@ -89,14 +89,49 @@ def set_working_directory(*path):
     os.chdir(dir)
 
 
+#def visualize():
+ #   """
+  #  Visualizes the benchmark results
+   # """
+    #clean_dir("diagrams")
+    #set_working_directory("reporting")
+    #subprocess.call(["Rscript", "visualize.R", os.path.join(BASE_DIRECTORY, "config", "reporting.json")])
+
 def visualize():
     """
     Visualizes the benchmark results
     """
     clean_dir("diagrams")
-    set_working_directory("reporting")
-    subprocess.call(["Rscript", "visualize.R", os.path.join(BASE_DIRECTORY, "config", "reporting.json")])
+    set_working_directory("diagrams")
+    
+    import numpy as np
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    
+    data = pd.read_csv(os.path.join(BASE_DIRECTORY, 'output', 'output.csv'), sep=';')
+    
+    time_data = data[data['MetricName'] == 'Time']
 
+    phases = time_data['PhaseName'].unique()
+    sources = time_data['Source'].unique()
+
+    colors = sns.color_palette('hsv', len(time_data['Tool'].unique()))
+
+    for source in sources:
+        source_data = time_data[time_data['Source'] == source]
+        for phase in phases:
+            phase_data = source_data[source_data['PhaseName'] == phase]
+            plt.figure(figsize=(10, 6))
+            sns.lineplot(data=phase_data, x='Mutant', y='MetricValue', hue='Tool', palette=colors)
+            plt.title(f'{source} - {phase} Phase Time Comparison')
+            plt.ylabel('Time (ns)')
+            plt.xlabel('Mutant')
+            plt.legend(loc='lower center', bbox_to_anchor=(0.5, -0.3), ncol=5)
+            plt.savefig(f'{source}_{phase}_time_comparison.pdf', bbox_inches='tight')
+            plt.close()
+
+    print("Diagrams successfully created and saved in 'diagrams' directory.")
 
 def extract_results():
     """
