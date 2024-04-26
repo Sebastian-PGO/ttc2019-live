@@ -116,22 +116,40 @@ def visualize():
     phases = time_data['PhaseName'].unique()
     sources = time_data['Source'].unique()
 
-    colors = sns.color_palette('hsv', len(time_data['Tool'].unique()))
+    colors = sns.color_palette('hsv', len(time_data['Tool'].unique()) // 2)
+
+    batch_tools = time_data[time_data['Tool'].str.contains("Batch")]
+    non_batch_tools = time_data[~time_data['Tool'].str.contains("Batch")]
 
     for source in sources:
-        source_data = time_data[time_data['Source'] == source]
+        source_batch_data = batch_tools[batch_tools['Source'] == source]
+        source_non_batch_data = non_batch_tools[non_batch_tools['Source'] == source]
+
         for phase in phases:
-            phase_data = source_data[source_data['PhaseName'] == phase]
+            batch_phase_data = source_batch_data[source_batch_data['PhaseName'] == phase]
+            non_batch_phase_data = source_non_batch_data[source_non_batch_data['PhaseName'] == phase]
+
             plt.figure(figsize=(10, 6))
-            sns.lineplot(data=phase_data, x='Mutant', y='MetricValue', hue='Tool', palette=colors)
-            plt.title(f'{source} - {phase} Phase Time Comparison')
+            sns.lineplot(data=batch_phase_data, x='Mutant', y='MetricValue', hue='Tool', palette=colors)
+            plt.title(f'{source} - {phase} Phase Time Comparison (Batch Tools)')
             plt.ylabel('Time (ns)')
             plt.xlabel('Mutant')
             plt.legend(loc='lower center', bbox_to_anchor=(0.5, -0.3), ncol=5)
-            plt.savefig(f'{source}_{phase}_time_comparison.pdf', bbox_inches='tight')
+            plt.savefig(f'{source}_{phase}_batch_time_comparison.pdf', bbox_inches='tight')
+            plt.close()
+
+            plt.figure(figsize=(10, 6))
+            sns.lineplot(data=non_batch_phase_data, x='Mutant', y='MetricValue', hue='Tool', palette=colors)
+            plt.title(f'{source} - {phase} Phase Time Comparison (Non-Batch Tools)')
+            plt.ylabel('Time (ns)')
+            plt.xlabel('Mutant')
+            plt.legend(loc='lower center', bbox_to_anchor=(0.5, -0.3), ncol=5)
+            plt.savefig(f'{source}_{phase}_non_batch_time_comparison.pdf', bbox_inches='tight')
             plt.close()
 
     print("Diagrams successfully created and saved in 'diagrams' directory.")
+
+
 
 def extract_results():
     """
